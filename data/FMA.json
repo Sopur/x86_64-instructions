@@ -1,0 +1,365 @@
+{
+    "instructions": {
+        "VFMADD132PD": {
+            "Oracle Solaris Mnemonic": "vfmadd231pd",
+            "Intel/AMD Mnemonic": "VFMADD132PD",
+            "Description": "Fused Multiply-Add of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-436"
+        },
+        "VFMADD213PD": {
+            "Oracle Solaris Mnemonic": "vfmadd231pd",
+            "Intel/AMD Mnemonic": "VFMADD213PD",
+            "Description": "Fused Multiply-Add of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-436"
+        },
+        "VFMADD231PD": {
+            "Oracle Solaris Mnemonic": "vfmadd231pd",
+            "Intel/AMD Mnemonic": "VFMADD231PD",
+            "Description": "Fused Multiply-Add of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-436"
+        },
+        "VFMADD132PS": {
+            "Oracle Solaris Mnemonic": "vfmadd231ps",
+            "Intel/AMD Mnemonic": "VFMADD132PS",
+            "Description": "Fused Multiply-Add of Packed Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADD213PS": {
+            "Oracle Solaris Mnemonic": "vfmadd231ps",
+            "Intel/AMD Mnemonic": "VFMADD213PS",
+            "Description": "Fused Multiply-Add of Packed Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADD231PS": {
+            "Oracle Solaris Mnemonic": "vfmadd231ps",
+            "Intel/AMD Mnemonic": "VFMADD231PS",
+            "Description": "Fused Multiply-Add of Packed Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADD132SD": {
+            "Oracle Solaris Mnemonic": "vfmadd231sd",
+            "Intel/AMD Mnemonic": "VFMADD132SD",
+            "Description": "Fused Multiply-Add of Scalar Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADD213SD": {
+            "Oracle Solaris Mnemonic": "vfmadd231sd",
+            "Intel/AMD Mnemonic": "VFMADD213SD",
+            "Description": "Fused Multiply-Add of Scalar Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADD231SD": {
+            "Oracle Solaris Mnemonic": "vfmadd231sd",
+            "Intel/AMD Mnemonic": "VFMADD231SD",
+            "Description": "Fused Multiply-Add of Scalar Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADD132SS": {
+            "Oracle Solaris Mnemonic": "vfmadd231ss",
+            "Intel/AMD Mnemonic": "VFMADD132SS",
+            "Description": "Fused Multiply-Add of Scalar Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADD213SS": {
+            "Oracle Solaris Mnemonic": "vfmadd231ss",
+            "Intel/AMD Mnemonic": "VFMADD213SS",
+            "Description": "Fused Multiply-Add of Scalar Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADD231SS": {
+            "Oracle Solaris Mnemonic": "vfmadd231ss",
+            "Intel/AMD Mnemonic": "VFMADD231SS",
+            "Description": "Fused Multiply-Add of Scalar Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADDSUB132PD": {
+            "Oracle Solaris Mnemonic": "vfmaddsub231pd",
+            "Intel/AMD Mnemonic": "VFMADDSUB132PD",
+            "Description": "Fused Multiply-Alternating Add/Subtract of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADDSUB213PD": {
+            "Oracle Solaris Mnemonic": "vfmaddsub231pd",
+            "Intel/AMD Mnemonic": "VFMADDSUB213PD",
+            "Description": "Fused Multiply-Alternating Add/Subtract of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADDSUB231PD": {
+            "Oracle Solaris Mnemonic": "vfmaddsub231pd",
+            "Intel/AMD Mnemonic": "VFMADDSUB231PD",
+            "Description": "Fused Multiply-Alternating Add/Subtract of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADDSUB132PS": {
+            "Oracle Solaris Mnemonic": "vfmaddsub231ps",
+            "Intel/AMD Mnemonic": "VFMADDSUB132PS",
+            "Description": "Fused Multiply-Alternating Add/Subtract of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADDSUB213PS": {
+            "Oracle Solaris Mnemonic": "vfmaddsub231ps",
+            "Intel/AMD Mnemonic": "VFMADDSUB213PS",
+            "Description": "Fused Multiply-Alternating Add/Subtract of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMADDSUB231PS": {
+            "Oracle Solaris Mnemonic": "vfmaddsub231ps",
+            "Intel/AMD Mnemonic": "VFMADDSUB231PS",
+            "Description": "Fused Multiply-Alternating Add/Subtract of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB132PD": {
+            "Oracle Solaris Mnemonic": "vfmsub231pd",
+            "Intel/AMD Mnemonic": "VFMSUB132PD",
+            "Description": "Fused Multiply-Subtract of Packed Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB213PD": {
+            "Oracle Solaris Mnemonic": "vfmsub231pd",
+            "Intel/AMD Mnemonic": "VFMSUB213PD",
+            "Description": "Fused Multiply-Subtract of Packed Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB231PD": {
+            "Oracle Solaris Mnemonic": "vfmsub231pd",
+            "Intel/AMD Mnemonic": "VFMSUB231PD",
+            "Description": "Fused Multiply-Subtract of Packed Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB132PS": {
+            "Oracle Solaris Mnemonic": "vfmsub231ps",
+            "Intel/AMD Mnemonic": "VFMSUB132PS",
+            "Description": "Fused Multiply-Subtract of Packed Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB213PS": {
+            "Oracle Solaris Mnemonic": "vfmsub231ps",
+            "Intel/AMD Mnemonic": "VFMSUB213PS",
+            "Description": "Fused Multiply-Subtract of Packed Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB231PS": {
+            "Oracle Solaris Mnemonic": "vfmsub231ps",
+            "Intel/AMD Mnemonic": "VFMSUB231PS",
+            "Description": "Fused Multiply-Subtract of Packed Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB132SD": {
+            "Oracle Solaris Mnemonic": "vfmsub231sd",
+            "Intel/AMD Mnemonic": "VFMSUB132SD",
+            "Description": "Fused Multiply-Subtract of Scalar Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB213SD": {
+            "Oracle Solaris Mnemonic": "vfmsub231sd",
+            "Intel/AMD Mnemonic": "VFMSUB213SD",
+            "Description": "Fused Multiply-Subtract of Scalar Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB231SD": {
+            "Oracle Solaris Mnemonic": "vfmsub231sd",
+            "Intel/AMD Mnemonic": "VFMSUB231SD",
+            "Description": "Fused Multiply-Subtract of Scalar Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB132SS": {
+            "Oracle Solaris Mnemonic": "vfmsub231ss",
+            "Intel/AMD Mnemonic": "VFMSUB132SS",
+            "Description": "Fused Multiply-Subtract of Scalar Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB213SS": {
+            "Oracle Solaris Mnemonic": "vfmsub231ss",
+            "Intel/AMD Mnemonic": "VFMSUB213SS",
+            "Description": "Fused Multiply-Subtract of Scalar Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUB231SS": {
+            "Oracle Solaris Mnemonic": "vfmsub231ss",
+            "Intel/AMD Mnemonic": "VFMSUB231SS",
+            "Description": "Fused Multiply-Subtract of Scalar Single-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUBADD132PD": {
+            "Oracle Solaris Mnemonic": "vfmsubadd231pd",
+            "Intel/AMD Mnemonic": "VFMSUBADD132PD",
+            "Description": "Fused Multiply-Alternating Subtract/Add of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUBADD213PD": {
+            "Oracle Solaris Mnemonic": "vfmsubadd231pd",
+            "Intel/AMD Mnemonic": "VFMSUBADD213PD",
+            "Description": "Fused Multiply-Alternating Subtract/Add of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUBADD231PD": {
+            "Oracle Solaris Mnemonic": "vfmsubadd231pd",
+            "Intel/AMD Mnemonic": "VFMSUBADD231PD",
+            "Description": "Fused Multiply-Alternating Subtract/Add of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUBADD132PS": {
+            "Oracle Solaris Mnemonic": "vfmsubadd231ps",
+            "Intel/AMD Mnemonic": "VFMSUBADD132PS",
+            "Description": "Fused Multiply-Alternating Subtract/Add of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUBADD213PS": {
+            "Oracle Solaris Mnemonic": "vfmsubadd231ps",
+            "Intel/AMD Mnemonic": "VFMSUBADD213PS",
+            "Description": "Fused Multiply-Alternating Subtract/Add of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFMSUBADD231PS": {
+            "Oracle Solaris Mnemonic": "vfmsubadd231ps",
+            "Intel/AMD Mnemonic": "VFMSUBADD231PS",
+            "Description": "Fused Multiply-Alternating Subtract/Add of Packed",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD132PD": {
+            "Oracle Solaris Mnemonic": "vfnmadd231pd",
+            "Intel/AMD Mnemonic": "VFNMADD132PD",
+            "Description": "Fused Negative Multiply-Add of Packed Double-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD213PD": {
+            "Oracle Solaris Mnemonic": "vfnmadd231pd",
+            "Intel/AMD Mnemonic": "VFNMADD213PD",
+            "Description": "Fused Negative Multiply-Add of Packed Double-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD231PD": {
+            "Oracle Solaris Mnemonic": "vfnmadd231pd",
+            "Intel/AMD Mnemonic": "VFNMADD231PD",
+            "Description": "Fused Negative Multiply-Add of Packed Double-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD132PS": {
+            "Oracle Solaris Mnemonic": "vfnmadd231ps",
+            "Intel/AMD Mnemonic": "VFNMADD132PS",
+            "Description": "Fused Negative Multiply-Add of Packed Single-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD213PS": {
+            "Oracle Solaris Mnemonic": "vfnmadd231ps",
+            "Intel/AMD Mnemonic": "VFNMADD213PS",
+            "Description": "Fused Negative Multiply-Add of Packed Single-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD231PS": {
+            "Oracle Solaris Mnemonic": "vfnmadd231ps",
+            "Intel/AMD Mnemonic": "VFNMADD231PS",
+            "Description": "Fused Negative Multiply-Add of Packed Single-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD132SD": {
+            "Oracle Solaris Mnemonic": "vfnmadd231sd",
+            "Intel/AMD Mnemonic": "VFNMADD132SD",
+            "Description": "Fused Negative Multiply-Add of Scalar Double-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD213SD": {
+            "Oracle Solaris Mnemonic": "vfnmadd231sd",
+            "Intel/AMD Mnemonic": "VFNMADD213SD",
+            "Description": "Fused Negative Multiply-Add of Scalar Double-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD231SD": {
+            "Oracle Solaris Mnemonic": "vfnmadd231sd",
+            "Intel/AMD Mnemonic": "VFNMADD231SD",
+            "Description": "Fused Negative Multiply-Add of Scalar Double-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMADD132SS": {
+            "Oracle Solaris Mnemonic": "vfnmadd231ss",
+            "Intel/AMD Mnemonic": "VFNMADD132SS",
+            "Description": "Fused Negative Multiply-Add o",
+            "Reference": "page 5-255(319433-016/Oct.2013)"
+        },
+        "VFNMADD213SS": {
+            "Oracle Solaris Mnemonic": "vfnmadd231ss",
+            "Intel/AMD Mnemonic": "VFNMADD213SS",
+            "Description": "Fused Negative Multiply-Add o",
+            "Reference": "page 5-255(319433-016/Oct.2013)"
+        },
+        "VFNMADD231SS": {
+            "Oracle Solaris Mnemonic": "vfnmadd231ss",
+            "Intel/AMD Mnemonic": "VFNMADD231SS",
+            "Description": "Fused Negative Multiply-Add o",
+            "Reference": "page 5-255(319433-016/Oct.2013)"
+        },
+        "VFNMSUB132PD": {
+            "Oracle Solaris Mnemonic": "vfnmsub231pd",
+            "Intel/AMD Mnemonic": "VFNMSUB132PD",
+            "Description": "Fused Negative Multiply-Subtract of Packed Double- Precision Floating-Point Values",
+            "Reference": "page 4-478(253667-048US/Sep.2013)"
+        },
+        "VFNMSUB213PD": {
+            "Oracle Solaris Mnemonic": "vfnmsub231pd",
+            "Intel/AMD Mnemonic": "VFNMSUB213PD",
+            "Description": "Fused Negative Multiply-Subtract of Packed Double- Precision Floating-Point Values",
+            "Reference": "page 4-478(253667-048US/Sep.2013)"
+        },
+        "VFNMSUB231PD": {
+            "Oracle Solaris Mnemonic": "vfnmsub231pd",
+            "Intel/AMD Mnemonic": "VFNMSUB231PD",
+            "Description": "Fused Negative Multiply-Subtract of Packed Double- Precision Floating-Point Values",
+            "Reference": "page 4-478(253667-048US/Sep.2013)"
+        },
+        "VFNMSUB132PS": {
+            "Oracle Solaris Mnemonic": "vfnmsub231ps",
+            "Intel/AMD Mnemonic": "VFNMSUB132PS",
+            "Description": "Fused Negative Multiply-Subtract of Packed Single-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMSUB213PS": {
+            "Oracle Solaris Mnemonic": "vfnmsub231ps",
+            "Intel/AMD Mnemonic": "VFNMSUB213PS",
+            "Description": "Fused Negative Multiply-Subtract of Packed Single-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMSUB231PS": {
+            "Oracle Solaris Mnemonic": "vfnmsub231ps",
+            "Intel/AMD Mnemonic": "VFNMSUB231PS",
+            "Description": "Fused Negative Multiply-Subtract of Packed Single-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMSUB132SD": {
+            "Oracle Solaris Mnemonic": "vfnmsub231sd",
+            "Intel/AMD Mnemonic": "VFNMSUB132SD",
+            "Description": "Fused Negative Multiply-Subtract of Scalar Double-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMSUB213SD": {
+            "Oracle Solaris Mnemonic": "vfnmsub231sd",
+            "Intel/AMD Mnemonic": "VFNMSUB213SD",
+            "Description": "Fused Negative Multiply-Subtract of Scalar Double-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMSUB231SD": {
+            "Oracle Solaris Mnemonic": "vfnmsub231sd",
+            "Intel/AMD Mnemonic": "VFNMSUB231SD",
+            "Description": "Fused Negative Multiply-Subtract of Scalar Double-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMSUB132SS": {
+            "Oracle Solaris Mnemonic": "vfnmsub231ss",
+            "Intel/AMD Mnemonic": "VFNMSUB132SS",
+            "Description": "Fused Negative Multiply-Subtract of Scalar Single-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMSUB213SS": {
+            "Oracle Solaris Mnemonic": "vfnmsub231ss",
+            "Intel/AMD Mnemonic": "VFNMSUB213SS",
+            "Description": "Fused Negative Multiply-Subtract of Scalar Single-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "VFNMSUB231SS": {
+            "Oracle Solaris Mnemonic": "vfnmsub231ss",
+            "Intel/AMD Mnemonic": "VFNMSUB231SS",
+            "Description": "Fused Negative Multiply-Subtract of Scalar Single-Precision",
+            "Reference": "page (319433-016/Oct.2013)"
+        }
+    },
+    "registers": null
+}

@@ -1,0 +1,17 @@
+{
+    "instructions": {
+        "VCVTPH2PS": {
+            "Oracle Solaris Mnemonic": "vcvtph2ps",
+            "Intel/AMD Mnemonic": "VCVTPH2PS",
+            "Description": "Convert 16-bit FP values to Single-Precision FP values",
+            "Reference": "page 5-93 (319433-016/Oct.2013)"
+        },
+        "VCVTPS2PH": {
+            "Oracle Solaris Mnemonic": "vcvtps2ph",
+            "Intel/AMD Mnemonic": "VCVTPS2PH",
+            "Description": "Convert Single-Precision FP value to 16-bit FP value",
+            "Reference": "page 5-96 (319433-016/Oct.2013)"
+        }
+    },
+    "registers": null
+}

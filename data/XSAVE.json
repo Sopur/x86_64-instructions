@@ -1,0 +1,11 @@
+{
+    "instructions": {
+        "XSAVEOPT": {
+            "Oracle Solaris Mnemonic": "xsaveopt(64|)",
+            "Intel/AMD Mnemonic": "XSAVEOPT",
+            "Description": "Save Processor Extended States Optimized",
+            "Reference": "page 4-583 (253667-048US/Sep.2013)"
+        }
+    },
+    "registers": null
+}

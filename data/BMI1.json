@@ -1,0 +1,47 @@
+{
+    "instructions": {
+        "ANDN": {
+            "Oracle Solaris Mnemonic": "andn",
+            "Intel/AMD Mnemonic": "ANDN",
+            "Description": "Logical AND NOT",
+            "Reference": "page 3-53 (253666-048US/Sep.2013)"
+        },
+        "BEXTR": {
+            "Oracle Solaris Mnemonic": "bextr",
+            "Intel/AMD Mnemonic": "BEXTR",
+            "Description": "Bit Field Extract",
+            "Reference": "page 3-66 (253666-048US/Sep.2013)"
+        },
+        "BLSI": {
+            "Oracle Solaris Mnemonic": "blsi",
+            "Intel/AMD Mnemonic": "BLSI",
+            "Description": "Extract Lowest Set Isolated Bit",
+            "Reference": "page 3-75 (253666-048US/Sep.2013)"
+        },
+        "BLSMSK": {
+            "Oracle Solaris Mnemonic": "blsmsk",
+            "Intel/AMD Mnemonic": "BLSMSK",
+            "Description": "Get Mask Up to Lowest Set Bit",
+            "Reference": "page 3-76 (253666-048US/Sep.2013)"
+        },
+        "BLSR": {
+            "Oracle Solaris Mnemonic": "blsr",
+            "Intel/AMD Mnemonic": "BLSR",
+            "Description": "Reset Lowest Set Bit",
+            "Reference": "page 3-77 (253666-048US/Sep.2013)"
+        },
+        "LZCNT": {
+            "Oracle Solaris Mnemonic": "lzcnt(|q|l|w)",
+            "Intel/AMD Mnemonic": "LZCNT",
+            "Description": "Count the Number of Leading Zero Bits",
+            "Reference": "page 3-476 (253666-048US/Sep.2013)"
+        },
+        "TZCNT": {
+            "Oracle Solaris Mnemonic": "tzcnt",
+            "Intel/AMD Mnemonic": "TZCNT",
+            "Description": "Count the Number of Trailing Zero Bits",
+            "Reference": "page 4-408 (253667-048US/Sep.2013)"
+        }
+    },
+    "registers": null
+}

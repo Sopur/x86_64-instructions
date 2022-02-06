@@ -1,0 +1,83 @@
+{
+    "instructions": {
+        "INVEPT": {
+            "Oracle Solaris Mnemonic": "invept",
+            "Intel/AMD Mnemonic": "INVEPT",
+            "Description": "Invalidate Translations Derived from EPT",
+            "Reference": "page 30-3 (326019-048US/Sep.2013)"
+        },
+        "INVVPID": {
+            "Oracle Solaris Mnemonic": "invvpid",
+            "Intel/AMD Mnemonic": "INVVPID",
+            "Description": "Invalidate Translations Based on VPID",
+            "Reference": "page 30-6 (326019-048US/Sep.2013)"
+        },
+        "VMCALL": {
+            "Oracle Solaris Mnemonic": "vmcall",
+            "Intel/AMD Mnemonic": "VMCALL",
+            "Description": "Call to VM Monitor",
+            "Reference": "page 30-9 (326019-048US/Sep.2013)"
+        },
+        "VMCLEAR": {
+            "Oracle Solaris Mnemonic": "vmclear",
+            "Intel/AMD Mnemonic": "VMCLEAR",
+            "Description": "Clear Virtual-Machine Control Structure",
+            "Reference": "page 30-11 (326019-048US/Sep.2013)"
+        },
+        "VMFUNC": {
+            "Oracle Solaris Mnemonic": "vmfunc",
+            "Intel/AMD Mnemonic": "VMFUNC",
+            "Description": "Invoke VM function",
+            "Reference": "page 30-13 (326019-048US/Sep.2013)"
+        },
+        "VMLAUNCH": {
+            "Oracle Solaris Mnemonic": "vmresume",
+            "Intel/AMD Mnemonic": "VMLAUNCH",
+            "Description": "Launch/Resume Virtual Machine",
+            "Reference": "page 30-14 (326019-048US/Sep.2013)"
+        },
+        "VMRESUME": {
+            "Oracle Solaris Mnemonic": "vmresume",
+            "Intel/AMD Mnemonic": "VMRESUME",
+            "Description": "Launch/Resume Virtual Machine",
+            "Reference": "page 30-14 (326019-048US/Sep.2013)"
+        },
+        "VMPTRLD": {
+            "Oracle Solaris Mnemonic": "vmptrld",
+            "Intel/AMD Mnemonic": "VMPTRLD",
+            "Description": "Load Pointer to Virtual-Machine Control Structure",
+            "Reference": "page 30-17 (326019-048US/Sep.2013)"
+        },
+        "VMPTRST": {
+            "Oracle Solaris Mnemonic": "vmptrst",
+            "Intel/AMD Mnemonic": "VMPTRST",
+            "Description": "Store Pointer to Virtual-Machine Control Structure",
+            "Reference": "page 30-19 (326019-048US/Sep.2013)"
+        },
+        "VMREAD": {
+            "Oracle Solaris Mnemonic": "vmread",
+            "Intel/AMD Mnemonic": "VMREAD",
+            "Description": "Read Field from Virtual-Machine Control Structure",
+            "Reference": "page 30-21 (326019-048US/Sep.2013)"
+        },
+        "VMWRITE": {
+            "Oracle Solaris Mnemonic": "vmwrite",
+            "Intel/AMD Mnemonic": "VMWRITE",
+            "Description": "Write Field to Virtual-Machine Control Structure",
+            "Reference": "page 0-24 (326019-048US/Sep.2013)"
+        },
+        "VMXOFF": {
+            "Oracle Solaris Mnemonic": "vmxoff",
+            "Intel/AMD Mnemonic": "VMXOFF",
+            "Description": "Leave VMX Operation",
+            "Reference": "page 30-27 (326019-048US/Sep.2013)"
+        },
+        "VMXON": {
+            "Oracle Solaris Mnemonic": "vmxon",
+            "Intel/AMD Mnemonic": "VMXON",
+            "Description": "Enter VMX Operation",
+            "Reference": "page 30-29 (326019-048US/Sep.2013)"
+        }
+    },
+    "registers": null
+}

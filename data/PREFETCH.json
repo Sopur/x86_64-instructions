@@ -1,0 +1,17 @@
+{
+    "instructions": {
+        "PREFETCHW": {
+            "Oracle Solaris Mnemonic": "preftechw",
+            "Intel/AMD Mnemonic": "PREFETCHW",
+            "Description": "Prefetch Data into Caches in Anticipation of a Write",
+            "Reference": "page 872-873 (325383-053US/Jan.2015)"
+        },
+        "PREFETCHWT1": {
+            "Oracle Solaris Mnemonic": "prefetchwt1",
+            "Intel/AMD Mnemonic": "PREFETCHWT1",
+            "Description": "Prefetch Vector Data Into Caches with Internet to Write and T1 Hint",
+            "Reference": "page 874-875 (325383-053US/Jan.2015)"
+        }
+    },
+    "registers": null
+}

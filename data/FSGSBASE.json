@@ -1,0 +1,29 @@
+{
+    "instructions": {
+        "RDFSBASE": {
+            "Oracle Solaris Mnemonic": "rdgsbase(|l|q)",
+            "Intel/AMD Mnemonic": "RDFSBASE",
+            "Description": "Read FS/GS Segment Base",
+            "Reference": "page 4-284 (253667-048US/Sep.2013)"
+        },
+        "RDGSBASE": {
+            "Oracle Solaris Mnemonic": "rdgsbase(|l|q)",
+            "Intel/AMD Mnemonic": "RDGSBASE",
+            "Description": "Read FS/GS Segment Base",
+            "Reference": "page 4-284 (253667-048US/Sep.2013)"
+        },
+        "WRFSBASE": {
+            "Oracle Solaris Mnemonic": "wrgsbase(|l|q)",
+            "Intel/AMD Mnemonic": "WRFSBASE",
+            "Description": "Write FS/GS Segment Base",
+            "Reference": "page 4-548 (253667-048US/Sep.2013)"
+        },
+        "WRGSBASE": {
+            "Oracle Solaris Mnemonic": "wrgsbase(|l|q)",
+            "Intel/AMD Mnemonic": "WRGSBASE",
+            "Description": "Write FS/GS Segment Base",
+            "Reference": "page 4-548 (253667-048US/Sep.2013)"
+        }
+    },
+    "registers": null
+}

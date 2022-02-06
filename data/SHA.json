@@ -1,0 +1,47 @@
+{
+    "instructions": {
+        "SHA1MSG1": {
+            "Oracle Solaris Mnemonic": "sha1msg1",
+            "Intel/AMD Mnemonic": "SHA1MSG1",
+            "Description": "Perform an Intermediate Calculation for the Next Four SHA1 Message Dwords",
+            "Reference": "page 4-605 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "SHA1MSG2": {
+            "Oracle Solaris Mnemonic": "sha1msg2",
+            "Intel/AMD Mnemonic": "SHA1MSG2",
+            "Description": "Perform a Final Calculation for the Next Four SHA1 Message Dwords",
+            "Reference": "page 4-606 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "SHA1NEXTE": {
+            "Oracle Solaris Mnemonic": "sha1nexte",
+            "Intel/AMD Mnemonic": "SHA1NEXTE",
+            "Description": "Calculate SHA1 State Variable E after Four Rounds",
+            "Reference": "page 4-604 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "SHA1RNDS4": {
+            "Oracle Solaris Mnemonic": "sha1rnds4",
+            "Intel/AMD Mnemonic": "SHA1RNDS4",
+            "Description": "Perform Four Rounds of SHA1 Operation",
+            "Reference": "page 4-602 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "SHA256MSG1": {
+            "Oracle Solaris Mnemonic": "sha256msg1",
+            "Intel/AMD Mnemonic": "SHA256MSG1",
+            "Description": "Perform an Intermediate Calculation for the Next Four SHA256 Message Dwords",
+            "Reference": "page 4-609 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "SHA256MSG2": {
+            "Oracle Solaris Mnemonic": "sha256msg2",
+            "Intel/AMD Mnemonic": "SHA256MSG2",
+            "Description": "Perform a Final Calculation for the Next Four SHA256 Message Dwords",
+            "Reference": "page 4-610 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "SHA256RNDS2": {
+            "Oracle Solaris Mnemonic": "sha256rnds2",
+            "Intel/AMD Mnemonic": "SHA256RNDS2",
+            "Description": "Perform Two Rounds of SHA256 Operation",
+            "Reference": "page 4-607 Vol. 2B (325383-060US/Sept 2016)"
+        }
+    },
+    "registers": null
+}

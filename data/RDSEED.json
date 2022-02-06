@@ -1,0 +1,11 @@
+{
+    "instructions": {
+        "RDSEED": {
+            "Oracle Solaris Mnemonic": "rdseed(|w|l|q)",
+            "Intel/AMD Mnemonic": "RDSEED",
+            "Description": "Read Random SEED",
+            "Reference": "page 971-972 (325383-053US/Jan.2015)"
+        }
+    },
+    "registers": null
+}

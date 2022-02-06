@@ -1,0 +1,3223 @@
+{
+    "instructions": {
+        "KADDB": {
+            "Oracle Solaris Mnemonic": "kaddb",
+            "Intel/AMD Mnemonic": "KADDB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Bitwise Logical AND Masks",
+            "Reference": "page 3-496 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KADDD": {
+            "Oracle Solaris Mnemonic": "kaddd",
+            "Intel/AMD Mnemonic": "KADDD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Add Two Masks",
+            "Reference": "page 3-496 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KADDQ": {
+            "Oracle Solaris Mnemonic": "kaddq",
+            "Intel/AMD Mnemonic": "KADDQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Add Two Masks",
+            "Reference": "page 3-496 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KADDW": {
+            "Oracle Solaris Mnemonic": "kaddw",
+            "Intel/AMD Mnemonic": "KADDW",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Add Two Masks",
+            "Reference": "page 3-496 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KANDB": {
+            "Oracle Solaris Mnemonic": "kandb",
+            "Intel/AMD Mnemonic": "KANDB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Bitwise Logical AND Masks",
+            "Reference": "page 3-497 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KANDD": {
+            "Oracle Solaris Mnemonic": "kandd",
+            "Intel/AMD Mnemonic": "KANDD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical AND Masks",
+            "Reference": "page 3-497 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KANDNB": {
+            "Oracle Solaris Mnemonic": "kandnb",
+            "Intel/AMD Mnemonic": "KANDNB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Bitwise Logical AND NOT Masks",
+            "Reference": "page 3-498 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KANDND": {
+            "Oracle Solaris Mnemonic": "kandnd",
+            "Intel/AMD Mnemonic": "KANDND",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical AND NOT Masks",
+            "Reference": "page 3-498 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KANDNQ": {
+            "Oracle Solaris Mnemonic": "kandnq",
+            "Intel/AMD Mnemonic": "KANDNQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical AND NOT Masks",
+            "Reference": "page 3-498 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KANDQ": {
+            "Oracle Solaris Mnemonic": "kandq",
+            "Intel/AMD Mnemonic": "KANDQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical AND Masks",
+            "Reference": "page 3-497 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KMOVB": {
+            "Oracle Solaris Mnemonic": "kmovb",
+            "Intel/AMD Mnemonic": "KMOVB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Move from and to Mask Registers",
+            "Reference": "page 3-499 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KMOVD": {
+            "Oracle Solaris Mnemonic": "kmovd",
+            "Intel/AMD Mnemonic": "KMOVD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Move from and to Mask Registers",
+            "Reference": "page 3-499 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KMOVQ": {
+            "Oracle Solaris Mnemonic": "kmovq",
+            "Intel/AMD Mnemonic": "KMOVQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Move from and to Mask Registers",
+            "Reference": "page 3-499 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KNOTB": {
+            "Oracle Solaris Mnemonic": "knotb",
+            "Intel/AMD Mnemonic": "KNOTB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "NOT Mask Register",
+            "Reference": "page 3-501 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KNOTD": {
+            "Oracle Solaris Mnemonic": "knotd",
+            "Intel/AMD Mnemonic": "KNOTD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "NOT Mask Register",
+            "Reference": "page 3-501 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KNOTQ": {
+            "Oracle Solaris Mnemonic": "knotq",
+            "Intel/AMD Mnemonic": "KNOTQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "NOT Mask Register",
+            "Reference": "page 3-501 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KORB": {
+            "Oracle Solaris Mnemonic": "korb",
+            "Intel/AMD Mnemonic": "KORB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Bitwise Logical OR Masks",
+            "Reference": "page 3-502 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KORD": {
+            "Oracle Solaris Mnemonic": "kord",
+            "Intel/AMD Mnemonic": "KORD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical OR Masks",
+            "Reference": "page 3-502 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KORQ": {
+            "Oracle Solaris Mnemonic": "korq",
+            "Intel/AMD Mnemonic": "KORQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical OR Masks",
+            "Reference": "page 3-502 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KORTESTB": {
+            "Oracle Solaris Mnemonic": "kortestb",
+            "Intel/AMD Mnemonic": "KORTESTB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "OR Masks And Set Flags",
+            "Reference": "page 3-503 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KORTESTD": {
+            "Oracle Solaris Mnemonic": "kortestd",
+            "Intel/AMD Mnemonic": "KORTESTD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "OR Masks And Set Flags",
+            "Reference": "page 3-503 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KORTESTQ": {
+            "Oracle Solaris Mnemonic": "kortestq",
+            "Intel/AMD Mnemonic": "KORTESTQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "OR Masks And Set Flags",
+            "Reference": "page 3-503 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KSHIFTLB": {
+            "Oracle Solaris Mnemonic": "kshiftlb",
+            "Intel/AMD Mnemonic": "KSHIFTLB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Shift Left Mask Registers",
+            "Reference": "page 3-505 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KSHIFTLD": {
+            "Oracle Solaris Mnemonic": "kshiftld",
+            "Intel/AMD Mnemonic": "KSHIFTLD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Shift Left Mask Registers",
+            "Reference": "page 3-505 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KSHIFTLQ": {
+            "Oracle Solaris Mnemonic": "kshiftlq",
+            "Intel/AMD Mnemonic": "KSHIFTLQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Shift Left Mask Registers",
+            "Reference": "page 3-505 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KSHIFTRB": {
+            "Oracle Solaris Mnemonic": "kshiftrb",
+            "Intel/AMD Mnemonic": "KSHIFTRB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Shift Right Mask Registers",
+            "Reference": "page 3-507 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KSHIFTRD": {
+            "Oracle Solaris Mnemonic": "kshiftrd",
+            "Intel/AMD Mnemonic": "KSHIFTRD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Shift Right Mask Registers",
+            "Reference": "page 3-507 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KSHIFTRQ": {
+            "Oracle Solaris Mnemonic": "kshiftrq",
+            "Intel/AMD Mnemonic": "KSHIFTRQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Shift Right Mask Registers",
+            "Reference": "page 3-507 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KTESTB": {
+            "Oracle Solaris Mnemonic": "ktestb",
+            "Intel/AMD Mnemonic": "KTESTB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Packed Bit Test Masks and Set Flags",
+            "Reference": "page 3-509 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KTESTD": {
+            "Oracle Solaris Mnemonic": "ktestd",
+            "Intel/AMD Mnemonic": "KTESTD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Packed Bit Test Masks and Set Flags",
+            "Reference": "page 3-509 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KTESTQ": {
+            "Oracle Solaris Mnemonic": "ktestq",
+            "Intel/AMD Mnemonic": "KTESTQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Packed Bit Test Masks and Set Flags",
+            "Reference": "page 3-509 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KTESTW": {
+            "Oracle Solaris Mnemonic": "ktestw",
+            "Intel/AMD Mnemonic": "KTESTW",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Packed Bit Test Masks and Set Flags",
+            "Reference": "page 3-509 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KUNPCKDQ": {
+            "Oracle Solaris Mnemonic": "kunpckdq",
+            "Intel/AMD Mnemonic": "KUNPCKDQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Unpack for Mask Registers",
+            "Reference": "page 3-511 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KUNPCKWD": {
+            "Oracle Solaris Mnemonic": "kunpckwd",
+            "Intel/AMD Mnemonic": "KUNPCKWD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Unpack for Mask Registers",
+            "Reference": "page 3-511 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KXNORB": {
+            "Oracle Solaris Mnemonic": "kxnorb",
+            "Intel/AMD Mnemonic": "KXNORB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Bitwise Logical XNOR Masks",
+            "Reference": "page 3-512 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KXNORD": {
+            "Oracle Solaris Mnemonic": "kxnord",
+            "Intel/AMD Mnemonic": "KXNORD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical XNOR Masks",
+            "Reference": "page 3-512 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KXNORQ": {
+            "Oracle Solaris Mnemonic": "kxnorq",
+            "Intel/AMD Mnemonic": "KXNORQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical XNOR Masks",
+            "Reference": "page 3-512 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KXORB": {
+            "Oracle Solaris Mnemonic": "kxorb",
+            "Intel/AMD Mnemonic": "KXORB",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Bitwise Logical XOR Masks",
+            "Reference": "page 3-513 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KXORD": {
+            "Oracle Solaris Mnemonic": "kxord",
+            "Intel/AMD Mnemonic": "KXORD",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical XOR Masks",
+            "Reference": "page 3-513 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "KXORQ": {
+            "Oracle Solaris Mnemonic": "kxorq",
+            "Intel/AMD Mnemonic": "KXORQ",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Bitwise Logical XOR Masks",
+            "Reference": "page 3-513 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VADDPD": {
+            "Oracle Solaris Mnemonic": "vaddpd",
+            "Intel/AMD Mnemonic": "VADDPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Add Packed Double-Precision Floating-Point Values",
+            "Reference": "page 3-33 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VADDPS": {
+            "Oracle Solaris Mnemonic": "vaddps",
+            "Intel/AMD Mnemonic": "VADDPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Add Packed Single-Precision Floating-Point Values",
+            "Reference": "page 3-36 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VALIGND": {
+            "Oracle Solaris Mnemonic": "valignd",
+            "Intel/AMD Mnemonic": "VALIGND",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Align Doubleword Vectors",
+            "Reference": "page 5-5 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VALIGNQ": {
+            "Oracle Solaris Mnemonic": "valignq",
+            "Intel/AMD Mnemonic": "VALIGNQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Align Quadword Vectors",
+            "Reference": "page 5-5 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VANDNPD": {
+            "Oracle Solaris Mnemonic": "vandnpd",
+            "Intel/AMD Mnemonic": "VANDNPD",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Bitwise Logical AND NOT of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 3-70 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VANDNPS": {
+            "Oracle Solaris Mnemonic": "vandnps",
+            "Intel/AMD Mnemonic": "VANDNPS",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Bitwise Logical AND NOT of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 3-73 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VANDPD": {
+            "Oracle Solaris Mnemonic": "vandpd",
+            "Intel/AMD Mnemonic": "VANDPD",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Bitwise Logical AND of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 3-64 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VANDPS": {
+            "Oracle Solaris Mnemonic": "vandps",
+            "Intel/AMD Mnemonic": "VANDPS",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Bitwise Logical AND of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 3-67 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VBLENDMPD": {
+            "Oracle Solaris Mnemonic": "vblendmpd",
+            "Intel/AMD Mnemonic": "VBLENDMPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Blend Float64/Float32 Vectors Using an OpMask Control",
+            "Reference": "page 5-9 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBLENDMPS": {
+            "Oracle Solaris Mnemonic": "vblendmps",
+            "Intel/AMD Mnemonic": "VBLENDMPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Blend Float64/Float32 Vectors Using an OpMask Control",
+            "Reference": "page 5-9 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBROADCASTF32X2": {
+            "Oracle Solaris Mnemonic": "vbroadcastf32x2",
+            "Intel/AMD Mnemonic": "VBROADCASTF32X2",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Broadcast Two Single-Precision Floating-Point Data",
+            "Reference": "page 5-12 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBROADCASTF32X4": {
+            "Oracle Solaris Mnemonic": "vbroadcastf32x4",
+            "Intel/AMD Mnemonic": "VBROADCASTF32X4",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Broadcast 128 bits of 4 Single-Precision Floating-Point Data",
+            "Reference": "page 5-12 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBROADCASTF32X8": {
+            "Oracle Solaris Mnemonic": "vbroadcastf32x8",
+            "Intel/AMD Mnemonic": "VBROADCASTF32X8",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Broadcast 256 bits of 8 Single-Precision Floating-Point Data",
+            "Reference": "page 5-12 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBROADCASTF64X2": {
+            "Oracle Solaris Mnemonic": "vbroadcastf64x2",
+            "Intel/AMD Mnemonic": "VBROADCASTF64X2",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Broadcast 128 bits of 2 Double-Precision Floating-Point Data",
+            "Reference": "page 5-12 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBROADCASTI32x2": {
+            "Oracle Solaris Mnemonic": "vbroadcasti32x2",
+            "Intel/AMD Mnemonic": "VBROADCASTI32x2",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Broadcast Two Dword Data",
+            "Reference": "page 5-331 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBROADCASTI32X4": {
+            "Oracle Solaris Mnemonic": "vbroadcasti32x4",
+            "Intel/AMD Mnemonic": "VBROADCASTI32X4",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Broadcast 128 bits of 4 Doubleword Integer Data",
+            "Reference": "page 5-332 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBROADCASTI32X8": {
+            "Oracle Solaris Mnemonic": "vbroadcasti32x8",
+            "Intel/AMD Mnemonic": "VBROADCASTI32X8",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Broadcast 256 bits of 8 Doubleword Integer Data",
+            "Reference": "page 5-332 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBROADCASTI64X2": {
+            "Oracle Solaris Mnemonic": "vbroadcasti64x2",
+            "Intel/AMD Mnemonic": "VBROADCASTI64X2",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Broadcast 128 bits of 2 Quadword Integer Data",
+            "Reference": "page 5-332 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VBROADCASTSS": {
+            "Oracle Solaris Mnemonic": "vbroadcastss",
+            "Intel/AMD Mnemonic": "VBROADCASTSS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Broadcast Low Single-Precision Floating-Point Data",
+            "Reference": "page 5-12 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCMPPD": {
+            "Oracle Solaris Mnemonic": "vcmppd",
+            "Intel/AMD Mnemonic": "VCMPPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compare Packed Double-Precision Floating-Point Values",
+            "Reference": "page 3-155 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VCMPPS": {
+            "Oracle Solaris Mnemonic": "vcmpps",
+            "Intel/AMD Mnemonic": "VCMPPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compare Packed Single-Precision Floating-Point Values",
+            "Reference": "page 3-162 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VCOMPRESSPD": {
+            "Oracle Solaris Mnemonic": "vcompresspd",
+            "Intel/AMD Mnemonic": "VCOMPRESSPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Store Sparse Packed Double-Precision Floating-Point Values into Dense Memory",
+            "Reference": "page 5-21 Vol.2C (325383-060US/Sept 2016)"
+        },
+        "VCOMPRESSPS": {
+            "Oracle Solaris Mnemonic": "vcompressps",
+            "Intel/AMD Mnemonic": "VCOMPRESSPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Store Sparse Packed Single-Precision Floating-Point Values into Dense Memory",
+            "Reference": "page 5-23 Vol.2C (325383-060US/Sept 2016)"
+        },
+        "VCVTDQ2PD": {
+            "Oracle Solaris Mnemonic": "vcvtdq2pd",
+            "Intel/AMD Mnemonic": "VCVTDQ2PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Dword Integers to Packed Double-Precision FP Values",
+            "Reference": "page 3-228 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VCVTDQ2PS": {
+            "Oracle Solaris Mnemonic": "vcvtdq2ps",
+            "Intel/AMD Mnemonic": "VCVTDQ2PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Dword Integers to Packed Single-Precision FP Values",
+            "Reference": "page 3-232 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VCVTPD2DQ": {
+            "Oracle Solaris Mnemonic": "vcvtpd2dq",
+            "Intel/AMD Mnemonic": "VCVTPD2DQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Double-Precision FP Values to Packed Dword Integers",
+            "Reference": "page 3-235 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VCVTPD2PS": {
+            "Oracle Solaris Mnemonic": "vcvtpd2ps",
+            "Intel/AMD Mnemonic": "VCVTPD2PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Double-Precision FP Values to Packed Single-Precision FP Values",
+            "Reference": "page 3-240 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VCVTPD2QQ": {
+            "Oracle Solaris Mnemonic": "vcvtpd2qq",
+            "Intel/AMD Mnemonic": "VCVTPD2QQ",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Convert Packed Double-Precision Floating-Point Values to Packed Quadword Integers",
+            "Reference": "page 5-25 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTPD2UDQ": {
+            "Oracle Solaris Mnemonic": "vcvtpd2udq",
+            "Intel/AMD Mnemonic": "VCVTPD2UDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Double-Precision Floating-Point Values to Packed Unsigned Doubleword Integers",
+            "Reference": "page 5-28 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTPD2UQQ": {
+            "Oracle Solaris Mnemonic": "vcvtpd2uqq",
+            "Intel/AMD Mnemonic": "VCVTPD2UQQ",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Convert Packed Double-Precision Floating-Point Values to Packed Unsigned Quadword Integers",
+            "Reference": "page 5-31 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTPH2PS": {
+            "Oracle Solaris Mnemonic": "vcvtph2ps",
+            "Intel/AMD Mnemonic": "VCVTPH2PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert 16-bit FP values to Single-Precision FP values",
+            "Reference": "page 5-34 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTPS2DQ": {
+            "Oracle Solaris Mnemonic": "vcvtps2dq",
+            "Intel/AMD Mnemonic": "VCVTPS2DQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Single-Precision FP Values to Packed Dword Integers",
+            "Reference": "page 3-246 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VCVTPS2PD": {
+            "Oracle Solaris Mnemonic": "vcvtps2pd",
+            "Intel/AMD Mnemonic": "VCVTPS2PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Single-Precision FP Values to Packed Double-Precision FP Values",
+            "Reference": "page 3-249 Vol.2A (325383-060US/Sept 2016)"
+        },
+        "VCVTPS2PH": {
+            "Oracle Solaris Mnemonic": "vcvtps2ph",
+            "Intel/AMD Mnemonic": "VCVTPS2PH",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Single-Precision FP value to 16-bit FP value",
+            "Reference": "page 5-37 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTPS2QQ": {
+            "Oracle Solaris Mnemonic": "vcvtps2qq",
+            "Intel/AMD Mnemonic": "VCVTPS2QQ",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Convert Packed Single Precision Floating-Point Values to Packed Singed Quadword Integer Values",
+            "Reference": "page 5-44 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTPS2UDQ": {
+            "Oracle Solaris Mnemonic": "vcvtps2udq",
+            "Intel/AMD Mnemonic": "VCVTPS2UDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Single-Precision Floating-Point Values to Packed Unsigned Doubleword Integer Values",
+            "Reference": "page 5-41 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTPS2UQQ": {
+            "Oracle Solaris Mnemonic": "vcvtps2uqq",
+            "Intel/AMD Mnemonic": "VCVTPS2UQQ",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Convert Packed Single Precision Floating-Point Values to Packed Unsigned Quadword Integer Values",
+            "Reference": "page 5-47 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTQQ2PD": {
+            "Oracle Solaris Mnemonic": "vcvtqq2pd",
+            "Intel/AMD Mnemonic": "VCVTQQ2PD",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Convert Packed Quadword Integers to Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-50 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTQQ2PS": {
+            "Oracle Solaris Mnemonic": "vcvtqq2ps",
+            "Intel/AMD Mnemonic": "VCVTQQ2PS",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Convert Packed Quadword Integers to Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-52 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTTPD2DQ": {
+            "Oracle Solaris Mnemonic": "vcvttpd2dq",
+            "Intel/AMD Mnemonic": "VCVTTPD2DQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert with Truncation Packed Double-Precision FP Values to Packed Dword Integers",
+            "Reference": "page 3-265 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VCVTTPD2QQ": {
+            "Oracle Solaris Mnemonic": "vcvttpd2qq",
+            "Intel/AMD Mnemonic": "VCVTTPD2QQ",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Convert with Truncation Packed Double-Precision Floating-Point Values to Packed Quadword Integers",
+            "Reference": "page 5-57 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTTPD2UDQ": {
+            "Oracle Solaris Mnemonic": "vcvttpd2udq",
+            "Intel/AMD Mnemonic": "VCVTTPD2UDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert with Truncation Packed Double-Precision Floating-Point Values to Packed Unsigned Doubleword Integers",
+            "Reference": "page 5-59 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTTPD2UQQ": {
+            "Oracle Solaris Mnemonic": "vcvttpd2uqq",
+            "Intel/AMD Mnemonic": "VCVTTPD2UQQ",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Convert with Truncation Packed Double-Precision Floating-Point Values to Packed Unsigned Quadword Integers",
+            "Reference": "page 5-62 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTTPS2DQ": {
+            "Oracle Solaris Mnemonic": "vcvttps2dq",
+            "Intel/AMD Mnemonic": "VCVTTPS2DQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert with Truncation Packed Single-Precision FP Values to Packed Dword Integers",
+            "Reference": "page 3-270 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VCVTTPS2QQ": {
+            "Oracle Solaris Mnemonic": "vcvttps2qq",
+            "Intel/AMD Mnemonic": "VCVTTPS2QQ",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Convert with Truncation Packed Single Precision Floating-Point Values to Packed Singed Quadword Integer Values",
+            "Reference": "page 5-66 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTTPS2UDQ": {
+            "Oracle Solaris Mnemonic": "vcvttps2udq",
+            "Intel/AMD Mnemonic": "VCVTTPS2UDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert with Truncation Packed Single-Precision Floating-Point Values to Packed Unsigned Doubleword Integer Values",
+            "Reference": "page 5-64 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTTPS2UQQ": {
+            "Oracle Solaris Mnemonic": "vcvttps2uqq",
+            "Intel/AMD Mnemonic": "VCVTTPS2UQQ",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Convert with Truncation Packed Single Precision Floating-Point Values to Packed Unsigned Quadword Integer Values",
+            "Reference": "page 5-68 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTUDQ2PD": {
+            "Oracle Solaris Mnemonic": "vcvtudq2pd",
+            "Intel/AMD Mnemonic": "VCVTUDQ2PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Unsigned Doubleword Integers to Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-73 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTUDQ2PS": {
+            "Oracle Solaris Mnemonic": "vcvtudq2ps",
+            "Intel/AMD Mnemonic": "VCVTUDQ2PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Packed Unsigned Doubleword Integers to Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-75 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTUQQ2PD": {
+            "Oracle Solaris Mnemonic": "vcvtuqq2pd",
+            "Intel/AMD Mnemonic": "VCVTUQQ2PD",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Convert Packed Unsigned Quadword Integers to Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-77 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VCVTUQQ2PS": {
+            "Oracle Solaris Mnemonic": "vcvtuqq2ps",
+            "Intel/AMD Mnemonic": "VCVTUQQ2PS",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Convert Packed Unsigned Quadword Integers to Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-79 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VDBPSADBW": {
+            "Oracle Solaris Mnemonic": "vdbpsadbw",
+            "Intel/AMD Mnemonic": "VDBPSADBW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Double Block Packed Sum-Absolute-Differences (SAD) on Unsigned Bytes",
+            "Reference": "page 5-85 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VDIVPD": {
+            "Oracle Solaris Mnemonic": "vdivpd",
+            "Intel/AMD Mnemonic": "VDIVPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Divide Packed Double-Precision Floating-Point Values",
+            "Reference": "page 3-288 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VDIVPS": {
+            "Oracle Solaris Mnemonic": "vdivps",
+            "Intel/AMD Mnemonic": "VDIVPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Divide Packed Single-Precision Floating-Point Values",
+            "Reference": "page 3-291 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "VEXP2PD": {
+            "Oracle Solaris Mnemonic": "vexp2pd",
+            "Intel/AMD Mnemonic": "VEXP2PD",
+            "CPUID Feature Flag": "AVX512ER",
+            "Description": "Approximation to the Exponential 2^x of Packed Double-Precision Floating-Point Values with Less Than 2^-23 Relative Error",
+            "Reference": "page 5-95 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VEXP2PS": {
+            "Oracle Solaris Mnemonic": "vexp2ps",
+            "Intel/AMD Mnemonic": "VEXP2PS",
+            "CPUID Feature Flag": "AVX512ER",
+            "Description": "Approximation to the Exponential 2^x of Packed Single-Precision Floating-Point Values with Less Than 2^-23 Relative Error",
+            "Reference": "page 5-97 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VEXPANDPD": {
+            "Oracle Solaris Mnemonic": "vexpandpd",
+            "Intel/AMD Mnemonic": "VEXPANDPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Load Sparse Packed Double-Precision Floating-Point Values from Dense Memory",
+            "Reference": "page 5-89 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VEXPANDPS": {
+            "Oracle Solaris Mnemonic": "vexpandps",
+            "Intel/AMD Mnemonic": "VEXPANDPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Load Sparse Packed Single-Precision Floating-Point Values from Dense Memory",
+            "Reference": "page 5-91 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VEXTRACTF32X4": {
+            "Oracle Solaris Mnemonic": "vextractf32x4",
+            "Intel/AMD Mnemonic": "VEXTRACTF32X4",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Extract 128 bits of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-99 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VEXTRACTF64X2": {
+            "Oracle Solaris Mnemonic": "vextractf64x2",
+            "Intel/AMD Mnemonic": "VEXTRACTF64X2",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Extract 128 bits of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-99 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VEXTRACTI32X4": {
+            "Oracle Solaris Mnemonic": "vextracti32x4",
+            "Intel/AMD Mnemonic": "VEXTRACTI32X4",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Extract 128 bits of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-99 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VEXTRACTI64X2": {
+            "Oracle Solaris Mnemonic": "vextracti64x2",
+            "Intel/AMD Mnemonic": "VEXTRACTI64X2",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Extract 128 bits of Quadword integer Values",
+            "Reference": "page 5-106 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFIXUPIMMPD": {
+            "Oracle Solaris Mnemonic": "vfixupimmpd",
+            "Intel/AMD Mnemonic": "VFIXUPIMMPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Fix Up Special Packed Float64 Values",
+            "Reference": "page 5-112 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFIXUPIMMPS": {
+            "Oracle Solaris Mnemonic": "vfixupimmps",
+            "Intel/AMD Mnemonic": "VFIXUPIMMPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Fix Up Special Packed Float32 Values",
+            "Reference": "page 5-116 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADD132PD": {
+            "Oracle Solaris Mnemonic": "vfmadd132pd",
+            "Intel/AMD Mnemonic": "VFMADD132PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-126 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADD132PS": {
+            "Oracle Solaris Mnemonic": "vfmadd132ps",
+            "Intel/AMD Mnemonic": "VFMADD132PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-133 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADD213PD": {
+            "Oracle Solaris Mnemonic": "vfmadd213pd",
+            "Intel/AMD Mnemonic": "VFMADD213PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-126 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADD213PS": {
+            "Oracle Solaris Mnemonic": "vfmadd213ps",
+            "Intel/AMD Mnemonic": "VFMADD213PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-133 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADD231PD": {
+            "Oracle Solaris Mnemonic": "vfmadd231pd",
+            "Intel/AMD Mnemonic": "VFMADD231PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-126 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADD231PS": {
+            "Oracle Solaris Mnemonic": "vfmadd231ps",
+            "Intel/AMD Mnemonic": "VFMADD231PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-133 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADDSUB132PD": {
+            "Oracle Solaris Mnemonic": "vfmaddsub132pd",
+            "Intel/AMD Mnemonic": "VFMADDSUB132PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-146 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADDSUB132PS": {
+            "Oracle Solaris Mnemonic": "vfmaddsub132ps",
+            "Intel/AMD Mnemonic": "VFMADDSUB132PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-156 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADDSUB213PD": {
+            "Oracle Solaris Mnemonic": "vfmaddsub213pd",
+            "Intel/AMD Mnemonic": "VFMADDSUB213PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-146 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADDSUB213PS": {
+            "Oracle Solaris Mnemonic": "vfmaddsub213ps",
+            "Intel/AMD Mnemonic": "VFMADDSUB213PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-156 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADDSUB231PD": {
+            "Oracle Solaris Mnemonic": "vfmaddsub231pd",
+            "Intel/AMD Mnemonic": "VFMADDSUB231PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-146 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMADDSUB231PS": {
+            "Oracle Solaris Mnemonic": "vfmaddsub231ps",
+            "Intel/AMD Mnemonic": "VFMADDSUB231PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-156 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUB132PD": {
+            "Oracle Solaris Mnemonic": "vfmsub132pd",
+            "Intel/AMD Mnemonic": "VFMSUB132PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-185 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUB132PS": {
+            "Oracle Solaris Mnemonic": "vfmsub132ps",
+            "Intel/AMD Mnemonic": "VFMSUB132PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-192 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUB213PD": {
+            "Oracle Solaris Mnemonic": "vfmsub213pd",
+            "Intel/AMD Mnemonic": "VFMSUB213PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-185 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUB213PS": {
+            "Oracle Solaris Mnemonic": "vfmsub213ps",
+            "Intel/AMD Mnemonic": "VFMSUB213PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-192 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUB231PD": {
+            "Oracle Solaris Mnemonic": "vfmsub231pd",
+            "Intel/AMD Mnemonic": "VFMSUB231PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-185 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUB231PS": {
+            "Oracle Solaris Mnemonic": "vfmsub231ps",
+            "Intel/AMD Mnemonic": "VFMSUB231PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-192 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUBADD132PD": {
+            "Oracle Solaris Mnemonic": "vfmsubadd132pd",
+            "Intel/AMD Mnemonic": "VFMSUBADD132PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-165 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUBADD132PS": {
+            "Oracle Solaris Mnemonic": "vfmsubadd132ps",
+            "Intel/AMD Mnemonic": "VFMSUBADD132PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-175 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUBADD213PD": {
+            "Oracle Solaris Mnemonic": "vfmsubadd213pd",
+            "Intel/AMD Mnemonic": "VFMSUBADD213PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-165 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUBADD213PS": {
+            "Oracle Solaris Mnemonic": "vfmsubadd213ps",
+            "Intel/AMD Mnemonic": "VFMSUBADD213PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-175 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUBADD231PD": {
+            "Oracle Solaris Mnemonic": "vfmsubadd231pd",
+            "Intel/AMD Mnemonic": "VFMSUBADD231PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-165 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFMSUBADD231PS": {
+            "Oracle Solaris Mnemonic": "vfmsubadd231ps",
+            "Intel/AMD Mnemonic": "VFMSUBADD231PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-175 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMADD132PD": {
+            "Oracle Solaris Mnemonic": "vfnmadd132pd",
+            "Intel/AMD Mnemonic": "VFNMADD132PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-205 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMADD132PS": {
+            "Oracle Solaris Mnemonic": "vfnmadd132ps",
+            "Intel/AMD Mnemonic": "VFNMADD132PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-212 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMADD213PD": {
+            "Oracle Solaris Mnemonic": "vfnmadd213pd",
+            "Intel/AMD Mnemonic": "VFNMADD213PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-205 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMADD213PS": {
+            "Oracle Solaris Mnemonic": "vfnmadd213ps",
+            "Intel/AMD Mnemonic": "VFNMADD213PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-212 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMADD231PD": {
+            "Oracle Solaris Mnemonic": "vfnmadd231pd",
+            "Intel/AMD Mnemonic": "VFNMADD231PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-205 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMADD231PS": {
+            "Oracle Solaris Mnemonic": "vfnmadd231ps",
+            "Intel/AMD Mnemonic": "VFNMADD231PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-212 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMSUB132PD": {
+            "Oracle Solaris Mnemonic": "vfnmsub132pd",
+            "Intel/AMD Mnemonic": "VFNMSUB132PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-224 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMSUB132PS": {
+            "Oracle Solaris Mnemonic": "vfnmsub132ps",
+            "Intel/AMD Mnemonic": "VFNMSUB132PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-230 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMSUB213PD": {
+            "Oracle Solaris Mnemonic": "vfnmsub213pd",
+            "Intel/AMD Mnemonic": "VFNMSUB213PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-224 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMSUB213PS": {
+            "Oracle Solaris Mnemonic": "vfnmsub213ps",
+            "Intel/AMD Mnemonic": "VFNMSUB213PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-230 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMSUB231PD": {
+            "Oracle Solaris Mnemonic": "vfnmsub231pd",
+            "Intel/AMD Mnemonic": "VFNMSUB231PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-224 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFNMSUB231PS": {
+            "Oracle Solaris Mnemonic": "vfnmsub231ps",
+            "Intel/AMD Mnemonic": "VFNMSUB231PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-230 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFPCLASSPD": {
+            "Oracle Solaris Mnemonic": "vfpclasspd",
+            "Intel/AMD Mnemonic": "VFPCLASSPD",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Tests Types Of a Packed Float64 Values",
+            "Reference": "page 5-242 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFPCLASSPS": {
+            "Oracle Solaris Mnemonic": "vfpclassps",
+            "Intel/AMD Mnemonic": "VFPCLASSPS",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Tests Types Of a Packed Float32 Values",
+            "Reference": "page 5-245 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFPCLASSSD": {
+            "Oracle Solaris Mnemonic": "vfpclasssd",
+            "Intel/AMD Mnemonic": "VFPCLASSSD",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Tests Types Of a Scalar Float64 Values",
+            "Reference": "page 5-247 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VFPCLASSSS": {
+            "Oracle Solaris Mnemonic": "vfpclassss",
+            "Intel/AMD Mnemonic": "VFPCLASSSS",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Tests Types Of a Scalar Float32 Values",
+            "Reference": "page 5-249 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERDPD": {
+            "Oracle Solaris Mnemonic": "vgatherdpd",
+            "Intel/AMD Mnemonic": "VGATHERDPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Gather Packed DP FP Values Using Signed Dword/Qword Indices",
+            "Reference": "page 5-251 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERDPS": {
+            "Oracle Solaris Mnemonic": "vgatherdps",
+            "Intel/AMD Mnemonic": "VGATHERDPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Gather Packed SP FP Values Using Signed Dword/Qword Indices",
+            "Reference": "page 5-256 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERPF0DPD": {
+            "Oracle Solaris Mnemonic": "vgatherpf0dpd",
+            "Intel/AMD Mnemonic": "VGATHERPF0DPD",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Parse Prefetch Packed SP/DP Data Values with Signed Dword, Signed Qword Indices Using T0 Hint",
+            "Reference": "page 5-264 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERPF0DPS": {
+            "Oracle Solaris Mnemonic": "vgatherpf0dps",
+            "Intel/AMD Mnemonic": "VGATHERPF0DPS",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Parse Prefetch Packed SP/DP Data Values with Signed Dword, Signed Qword Indices Using T0 Hint",
+            "Reference": "page 5-264 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERPF0QPD": {
+            "Oracle Solaris Mnemonic": "vgatherpf0qpd",
+            "Intel/AMD Mnemonic": "VGATHERPF0QPD",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Parse Prefetch Packed SP/DP Data Values with Signed Dword, Signed Qword Indices Using T0 Hint",
+            "Reference": "page 5-264 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERPF0QPS": {
+            "Oracle Solaris Mnemonic": "vgatherpf0qps",
+            "Intel/AMD Mnemonic": "VGATHERPF0QPS",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Parse Prefetch Packed SP/DP Data Values with Signed Dword, Signed Qword Indices Using T0 Hint",
+            "Reference": "page 5-264 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERPF1DPD": {
+            "Oracle Solaris Mnemonic": "vgatherpf1dpd",
+            "Intel/AMD Mnemonic": "VGATHERPF1DPD",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Sparse Prefetch Packed SP/DP Data Values with Signed Dword, Signed Qword Indices Using T1 Hint",
+            "Reference": "page 5-267 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERPF1DPS": {
+            "Oracle Solaris Mnemonic": "vgatherpf1dps",
+            "Intel/AMD Mnemonic": "VGATHERPF1DPS",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Sparse Prefetch Packed SP/DP Data Values with Signed Dword, Signed Qword Indices Using T1 Hint",
+            "Reference": "page 5-267 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERPF1QPD": {
+            "Oracle Solaris Mnemonic": "vgatherpf1qpd",
+            "Intel/AMD Mnemonic": "VGATHERPF1QPD",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Sparse Prefetch Packed SP/DP Data Values with Signed Dword, Signed Qword Indices Using T1 Hint",
+            "Reference": "page 5-267 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERPF1QPS": {
+            "Oracle Solaris Mnemonic": "vgatherpf1qps",
+            "Intel/AMD Mnemonic": "VGATHERPF1QPS",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Sparse Prefetch Packed SP/DP Data Values with Signed Dword, Signed Qword Indices Using T1 Hint",
+            "Reference": "page 5-267 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERQPD": {
+            "Oracle Solaris Mnemonic": "vgatherqpd",
+            "Intel/AMD Mnemonic": "VGATHERQPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Gather Packed Single, Packed Double with Signed Qword Indices",
+            "Reference": "page 5-270 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGATHERQPS": {
+            "Oracle Solaris Mnemonic": "vgatherqps",
+            "Intel/AMD Mnemonic": "VGATHERQPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Gather Packed Single, Packed Double with Signed Qword Indices",
+            "Reference": "page 5-270 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGETEXPPD": {
+            "Oracle Solaris Mnemonic": "vgetexppd",
+            "Intel/AMD Mnemonic": "VGETEXPPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Exponents of Packed DP FP Values to DP FP Values",
+            "Reference": "page 5-288 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGETEXPPS": {
+            "Oracle Solaris Mnemonic": "vgetexpps",
+            "Intel/AMD Mnemonic": "VGETEXPPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Convert Exponents of Packed SP FP Values to SP FP Values",
+            "Reference": "page 5-291 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGETMANTPD": {
+            "Oracle Solaris Mnemonic": "vgetmantpd",
+            "Intel/AMD Mnemonic": "VGETMANTPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Extract Float64 Vector of Normalized Mantissas from Float64 Vector",
+            "Reference": "page 5-299 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VGETMANTPS": {
+            "Oracle Solaris Mnemonic": "vgetmantps",
+            "Intel/AMD Mnemonic": "VGETMANTPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Extract Float32 Vector of Normalized Mantissas from Float32 Vector",
+            "Reference": "page 5-303 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VINSERTF32X4": {
+            "Oracle Solaris Mnemonic": "vinsertf32x4",
+            "Intel/AMD Mnemonic": "VINSERTF32X4",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Insert Packed Floating-Point Values",
+            "Reference": "page 5-310 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VINSERTF32X8": {
+            "Oracle Solaris Mnemonic": "vinsertf32x8",
+            "Intel/AMD Mnemonic": "VINSERTF32X8",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Insert Packed Floating-Point Values",
+            "Reference": "page 5-310 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VINSERTF64X2": {
+            "Oracle Solaris Mnemonic": "vinsertf64x2",
+            "Intel/AMD Mnemonic": "VINSERTF64X2",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Insert Packed Floating-Point Values",
+            "Reference": "page 5-310 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VINSERTI32X4": {
+            "Oracle Solaris Mnemonic": "vinserti32x4",
+            "Intel/AMD Mnemonic": "VINSERTI32X4",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Insert Packed Integer Values",
+            "Reference": "page 5-314 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VINSERTI32X8": {
+            "Oracle Solaris Mnemonic": "vinserti32x8",
+            "Intel/AMD Mnemonic": "VINSERTI32X8",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Insert Packed Integer Values",
+            "Reference": "page 5-314 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VINSERTI64X2": {
+            "Oracle Solaris Mnemonic": "vinserti64x2",
+            "Intel/AMD Mnemonic": "VINSERTI64X2",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Insert Packed Integer Values",
+            "Reference": "page 5-314 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VMAXPD": {
+            "Oracle Solaris Mnemonic": "vmaxpd",
+            "Intel/AMD Mnemonic": "VMAXPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Maximum of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-12 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMAXPS": {
+            "Oracle Solaris Mnemonic": "vmaxps",
+            "Intel/AMD Mnemonic": "VMAXPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Maximum of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-15 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMINPD": {
+            "Oracle Solaris Mnemonic": "vminpd",
+            "Intel/AMD Mnemonic": "VMINPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Minimum of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-23 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMINPS": {
+            "Oracle Solaris Mnemonic": "vminps",
+            "Intel/AMD Mnemonic": "VMINPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Minimum of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-26 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVAPD": {
+            "Oracle Solaris Mnemonic": "vmovapd",
+            "Intel/AMD Mnemonic": "VMOVAPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Move Aligned Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-45 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVAPS": {
+            "Oracle Solaris Mnemonic": "vmovaps",
+            "Intel/AMD Mnemonic": "VMOVAPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Move Aligned Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-49 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVDDUP": {
+            "Oracle Solaris Mnemonic": "vmovddup",
+            "Intel/AMD Mnemonic": "VMOVDDUP",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Replicate Double FP Values",
+            "Reference": "page 4-59 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVDQA32": {
+            "Oracle Solaris Mnemonic": "vmovdqa32",
+            "Intel/AMD Mnemonic": "VMOVDQA32",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Move Aligned Packed Integer Values",
+            "Reference": "page 4-62 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVDQA64": {
+            "Oracle Solaris Mnemonic": "vmovdqa64",
+            "Intel/AMD Mnemonic": "VMOVDQA64",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Move Aligned Packed Integer Values",
+            "Reference": "page 4-62 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVDQU16": {
+            "Oracle Solaris Mnemonic": "vmovdqu16",
+            "Intel/AMD Mnemonic": "VMOVDQU16",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Move Unaligned Packed Integer Values",
+            "Reference": "page 4-67 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVDQU32": {
+            "Oracle Solaris Mnemonic": "vmovdqu32",
+            "Intel/AMD Mnemonic": "VMOVDQU32",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Move Unaligned Packed Integer Values",
+            "Reference": "page 4-67 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVDQU64": {
+            "Oracle Solaris Mnemonic": "vmovdqu64",
+            "Intel/AMD Mnemonic": "VMOVDQU64",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Move Unaligned Packed Integer Values",
+            "Reference": "page 4-68 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVDQU8": {
+            "Oracle Solaris Mnemonic": "vmovdqu8",
+            "Intel/AMD Mnemonic": "VMOVDQU8",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Move Unaligned Packed Integer Values",
+            "Reference": "page 4-67 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVNTDQ": {
+            "Oracle Solaris Mnemonic": "vmovntdq",
+            "Intel/AMD Mnemonic": "VMOVNTDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Store Packed Integers Using Non-Temporal Hint",
+            "Reference": "page 4-94 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVNTDQA": {
+            "Oracle Solaris Mnemonic": "vmovntdqa",
+            "Intel/AMD Mnemonic": "VMOVNTDQA",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Load Double Quadword Non-Temporal Aligned Hint",
+            "Reference": "page 4-92 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVNTPD": {
+            "Oracle Solaris Mnemonic": "vmovntpd",
+            "Intel/AMD Mnemonic": "VMOVNTPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Store Packed Double-Precision Floating-Point Values Using Non-Temporal Hint",
+            "Reference": "page 4-98 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVNTPS": {
+            "Oracle Solaris Mnemonic": "vmovntps",
+            "Intel/AMD Mnemonic": "VMOVNTPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Store Packed Single-Precision Floating-Point Values Using Non-Temporal Hint",
+            "Reference": "page 4-100 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVSHDUP": {
+            "Oracle Solaris Mnemonic": "vmovshdup",
+            "Intel/AMD Mnemonic": "VMOVSHDUP",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Replicate Single FP Values",
+            "Reference": "page 4-114 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVSLDUP": {
+            "Oracle Solaris Mnemonic": "vmovsldup",
+            "Intel/AMD Mnemonic": "VMOVSLDUP",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Replicate Single FP Values",
+            "Reference": "page 4-117 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVUPD": {
+            "Oracle Solaris Mnemonic": "vmovupd",
+            "Intel/AMD Mnemonic": "VMOVUPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Move Unaligned Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-126 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMOVUPS": {
+            "Oracle Solaris Mnemonic": "vmovups",
+            "Intel/AMD Mnemonic": "VMOVUPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Move Unaligned Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-130 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMULPD": {
+            "Oracle Solaris Mnemonic": "vmulpd",
+            "Intel/AMD Mnemonic": "VMULPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-146 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VMULPS": {
+            "Oracle Solaris Mnemonic": "vmulps",
+            "Intel/AMD Mnemonic": "VMULPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-149 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VORPD": {
+            "Oracle Solaris Mnemonic": "vorpd",
+            "Intel/AMD Mnemonic": "VORPD",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Bitwise Logical OR of Packed Double Precision Floating-Point Values",
+            "Reference": "page 4-168 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VORPS": {
+            "Oracle Solaris Mnemonic": "vorps",
+            "Intel/AMD Mnemonic": "VORPS",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Bitwise Logical OR of Packed Single Precision Floating-Point Values",
+            "Reference": "page 4-171 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPABSB": {
+            "Oracle Solaris Mnemonic": "vpabsb",
+            "Intel/AMD Mnemonic": "VPABSB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Packed Absolute Value",
+            "Reference": "page 4-180 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPABSD": {
+            "Oracle Solaris Mnemonic": "vpabsd",
+            "Intel/AMD Mnemonic": "VPABSD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Absolute Value",
+            "Reference": "page 4-181 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPABSQ": {
+            "Oracle Solaris Mnemonic": "vpabsq",
+            "Intel/AMD Mnemonic": "VPABSQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Absolute Value",
+            "Reference": "page 4-181 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPABSW": {
+            "Oracle Solaris Mnemonic": "vpabsw",
+            "Intel/AMD Mnemonic": "VPABSW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Packed Absolute Value",
+            "Reference": "page 4-180 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPACKSSDW": {
+            "Oracle Solaris Mnemonic": "vpackssdw",
+            "Intel/AMD Mnemonic": "VPACKSSDW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Pack with Signed Saturation",
+            "Reference": "page 4-186 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPACKSSWB": {
+            "Oracle Solaris Mnemonic": "vpacksswb",
+            "Intel/AMD Mnemonic": "VPACKSSWB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Pack with Signed Saturation",
+            "Reference": "page 4-186 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPACKUSDW": {
+            "Oracle Solaris Mnemonic": "vpackusdw",
+            "Intel/AMD Mnemonic": "VPACKUSDW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Pack with Unsigned Saturation",
+            "Reference": "page 4-194 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPACKUSWB": {
+            "Oracle Solaris Mnemonic": "vpackuswb",
+            "Intel/AMD Mnemonic": "VPACKUSWB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Pack with Unsigned Saturation",
+            "Reference": "page 4-199 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPADDB": {
+            "Oracle Solaris Mnemonic": "vpaddb",
+            "Intel/AMD Mnemonic": "VPADDB",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Add Packed Integers",
+            "Reference": "page 4-204 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPADDD": {
+            "Oracle Solaris Mnemonic": "vpaddd",
+            "Intel/AMD Mnemonic": "VPADDD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Add Packed Integers",
+            "Reference": "page 4-204 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPADDQ": {
+            "Oracle Solaris Mnemonic": "vpaddq",
+            "Intel/AMD Mnemonic": "VPADDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Add Packed Integers",
+            "Reference": "page 4-204 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPADDSB": {
+            "Oracle Solaris Mnemonic": "vpaddsb",
+            "Intel/AMD Mnemonic": "VPADDSB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Add Packed Signed Integers with Signed Saturation",
+            "Reference": "page 4-211 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPADDSW": {
+            "Oracle Solaris Mnemonic": "vpaddsw",
+            "Intel/AMD Mnemonic": "VPADDSW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Add Packed Signed Integers with Signed Saturation",
+            "Reference": "page 4-211 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPADDUSB": {
+            "Oracle Solaris Mnemonic": "vpaddusb",
+            "Intel/AMD Mnemonic": "VPADDUSB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Add Packed Unsigned Integers with Unsigned Saturation",
+            "Reference": "page 4-215 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPADDUSW": {
+            "Oracle Solaris Mnemonic": "vpaddusw",
+            "Intel/AMD Mnemonic": "VPADDUSW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Add Packed Unsigned Integers with Unsigned Saturation",
+            "Reference": "page 4-215 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPADDW": {
+            "Oracle Solaris Mnemonic": "vpaddw",
+            "Intel/AMD Mnemonic": "VPADDW",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Add Packed Integers",
+            "Reference": "page 4-204 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPALIGNR": {
+            "Oracle Solaris Mnemonic": "vpalignr",
+            "Intel/AMD Mnemonic": "VPALIGNR",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Packed Align Right",
+            "Reference": "page 4-219 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPANDD": {
+            "Oracle Solaris Mnemonic": "vpandd",
+            "Intel/AMD Mnemonic": "VPANDD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical AND",
+            "Reference": "page 4-223 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPANDND": {
+            "Oracle Solaris Mnemonic": "vpandnd",
+            "Intel/AMD Mnemonic": "VPANDND",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical AND NOT",
+            "Reference": "page 4-226 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPANDNQ": {
+            "Oracle Solaris Mnemonic": "vpandnq",
+            "Intel/AMD Mnemonic": "VPANDNQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical AND NOT",
+            "Reference": "page 4-226 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPANDQ": {
+            "Oracle Solaris Mnemonic": "vpandq",
+            "Intel/AMD Mnemonic": "VPANDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical AND",
+            "Reference": "page 4-223 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPAVGB": {
+            "Oracle Solaris Mnemonic": "vpavgb",
+            "Intel/AMD Mnemonic": "VPAVGB",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Average Packed Integers",
+            "Reference": "page 4-230 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPAVGW": {
+            "Oracle Solaris Mnemonic": "vpavgw",
+            "Intel/AMD Mnemonic": "VPAVGW",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Average Packed Integers",
+            "Reference": "page 4-230 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPBLENDMB": {
+            "Oracle Solaris Mnemonic": "vpblendmb",
+            "Intel/AMD Mnemonic": "VPBLENDMB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Blend Byte/Word Vectors Using an OpMask Control",
+            "Reference": "page 5-323 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPBLENDMD": {
+            "Oracle Solaris Mnemonic": "vpblendmd",
+            "Intel/AMD Mnemonic": "VPBLENDMD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Blend Int32/Int64 Vectors Using an OpMask Control",
+            "Reference": "page 5-325 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPBLENDMQ": {
+            "Oracle Solaris Mnemonic": "vpblendmq",
+            "Intel/AMD Mnemonic": "VPBLENDMQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Blend Int32/Int64 Vectors Using an OpMask Control",
+            "Reference": "page 5-325 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPBLENDMW": {
+            "Oracle Solaris Mnemonic": "vpblendmw",
+            "Intel/AMD Mnemonic": "VPBLENDMW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Blend Byte/Word Vectors Using an OpMask Control",
+            "Reference": "page 5-323 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPBROADCASTB": {
+            "Oracle Solaris Mnemonic": "vpbroadcastb",
+            "Intel/AMD Mnemonic": "VPBROADCASTB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Load with Broadcast Integer Data from General Purpose Register",
+            "Reference": "page 5-328 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPBROADCASTD": {
+            "Oracle Solaris Mnemonic": "vpbroadcastd",
+            "Intel/AMD Mnemonic": "VPBROADCASTD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Load with Broadcast Integer Data from General Purpose Register",
+            "Reference": "page 5-328 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPBROADCASTMB2Q": {
+            "Oracle Solaris Mnemonic": "vpbroadcastmb2q",
+            "Intel/AMD Mnemonic": "VPBROADCASTMB2Q",
+            "CPUID Feature Flag": "AVX512VL AVX512CD",
+            "Description": "Broadcast Mask to Vector Register",
+            "Reference": "page 5-19 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPBROADCASTMW2D": {
+            "Oracle Solaris Mnemonic": "vpbroadcastmw2d",
+            "Intel/AMD Mnemonic": "VPBROADCASTMW2D",
+            "CPUID Feature Flag": "AVX512VL AVX512CD",
+            "Description": "Broadcast Mask to Vector Register",
+            "Reference": "page 5-19 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPBROADCASTQ": {
+            "Oracle Solaris Mnemonic": "vpbroadcastq",
+            "Intel/AMD Mnemonic": "VPBROADCASTQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Load with Broadcast Integer Data from General Purpose Register",
+            "Reference": "page 5-328 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPBROADCASTW": {
+            "Oracle Solaris Mnemonic": "vpbroadcastw",
+            "Intel/AMD Mnemonic": "VPBROADCASTW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Load with Broadcast Integer Data from General Purpose Register",
+            "Reference": "page 5-328 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCMPB": {
+            "Oracle Solaris Mnemonic": "vpcmpb",
+            "Intel/AMD Mnemonic": "VPCMPB",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Compare Packed Byte Values Into Mask",
+            "Reference": "page 5-339 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCMPD": {
+            "Oracle Solaris Mnemonic": "vpcmpd",
+            "Intel/AMD Mnemonic": "VPCMPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compare Packed Integer Values into Mask",
+            "Reference": "page 5-342 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCMPEQQ": {
+            "Oracle Solaris Mnemonic": "vpcmpeqq",
+            "Intel/AMD Mnemonic": "VPCMPEQQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compare Packed Qword Data for Equal",
+            "Reference": "page 4-250 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPCMPGTB": {
+            "Oracle Solaris Mnemonic": "vpcmpgtb",
+            "Intel/AMD Mnemonic": "VPCMPGTB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Compare Packed Signed Integers for Greater Than",
+            "Reference": "page 4-257 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPCMPGTD": {
+            "Oracle Solaris Mnemonic": "vpcmpgtd",
+            "Intel/AMD Mnemonic": "VPCMPGTD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compare Packed Signed Integers for Greater Than",
+            "Reference": "page 4-257 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPCMPGTQ": {
+            "Oracle Solaris Mnemonic": "vpcmpgtq",
+            "Intel/AMD Mnemonic": "VPCMPGTQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compare Packed Data for Greater Than",
+            "Reference": "page 4-263 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPCMPGTW": {
+            "Oracle Solaris Mnemonic": "vpcmpgtw",
+            "Intel/AMD Mnemonic": "VPCMPGTW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Compare Packed Signed Integers for Greater Than",
+            "Reference": "page 4-258 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPCMPQ": {
+            "Oracle Solaris Mnemonic": "vpcmpq",
+            "Intel/AMD Mnemonic": "VPCMPQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compare Packed Integer Values into Mask",
+            "Reference": "page 5-345 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCMPUB": {
+            "Oracle Solaris Mnemonic": "vpcmpub",
+            "Intel/AMD Mnemonic": "VPCMPUB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Compare Packed Byte Values Into Mask",
+            "Reference": "page 5-339 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCMPUD": {
+            "Oracle Solaris Mnemonic": "vpcmpud",
+            "Intel/AMD Mnemonic": "VPCMPUD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compare Packed Integer Values into Mask",
+            "Reference": "page 5-342 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCMPUQ": {
+            "Oracle Solaris Mnemonic": "vpcmpuq",
+            "Intel/AMD Mnemonic": "VPCMPUQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compare Packed Integer Values into Mask",
+            "Reference": "page 5-345 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCMPUW": {
+            "Oracle Solaris Mnemonic": "vpcmpuw",
+            "Intel/AMD Mnemonic": "VPCMPUW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Compare Packed Word Values Into Mask",
+            "Reference": "page 5-348 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCMPW": {
+            "Oracle Solaris Mnemonic": "vpcmpw",
+            "Intel/AMD Mnemonic": "VPCMPW",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Compare Packed Word Values Into Mask",
+            "Reference": "page 5-348 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCOMPRESSD": {
+            "Oracle Solaris Mnemonic": "vpcompressd",
+            "Intel/AMD Mnemonic": "VPCOMPRESSD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Store Sparse Packed Doubleword Integer Values into Dense Memory/Register",
+            "Reference": "page 5-351 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCOMPRESSQ": {
+            "Oracle Solaris Mnemonic": "vpcompressq",
+            "Intel/AMD Mnemonic": "VPCOMPRESSQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Store Sparse Packed Quadword Integer Values into Dense Memory/Register",
+            "Reference": "page 5-353 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCONFLICTD": {
+            "Oracle Solaris Mnemonic": "vpconflictd",
+            "Intel/AMD Mnemonic": "VPCONFLICTD",
+            "CPUID Feature Flag": "AVX512VL AVX512CD",
+            "Description": "Detect Conflicts Within a Vector of Packed Dword/Qword Values into Dense Memory/ Register",
+            "Reference": "page 5-355 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPCONFLICTQ": {
+            "Oracle Solaris Mnemonic": "vpconflictq",
+            "Intel/AMD Mnemonic": "VPCONFLICTQ",
+            "CPUID Feature Flag": "AVX512VL AVX512CD",
+            "Description": "Detect Conflicts Within a Vector of Packed Dword/Qword Values into Dense Memory/ Register",
+            "Reference": "page 5-355 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMD": {
+            "Oracle Solaris Mnemonic": "vpermd",
+            "Intel/AMD Mnemonic": "VPERMD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Permute Packed Doublewords/Words Elements",
+            "Reference": "page 5-362 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMI2B": {
+            "Oracle Solaris Mnemonic": "vpermi2b",
+            "Intel/AMD Mnemonic": "VPERMI2B",
+            "CPUID Feature Flag": "AVX512VL AVX512VBMI",
+            "Description": "Full Permute of Bytes from Two Tables Overwriting the Index",
+            "Reference": "page 5-9 (319433-026/Oct 2016)"
+        },
+        "VPERMI2D": {
+            "Oracle Solaris Mnemonic": "vpermi2d",
+            "Intel/AMD Mnemonic": "VPERMI2D",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Full Permute From Two Tables Overwriting the Index",
+            "Reference": "page 5-365 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMI2PD": {
+            "Oracle Solaris Mnemonic": "vpermi2pd",
+            "Intel/AMD Mnemonic": "VPERMI2PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Full Permute From Two Tables Overwriting the Index",
+            "Reference": "page 5-366 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMI2PS": {
+            "Oracle Solaris Mnemonic": "vpermi2ps",
+            "Intel/AMD Mnemonic": "VPERMI2PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Full Permute From Two Tables Overwriting the Index",
+            "Reference": "page 5-365 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMI2Q": {
+            "Oracle Solaris Mnemonic": "vpermi2q",
+            "Intel/AMD Mnemonic": "VPERMI2Q",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Full Permute From Two Tables Overwriting the Index",
+            "Reference": "page 5-365 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMI2W": {
+            "Oracle Solaris Mnemonic": "vpermi2w",
+            "Intel/AMD Mnemonic": "VPERMI2W",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Full Permute From Two Tables Overwriting the Index",
+            "Reference": "page 5-365 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMILPD": {
+            "Oracle Solaris Mnemonic": "vpermilpd",
+            "Intel/AMD Mnemonic": "VPERMILPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Permute In-Lane of Pairs of Double-Precision Floating-Point Values",
+            "Reference": "page 5-371 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMILPS": {
+            "Oracle Solaris Mnemonic": "vpermilps",
+            "Intel/AMD Mnemonic": "VPERMILPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Permute In-Lane of Quadruples of Single-Precision Floating-Point Values",
+            "Reference": "page 5-376 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMPD": {
+            "Oracle Solaris Mnemonic": "vpermpd",
+            "Intel/AMD Mnemonic": "VPERMPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Permute Double-Precision Floating-Point Elements",
+            "Reference": "page 5-381 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMPS": {
+            "Oracle Solaris Mnemonic": "vpermps",
+            "Intel/AMD Mnemonic": "VPERMPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Permute Single-Precision Floating-Point Elements",
+            "Reference": "page 5-384 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMQ": {
+            "Oracle Solaris Mnemonic": "vpermq",
+            "Intel/AMD Mnemonic": "VPERMQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Qwords Element Permutation",
+            "Reference": "page 5-387 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPERMT2B": {
+            "Oracle Solaris Mnemonic": "vpermt2b",
+            "Intel/AMD Mnemonic": "VPERMT2B",
+            "CPUID Feature Flag": "AVX512VL AVX512VBMI",
+            "Description": "Full Permute of Bytes from Two Tables Overwriting a Table",
+            "Reference": "page 5-11 (319433-026/Oct 2016)"
+        },
+        "VPERMT2D": {
+            "Oracle Solaris Mnemonic": "vpermt2d",
+            "Intel/AMD Mnemonic": "VPERMT2D",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Full Permute from Two Tables Overwriting one Table",
+            "Reference": "page 5-13 (319433-026/Oct 2016)"
+        },
+        "VPERMT2PD": {
+            "Oracle Solaris Mnemonic": "vpermt2pd",
+            "Intel/AMD Mnemonic": "VPERMT2PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Full Permute from Two Tables Overwriting one Table",
+            "Reference": "page 5-13 (319433-026/Oct 2016)"
+        },
+        "VPERMT2PS": {
+            "Oracle Solaris Mnemonic": "vpermt2ps",
+            "Intel/AMD Mnemonic": "VPERMT2PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Full Permute from Two Tables Overwriting one Table",
+            "Reference": "page 5-13 (319433-026/Oct 2016)"
+        },
+        "VPERMT2Q": {
+            "Oracle Solaris Mnemonic": "vpermt2q",
+            "Intel/AMD Mnemonic": "VPERMT2Q",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Full Permute from Two Tables Overwriting one Table",
+            "Reference": "page 5-13 (319433-026/Oct 2016)"
+        },
+        "VPERMT2W": {
+            "Oracle Solaris Mnemonic": "vpermt2w",
+            "Intel/AMD Mnemonic": "VPERMT2W",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Full Permute from Two Tables Overwriting one Table",
+            "Reference": "page 5-13 (319433-026/Oct 2016)"
+        },
+        "VPERMW": {
+            "Oracle Solaris Mnemonic": "vpermw",
+            "Intel/AMD Mnemonic": "VPERMW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Permute Packed Doublewords/Words Elements",
+            "Reference": "page 5-362 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPEXPANDD": {
+            "Oracle Solaris Mnemonic": "vpexpandd",
+            "Intel/AMD Mnemonic": "VPEXPANDD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Load Sparse Packed Doubleword Integer Values from Dense Memory / Register",
+            "Reference": "page 5-390 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPEXPANDQ": {
+            "Oracle Solaris Mnemonic": "vpexpandq",
+            "Intel/AMD Mnemonic": "VPEXPANDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Load Sparse Packed Quadword Integer Values from Dense Memory / Register",
+            "Reference": "page 5-392 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPEXTRB": {
+            "Oracle Solaris Mnemonic": "vpextrb",
+            "Intel/AMD Mnemonic": "VPEXTRB",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Extract Byte/Dword/Qword",
+            "Reference": "page 4-274 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPEXTRD": {
+            "Oracle Solaris Mnemonic": "vpextrd",
+            "Intel/AMD Mnemonic": "VPEXTRD",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Extract Byte/Dword/Qword",
+            "Reference": "page 4-274 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPGATHERDD": {
+            "Oracle Solaris Mnemonic": "vpgatherdd",
+            "Intel/AMD Mnemonic": "VPGATHERDD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Gather Packed Dword Values Using Signed Dword/Qword Indices",
+            "Reference": "page 5-273 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPGATHERDQ": {
+            "Oracle Solaris Mnemonic": "vpgatherdq",
+            "Intel/AMD Mnemonic": "VPGATHERDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Gather Packed Dword, Packed Qword with Signed Dword Indices",
+            "Reference": "page 5-277 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPGATHERQD": {
+            "Oracle Solaris Mnemonic": "vpgatherqd",
+            "Intel/AMD Mnemonic": "VPGATHERQD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Gather Packed Dword, Packed Qword with Signed Qword Indices",
+            "Reference": "page 5-285 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPGATHERQQ": {
+            "Oracle Solaris Mnemonic": "vpgatherqq",
+            "Intel/AMD Mnemonic": "VPGATHERQQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Gather Packed Dword, Packed Qword with Signed Qword Indices",
+            "Reference": "page 5-285 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPINSRB": {
+            "Oracle Solaris Mnemonic": "vpinsrb",
+            "Intel/AMD Mnemonic": "VPINSRB",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Insert Byte",
+            "Reference": "page 4-293 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPINSRD": {
+            "Oracle Solaris Mnemonic": "vpinsrd",
+            "Intel/AMD Mnemonic": "VPINSRD",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Insert DWord",
+            "Reference": "page 4-293 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPINSRQ": {
+            "Oracle Solaris Mnemonic": "vpinsrq",
+            "Intel/AMD Mnemonic": "VPINSRQ",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Insert QWord",
+            "Reference": "page 4-293 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPINSRW": {
+            "Oracle Solaris Mnemonic": "vpinsrw",
+            "Intel/AMD Mnemonic": "VPINSRW",
+            "CPUID Feature Flag": "AVX512BW",
+            "Description": "Insert Word",
+            "Reference": "page 4-296 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPLZCNTD": {
+            "Oracle Solaris Mnemonic": "vplzcntd",
+            "Intel/AMD Mnemonic": "VPLZCNTD",
+            "CPUID Feature Flag": "AVX512CD AVX512VL",
+            "Description": "Count the Number of Leading Zero Bits for Packed Dword, Packed Qword Values",
+            "Reference": "page 5-394 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPLZCNTQ": {
+            "Oracle Solaris Mnemonic": "vplzcntq",
+            "Intel/AMD Mnemonic": "VPLZCNTQ",
+            "CPUID Feature Flag": "AVX512CD AVX512VL",
+            "Description": "Count the Number of Leading Zero Bits for Packed Dword, Packed Qword Values",
+            "Reference": "page 5-394 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMADD52HUQ": {
+            "Oracle Solaris Mnemonic": "vpmadd52huq",
+            "Intel/AMD Mnemonic": "VPMADD52HUQ",
+            "CPUID Feature Flag": "AVX512VL AVX512IFMA",
+            "Description": "Packed Multiply of Unsigned 52-bit Unsigned Integers and Add High 52-bit Products to 64-bit Accumulators",
+            "Reference": "page 5-20 (319433-026/Oct 2016)"
+        },
+        "VPMADD52LUQ": {
+            "Oracle Solaris Mnemonic": "vpmadd52luq",
+            "Intel/AMD Mnemonic": "VPMADD52LUQ",
+            "CPUID Feature Flag": "AVX512VL AVX512IFMA",
+            "Description": "Packed Multiply of Unsigned 52-bit Integers and Add the Low 52-bit Products to Qword Accumulators",
+            "Reference": "page 5-18 (319433-026/Oct 2016)"
+        },
+        "VPMADDUBSW": {
+            "Oracle Solaris Mnemonic": "vpmaddubsw",
+            "Intel/AMD Mnemonic": "VPMADDUBSW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Multiply and Add Packed Signed and Unsigned Bytes",
+            "Reference": "page 4-298 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMADDWD": {
+            "Oracle Solaris Mnemonic": "vpmaddwd",
+            "Intel/AMD Mnemonic": "VPMADDWD",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Multiply and Add Packed Integers",
+            "Reference": "page 4-301 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMAXSB": {
+            "Oracle Solaris Mnemonic": "vpmaxsb",
+            "Intel/AMD Mnemonic": "VPMAXSB",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Maximum of Packed Signed Byte Integers",
+            "Reference": "page 4-304 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMAXSD": {
+            "Oracle Solaris Mnemonic": "vpmaxsd",
+            "Intel/AMD Mnemonic": "VPMAXSD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Maximum of Packed Signed Dword Integers",
+            "Reference": "page 4-304 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMAXSQ": {
+            "Oracle Solaris Mnemonic": "vpmaxsq",
+            "Intel/AMD Mnemonic": "VPMAXSQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Maximum of Packed Signed Qword Integers",
+            "Reference": "page 4-305 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMAXSW": {
+            "Oracle Solaris Mnemonic": "vpmaxsw",
+            "Intel/AMD Mnemonic": "VPMAXSW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Maximum of Packed Signed Word Integers",
+            "Reference": "page 4-304 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMAXUB": {
+            "Oracle Solaris Mnemonic": "vpmaxub",
+            "Intel/AMD Mnemonic": "VPMAXUB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Maximum of Packed Unsigned Byte Integers",
+            "Reference": "page 4-311 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMAXUD": {
+            "Oracle Solaris Mnemonic": "vpmaxud",
+            "Intel/AMD Mnemonic": "VPMAXUD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Maximum of Packed Unsigned Dword Integers",
+            "Reference": "page 4-316 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMAXUQ": {
+            "Oracle Solaris Mnemonic": "vpmaxuq",
+            "Intel/AMD Mnemonic": "VPMAXUQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Maximum of Packed Unsigned QWord Integers",
+            "Reference": "page 4-316 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMAXUW": {
+            "Oracle Solaris Mnemonic": "vpmaxuw",
+            "Intel/AMD Mnemonic": "VPMAXUW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Maximum of Packed Unsigned Word Integers",
+            "Reference": "page 4-311 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMINSB": {
+            "Oracle Solaris Mnemonic": "vpminsb",
+            "Intel/AMD Mnemonic": "VPMINSB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Minimum of Packed Signed Byte Integers",
+            "Reference": "page 4-320 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMINSD": {
+            "Oracle Solaris Mnemonic": "vpminsd",
+            "Intel/AMD Mnemonic": "VPMINSD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Minimum of Packed Signed DWord Integers",
+            "Reference": "page 4-325 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMINSQ": {
+            "Oracle Solaris Mnemonic": "vpminsq",
+            "Intel/AMD Mnemonic": "VPMINSQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Minimum of Packed Signed QWord Integers",
+            "Reference": "page 4-325 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMINSW": {
+            "Oracle Solaris Mnemonic": "vpminsw",
+            "Intel/AMD Mnemonic": "VPMINSW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Minimum of Packed Signed Word Integers",
+            "Reference": "page 4-320 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMINUB": {
+            "Oracle Solaris Mnemonic": "vpminub",
+            "Intel/AMD Mnemonic": "VPMINUB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Minimum of Packed Unsigned Byte Integers",
+            "Reference": "page 4-329 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMINUD": {
+            "Oracle Solaris Mnemonic": "vpminud",
+            "Intel/AMD Mnemonic": "VPMINUD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Minimum of Packed Unsigned DWord Integers",
+            "Reference": "page 4-334 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMINUQ": {
+            "Oracle Solaris Mnemonic": "vpminuq",
+            "Intel/AMD Mnemonic": "VPMINUQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Minimum of Packed Unsigned QWord Integers",
+            "Reference": "page 4-334 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMINUW": {
+            "Oracle Solaris Mnemonic": "vpminuw",
+            "Intel/AMD Mnemonic": "VPMINUW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Minimum of Packed Unsigned Word Integers",
+            "Reference": "page 4-329 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVB2M": {
+            "Oracle Solaris Mnemonic": "vpmovb2m",
+            "Intel/AMD Mnemonic": "VPMOVB2M",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Convert a Vector Register to a Mask",
+            "Reference": "page 5-403 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVD2M": {
+            "Oracle Solaris Mnemonic": "vpmovd2m",
+            "Intel/AMD Mnemonic": "VPMOVD2M",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Convert a Vector Register to a Mask",
+            "Reference": "page 5-403 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVDB": {
+            "Oracle Solaris Mnemonic": "vpmovdb",
+            "Intel/AMD Mnemonic": "VPMOVDB",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert DWord to Byte",
+            "Reference": "page 5-418 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVDW": {
+            "Oracle Solaris Mnemonic": "vpmovdw",
+            "Intel/AMD Mnemonic": "VPMOVDW",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert DWord to Word",
+            "Reference": "page 5-422 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVM2B": {
+            "Oracle Solaris Mnemonic": "vpmovm2b",
+            "Intel/AMD Mnemonic": "VPMOVM2B",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Convert a Mask Register to a Vector Register",
+            "Reference": "page 5-400 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVM2D": {
+            "Oracle Solaris Mnemonic": "vpmovm2d",
+            "Intel/AMD Mnemonic": "VPMOVM2D",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Convert a Mask Register to a Vector Register",
+            "Reference": "page 5-400 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVM2Q": {
+            "Oracle Solaris Mnemonic": "vpmovm2q",
+            "Intel/AMD Mnemonic": "VPMOVM2Q",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Convert a Mask Register to a Vector Register",
+            "Reference": "page 5-400 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVM2W": {
+            "Oracle Solaris Mnemonic": "vpmovm2w",
+            "Intel/AMD Mnemonic": "VPMOVM2W",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Convert a Mask Register to a Vector Register",
+            "Reference": "page 5-400 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVQ2M": {
+            "Oracle Solaris Mnemonic": "vpmovq2m",
+            "Intel/AMD Mnemonic": "VPMOVQ2M",
+            "CPUID Feature Flag": "AVX512VL AVX512DQ",
+            "Description": "Convert a Vector Register to a Mask",
+            "Reference": "page 5-403 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVQB": {
+            "Oracle Solaris Mnemonic": "vpmovqb",
+            "Intel/AMD Mnemonic": "VPMOVQB",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert QWord to Byte",
+            "Reference": "page 5-406 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVQD": {
+            "Oracle Solaris Mnemonic": "vpmovqd",
+            "Intel/AMD Mnemonic": "VPMOVQD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert QWord to DWord",
+            "Reference": "page 5-414 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVQW": {
+            "Oracle Solaris Mnemonic": "vpmovqw",
+            "Intel/AMD Mnemonic": "VPMOVQW",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert QWord to Word",
+            "Reference": "page 5-410 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVSDB": {
+            "Oracle Solaris Mnemonic": "vpmovsdb",
+            "Intel/AMD Mnemonic": "VPMOVSDB",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert DWord to Byte",
+            "Reference": "page 5-418 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVSDW": {
+            "Oracle Solaris Mnemonic": "vpmovsdw",
+            "Intel/AMD Mnemonic": "VPMOVSDW",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert DWord to Word",
+            "Reference": "page 5-422 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVSQB": {
+            "Oracle Solaris Mnemonic": "vpmovsqb",
+            "Intel/AMD Mnemonic": "VPMOVSQB",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert QWord to Byte",
+            "Reference": "page 5-406 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVSQD": {
+            "Oracle Solaris Mnemonic": "vpmovsqd",
+            "Intel/AMD Mnemonic": "VPMOVSQD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert QWord to DWord",
+            "Reference": "page 5-414 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVSQW": {
+            "Oracle Solaris Mnemonic": "vpmovsqw",
+            "Intel/AMD Mnemonic": "VPMOVSQW",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert QWord to Word",
+            "Reference": "page 5-410 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVSWB": {
+            "Oracle Solaris Mnemonic": "vpmovswb",
+            "Intel/AMD Mnemonic": "VPMOVSWB",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Down Convert Word to Byte",
+            "Reference": "page 5-426 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVSXBD": {
+            "Oracle Solaris Mnemonic": "vpmovsxbd",
+            "Intel/AMD Mnemonic": "VPMOVSXBD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Sign Extend - Byte to Dword",
+            "Reference": "page 4-340 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVSXBQ": {
+            "Oracle Solaris Mnemonic": "vpmovsxbq",
+            "Intel/AMD Mnemonic": "VPMOVSXBQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Sign Extend - Byte to Qword",
+            "Reference": "page 4-341 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVSXBW": {
+            "Oracle Solaris Mnemonic": "vpmovsxbw",
+            "Intel/AMD Mnemonic": "VPMOVSXBW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Packed Move Sign Extend - Byte to Word",
+            "Reference": "page 4-340 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVSXDQ": {
+            "Oracle Solaris Mnemonic": "vpmovsxdq",
+            "Intel/AMD Mnemonic": "VPMOVSXDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Sign Extend - Dword to Qword",
+            "Reference": "page 4-341 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVSXWD": {
+            "Oracle Solaris Mnemonic": "vpmovsxwd",
+            "Intel/AMD Mnemonic": "VPMOVSXWD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Sign Extend - Word to Dword",
+            "Reference": "page 4-341 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVSXWQ": {
+            "Oracle Solaris Mnemonic": "vpmovsxwq",
+            "Intel/AMD Mnemonic": "VPMOVSXWQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Sign Extend - Word to Qword",
+            "Reference": "page 4-341 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVUSDB": {
+            "Oracle Solaris Mnemonic": "vpmovusdb",
+            "Intel/AMD Mnemonic": "VPMOVUSDB",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert DWord to Byte",
+            "Reference": "page 5-418 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVUSDW": {
+            "Oracle Solaris Mnemonic": "vpmovusdw",
+            "Intel/AMD Mnemonic": "VPMOVUSDW",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert DWord to Word",
+            "Reference": "page 5-422 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVUSQB": {
+            "Oracle Solaris Mnemonic": "vpmovusqb",
+            "Intel/AMD Mnemonic": "VPMOVUSQB",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert QWord to Byte",
+            "Reference": "page 5-406 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVUSQD": {
+            "Oracle Solaris Mnemonic": "vpmovusqd",
+            "Intel/AMD Mnemonic": "VPMOVUSQD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert QWord to DWord",
+            "Reference": "page 5-414 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVUSQW": {
+            "Oracle Solaris Mnemonic": "vpmovusqw",
+            "Intel/AMD Mnemonic": "VPMOVUSQW",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Down Convert QWord to Word",
+            "Reference": "page 5-410 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVUSWB": {
+            "Oracle Solaris Mnemonic": "vpmovuswb",
+            "Intel/AMD Mnemonic": "VPMOVUSWB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Down Convert Word to Byte",
+            "Reference": "page 5-426 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVW2M": {
+            "Oracle Solaris Mnemonic": "vpmovw2m",
+            "Intel/AMD Mnemonic": "VPMOVW2M",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Convert a Vector Register to a Mask",
+            "Reference": "page 5-403 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVWB": {
+            "Oracle Solaris Mnemonic": "vpmovwb",
+            "Intel/AMD Mnemonic": "VPMOVWB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Down Convert Word to Byte",
+            "Reference": "page 5-426 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPMOVZXBD": {
+            "Oracle Solaris Mnemonic": "vpmovzxbd",
+            "Intel/AMD Mnemonic": "VPMOVZXBD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Zero Extend - Byte to Dword",
+            "Reference": "page 4-351 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVZXBQ": {
+            "Oracle Solaris Mnemonic": "vpmovzxbq",
+            "Intel/AMD Mnemonic": "VPMOVZXBQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Zero Extend - Byte to Qword",
+            "Reference": "page 4-351 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVZXBW": {
+            "Oracle Solaris Mnemonic": "vpmovzxbw",
+            "Intel/AMD Mnemonic": "VPMOVZXBW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Packed Move Zero Extend - Byte to Word",
+            "Reference": "page 4-351 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVZXDQ": {
+            "Oracle Solaris Mnemonic": "vpmovzxdq",
+            "Intel/AMD Mnemonic": "VPMOVZXDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Zero Extend - Dword to Qword",
+            "Reference": "page 4-352 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVZXWD": {
+            "Oracle Solaris Mnemonic": "vpmovzxwd",
+            "Intel/AMD Mnemonic": "VPMOVZXWD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Zero Extend - Word to Dword",
+            "Reference": "page 4-351 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMOVZXWQ": {
+            "Oracle Solaris Mnemonic": "vpmovzxwq",
+            "Intel/AMD Mnemonic": "VPMOVZXWQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Move Zero Extend - Word to Qword",
+            "Reference": "page 4-351 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMULDQ": {
+            "Oracle Solaris Mnemonic": "vpmuldq",
+            "Intel/AMD Mnemonic": "VPMULDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Signed Dword Integers",
+            "Reference": "page 4-359 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMULHRSW": {
+            "Oracle Solaris Mnemonic": "vpmulhrsw",
+            "Intel/AMD Mnemonic": "VPMULHRSW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Packed Multiply High with Round and Scale",
+            "Reference": "page 4-362 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMULHUW": {
+            "Oracle Solaris Mnemonic": "vpmulhuw",
+            "Intel/AMD Mnemonic": "VPMULHUW",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Multiply Packed Unsigned Integers and Store High Result",
+            "Reference": "page 4-366 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMULHW": {
+            "Oracle Solaris Mnemonic": "vpmulhw",
+            "Intel/AMD Mnemonic": "VPMULHW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Multiply Packed Signed Integers and Store High Result",
+            "Reference": "page 4-370 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMULLD": {
+            "Oracle Solaris Mnemonic": "vpmulld",
+            "Intel/AMD Mnemonic": "VPMULLD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Signed Dword Integers, Store Low Result",
+            "Reference": "page 4-374 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMULLQ": {
+            "Oracle Solaris Mnemonic": "vpmullq",
+            "Intel/AMD Mnemonic": "VPMULLQ",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Multiply Packed Integers and Store Low Result",
+            "Reference": "page 4-374 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMULLW": {
+            "Oracle Solaris Mnemonic": "vpmullw",
+            "Intel/AMD Mnemonic": "VPMULLW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Multiply Packed Signed Integers and Store Low Result",
+            "Reference": "page 4-378 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPMULTISHIFTQB": {
+            "Oracle Solaris Mnemonic": "vpmultishiftqb",
+            "Intel/AMD Mnemonic": "VPMULTISHIFTQB",
+            "CPUID Feature Flag": "AVX512VL AVX512VBMI",
+            "Description": "Select Packed Unaligned Bytes from Quadword Sources",
+            "Reference": "page 5-22 (319433-026/Oct 2016)"
+        },
+        "VPMULUDQ": {
+            "Oracle Solaris Mnemonic": "vpmuludq",
+            "Intel/AMD Mnemonic": "VPMULUDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Multiply Packed Unsigned Doubleword Integers",
+            "Reference": "page 4-382 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPORD": {
+            "Oracle Solaris Mnemonic": "vpord",
+            "Intel/AMD Mnemonic": "VPORD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bitwise Logical OR",
+            "Reference": "page 4-399 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPORQ": {
+            "Oracle Solaris Mnemonic": "vporq",
+            "Intel/AMD Mnemonic": "VPORQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bitwise Logical OR",
+            "Reference": "page 4-399 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPROLD": {
+            "Oracle Solaris Mnemonic": "vprold",
+            "Intel/AMD Mnemonic": "VPROLD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bit Rotate Left",
+            "Reference": "page 5-430 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPROLQ": {
+            "Oracle Solaris Mnemonic": "vprolq",
+            "Intel/AMD Mnemonic": "VPROLQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bit Rotate Left",
+            "Reference": "page 5-430 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPROLVD": {
+            "Oracle Solaris Mnemonic": "vprolvd",
+            "Intel/AMD Mnemonic": "VPROLVD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bit Rotate Left",
+            "Reference": "page 5-430 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPROLVQ": {
+            "Oracle Solaris Mnemonic": "vprolvq",
+            "Intel/AMD Mnemonic": "VPROLVQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bit Rotate Left",
+            "Reference": "page 5-430 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPRORD": {
+            "Oracle Solaris Mnemonic": "vprord",
+            "Intel/AMD Mnemonic": "VPRORD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bit Rotate Right",
+            "Reference": "page 5-435 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPRORQ": {
+            "Oracle Solaris Mnemonic": "vprorq",
+            "Intel/AMD Mnemonic": "VPRORQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bit Rotate Right",
+            "Reference": "page 5-435 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPRORVD": {
+            "Oracle Solaris Mnemonic": "vprorvd",
+            "Intel/AMD Mnemonic": "VPRORVD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bit Rotate Right",
+            "Reference": "page 5-435 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPRORVQ": {
+            "Oracle Solaris Mnemonic": "vprorvq",
+            "Intel/AMD Mnemonic": "VPRORVQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bit Rotate Right",
+            "Reference": "page 5-435 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSADBW": {
+            "Oracle Solaris Mnemonic": "vpsadbw",
+            "Intel/AMD Mnemonic": "VPSADBW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Compute Sum of Absolute Differences",
+            "Reference": "page 4-408 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSCATTERDD": {
+            "Oracle Solaris Mnemonic": "vpscatterdd",
+            "Intel/AMD Mnemonic": "VPSCATTERDD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scatter Packed Dword with Signed Dword Indices",
+            "Reference": "page 5-440 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSCATTERDQ": {
+            "Oracle Solaris Mnemonic": "vpscatterdq",
+            "Intel/AMD Mnemonic": "VPSCATTERDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scatter Packed Qword with Signed Dword Indices",
+            "Reference": "page 5-440 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSCATTERQD": {
+            "Oracle Solaris Mnemonic": "vpscatterqd",
+            "Intel/AMD Mnemonic": "VPSCATTERQD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scatter Packed Dword with Signed Qword Indices",
+            "Reference": "page 5-440 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSCATTERQQ": {
+            "Oracle Solaris Mnemonic": "vpscatterqq",
+            "Intel/AMD Mnemonic": "VPSCATTERQQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scatter Packed Qword with Signed Qword Indices",
+            "Reference": "page 5-440 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSHUFB": {
+            "Oracle Solaris Mnemonic": "vpshufb",
+            "Intel/AMD Mnemonic": "VPSHUFB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Packed Shuffle Bytes",
+            "Reference": "page 4-412 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSHUFD": {
+            "Oracle Solaris Mnemonic": "vpshufd",
+            "Intel/AMD Mnemonic": "VPSHUFD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shuffle Packed Doublewords",
+            "Reference": "page 4-416 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSHUFHW": {
+            "Oracle Solaris Mnemonic": "vpshufhw",
+            "Intel/AMD Mnemonic": "VPSHUFHW",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Shuffle Packed High Words",
+            "Reference": "page 4-420 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSHUFLW": {
+            "Oracle Solaris Mnemonic": "vpshuflw",
+            "Intel/AMD Mnemonic": "VPSHUFLW",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Shuffle Packed Low Words",
+            "Reference": "page 4-423 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSLLD": {
+            "Oracle Solaris Mnemonic": "vpslld",
+            "Intel/AMD Mnemonic": "VPSLLD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shift Packed Data Left Logical",
+            "Reference": "page 4-434 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSLLDQ": {
+            "Oracle Solaris Mnemonic": "vpslldq",
+            "Intel/AMD Mnemonic": "VPSLLDQ",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Shift Double Quadword Left Logical",
+            "Reference": "page 4-431 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSLLQ": {
+            "Oracle Solaris Mnemonic": "vpsllq",
+            "Intel/AMD Mnemonic": "VPSLLQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shift Packed Data Left Logical",
+            "Reference": "page 4-434 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSLLVD": {
+            "Oracle Solaris Mnemonic": "vpsllvd",
+            "Intel/AMD Mnemonic": "VPSLLVD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Variable Bit Shift Left Logical",
+            "Reference": "page 5-445 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSLLVQ": {
+            "Oracle Solaris Mnemonic": "vpsllvq",
+            "Intel/AMD Mnemonic": "VPSLLVQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Variable Bit Shift Left Logical",
+            "Reference": "page 5-445 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSLLVW": {
+            "Oracle Solaris Mnemonic": "vpsllvw",
+            "Intel/AMD Mnemonic": "VPSLLVW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Variable Bit Shift Left Logical",
+            "Reference": "page 5-445 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSLLW": {
+            "Oracle Solaris Mnemonic": "vpsllw",
+            "Intel/AMD Mnemonic": "VPSLLW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Shift Packed Data Left Logical",
+            "Reference": "page 4-434 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSRAD": {
+            "Oracle Solaris Mnemonic": "vpsrad",
+            "Intel/AMD Mnemonic": "VPSRAD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shift Packed Data Right Arithmetic",
+            "Reference": "page 4-446 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSRAQ": {
+            "Oracle Solaris Mnemonic": "vpsraq",
+            "Intel/AMD Mnemonic": "VPSRAQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shift Quadwords to Right",
+            "Reference": "page 4-446 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSRAVD": {
+            "Oracle Solaris Mnemonic": "vpsravd",
+            "Intel/AMD Mnemonic": "VPSRAVD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Variable Bit Shift Right Arithmetic",
+            "Reference": "page 5-450 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSRAVQ": {
+            "Oracle Solaris Mnemonic": "vpsravq",
+            "Intel/AMD Mnemonic": "VPSRAVQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Variable Bit Shift Right Arithmetic",
+            "Reference": "page 5-450 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSRAVW": {
+            "Oracle Solaris Mnemonic": "vpsravw",
+            "Intel/AMD Mnemonic": "VPSRAVW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Variable Bit Shift Right Arithmetic",
+            "Reference": "page 5-450 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSRAW": {
+            "Oracle Solaris Mnemonic": "vpsraw",
+            "Intel/AMD Mnemonic": "VPSRAW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Shift Packed Data Right Arithmetic",
+            "Reference": "page 4-445 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSRLD": {
+            "Oracle Solaris Mnemonic": "vpsrld",
+            "Intel/AMD Mnemonic": "VPSRLD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shift Doublewords to Right",
+            "Reference": "page 4-458 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSRLDQ": {
+            "Oracle Solaris Mnemonic": "vpsrldq",
+            "Intel/AMD Mnemonic": "VPSRLDQ",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Shift Double Quadwords Right Logical",
+            "Reference": "page 4-455 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSRLQ": {
+            "Oracle Solaris Mnemonic": "vpsrlq",
+            "Intel/AMD Mnemonic": "VPSRLQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shift Quadwords to Right",
+            "Reference": "page 4-458 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSRLVD": {
+            "Oracle Solaris Mnemonic": "vpsrlvd",
+            "Intel/AMD Mnemonic": "VPSRLVD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Variable Bit Shift Right Logical",
+            "Reference": "page 5-455 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSRLVQ": {
+            "Oracle Solaris Mnemonic": "vpsrlvq",
+            "Intel/AMD Mnemonic": "VPSRLVQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Variable Bit Shift Right Logical",
+            "Reference": "page 5-455 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSRLVW": {
+            "Oracle Solaris Mnemonic": "vpsrlvw",
+            "Intel/AMD Mnemonic": "VPSRLVW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Variable Bit Shift Right Logical",
+            "Reference": "page 5-455 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPSRLW": {
+            "Oracle Solaris Mnemonic": "vpsrlw",
+            "Intel/AMD Mnemonic": "VPSRLW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Shift Packed Data Right Logical",
+            "Reference": "page 4-458 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSUBB": {
+            "Oracle Solaris Mnemonic": "vpsubb",
+            "Intel/AMD Mnemonic": "VPSUBB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Subtract Packed Integers",
+            "Reference": "page 4-469 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSUBD": {
+            "Oracle Solaris Mnemonic": "vpsubd",
+            "Intel/AMD Mnemonic": "VPSUBD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Subtract Packed Integers",
+            "Reference": "page 4-470 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSUBQ": {
+            "Oracle Solaris Mnemonic": "vpsubq",
+            "Intel/AMD Mnemonic": "VPSUBQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Subtract Packed Quadword Integers",
+            "Reference": "page 4-476 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSUBSB": {
+            "Oracle Solaris Mnemonic": "vpsubsb",
+            "Intel/AMD Mnemonic": "VPSUBSB",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Subtract Packed Signed Integers with Signed Saturation",
+            "Reference": "page 4-479 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSUBSW": {
+            "Oracle Solaris Mnemonic": "vpsubsw",
+            "Intel/AMD Mnemonic": "VPSUBSW",
+            "CPUID Feature Flag": "AVX512BW AVX512VL",
+            "Description": "Subtract Packed Signed Integers with Signed Saturation",
+            "Reference": "page 4-479 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSUBUSB": {
+            "Oracle Solaris Mnemonic": "vpsubusb",
+            "Intel/AMD Mnemonic": "VPSUBUSB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Subtract Packed Unsigned Integers with Unsigned Saturation",
+            "Reference": "page 4-483 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSUBUSW": {
+            "Oracle Solaris Mnemonic": "vpsubusw",
+            "Intel/AMD Mnemonic": "VPSUBUSW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Subtract Packed Unsigned Integers with Unsigned Saturation",
+            "Reference": "page 4-483 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPSUBW": {
+            "Oracle Solaris Mnemonic": "vpsubw",
+            "Intel/AMD Mnemonic": "VPSUBW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Subtract Packed Integers",
+            "Reference": "page 4-469 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPTERNLOGD": {
+            "Oracle Solaris Mnemonic": "vpternlogd",
+            "Intel/AMD Mnemonic": "VPTERNLOGD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bitwise Ternary Logic",
+            "Reference": "page 5-460 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPTERNLOGQ": {
+            "Oracle Solaris Mnemonic": "vpternlogq",
+            "Intel/AMD Mnemonic": "VPTERNLOGQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Bitwise Ternary Logic",
+            "Reference": "page 5-460 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPTESTMB": {
+            "Oracle Solaris Mnemonic": "vptestmb",
+            "Intel/AMD Mnemonic": "VPTESTMB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Logical AND and Set Mask",
+            "Reference": "page 5-463 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPTESTMD": {
+            "Oracle Solaris Mnemonic": "vptestmd",
+            "Intel/AMD Mnemonic": "VPTESTMD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical AND and Set Mask",
+            "Reference": "page 5-463 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPTESTMQ": {
+            "Oracle Solaris Mnemonic": "vptestmq",
+            "Intel/AMD Mnemonic": "VPTESTMQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical AND and Set Mask",
+            "Reference": "page 5-463 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPTESTMW": {
+            "Oracle Solaris Mnemonic": "vptestmw",
+            "Intel/AMD Mnemonic": "VPTESTMW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Logical AND and Set Mask",
+            "Reference": "page 5-463 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPTESTNMB": {
+            "Oracle Solaris Mnemonic": "vptestnmb",
+            "Intel/AMD Mnemonic": "VPTESTNMB",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Logical NAND and Set",
+            "Reference": "page 5-466 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPTESTNMD": {
+            "Oracle Solaris Mnemonic": "vptestnmd",
+            "Intel/AMD Mnemonic": "VPTESTNMD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical NAND and Set",
+            "Reference": "page 5-466 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPTESTNMQ": {
+            "Oracle Solaris Mnemonic": "vptestnmq",
+            "Intel/AMD Mnemonic": "VPTESTNMQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical NAND and Set",
+            "Reference": "page 5-466 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPTESTNMW": {
+            "Oracle Solaris Mnemonic": "vptestnmw",
+            "Intel/AMD Mnemonic": "VPTESTNMW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Logical NAND and Set",
+            "Reference": "page 5-466 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VPUNPCKHBW": {
+            "Oracle Solaris Mnemonic": "vpunpckhbw",
+            "Intel/AMD Mnemonic": "VPUNPCKHBW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Unpack High Data",
+            "Reference": "page 4-491 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPUNPCKHDQ": {
+            "Oracle Solaris Mnemonic": "vpunpckhdq",
+            "Intel/AMD Mnemonic": "VPUNPCKHDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Unpack High Data",
+            "Reference": "page 4-491 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPUNPCKHQDQ": {
+            "Oracle Solaris Mnemonic": "vpunpckhqdq",
+            "Intel/AMD Mnemonic": "VPUNPCKHQDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Unpack High Data",
+            "Reference": "page 4-491 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPUNPCKHWD": {
+            "Oracle Solaris Mnemonic": "vpunpckhwd",
+            "Intel/AMD Mnemonic": "VPUNPCKHWD",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Unpack High Data",
+            "Reference": "page 4-492 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPUNPCKLBW": {
+            "Oracle Solaris Mnemonic": "vpunpcklbw",
+            "Intel/AMD Mnemonic": "VPUNPCKLBW",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Unpack Low Data",
+            "Reference": "page 4-501 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPUNPCKLDQ": {
+            "Oracle Solaris Mnemonic": "vpunpckldq",
+            "Intel/AMD Mnemonic": "VPUNPCKLDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Unpack Low Data",
+            "Reference": "page 4-501 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPUNPCKLQDQ": {
+            "Oracle Solaris Mnemonic": "vpunpcklqdq",
+            "Intel/AMD Mnemonic": "VPUNPCKLQDQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Unpack Low Data",
+            "Reference": "page 4-501 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPUNPCKLWD": {
+            "Oracle Solaris Mnemonic": "vpunpcklwd",
+            "Intel/AMD Mnemonic": "VPUNPCKLWD",
+            "CPUID Feature Flag": "AVX512VL AVX512BW",
+            "Description": "Unpack Low Data",
+            "Reference": "page 4-502 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPXORD": {
+            "Oracle Solaris Mnemonic": "vpxord",
+            "Intel/AMD Mnemonic": "VPXORD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical Exclusive OR",
+            "Reference": "page 4-518 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VPXORQ": {
+            "Oracle Solaris Mnemonic": "vpxorq",
+            "Intel/AMD Mnemonic": "VPXORQ",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Logical Exclusive OR",
+            "Reference": "page 4-518 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VRANGEPD": {
+            "Oracle Solaris Mnemonic": "vrangepd",
+            "Intel/AMD Mnemonic": "VRANGEPD",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Range Restriction Calculation For Packed Pairs of Float64 Values",
+            "Reference": "page 5-470 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRANGEPS": {
+            "Oracle Solaris Mnemonic": "vrangeps",
+            "Intel/AMD Mnemonic": "VRANGEPS",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Range Restriction Calculation For Packed Pairs of Float32 Values",
+            "Reference": "page 5-475 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRANGESD": {
+            "Oracle Solaris Mnemonic": "vrangesd",
+            "Intel/AMD Mnemonic": "VRANGESD",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Range Restriction Calculation From a pair of Scalar Float64 Values",
+            "Reference": "page 5-479 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRANGESS": {
+            "Oracle Solaris Mnemonic": "vrangess",
+            "Intel/AMD Mnemonic": "VRANGESS",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Range Restriction Calculation From a Pair of Scalar Float32 Values",
+            "Reference": "page 5-482 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRCP14PD": {
+            "Oracle Solaris Mnemonic": "vrcp14pd",
+            "Intel/AMD Mnemonic": "VRCP14PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compute Approximate Reciprocals of Packed Float64 Values",
+            "Reference": "page 5-485 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRCP14PS": {
+            "Oracle Solaris Mnemonic": "vrcp14ps",
+            "Intel/AMD Mnemonic": "VRCP14PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compute Approximate Reciprocals of Packed Float32 Values",
+            "Reference": "page 5-489 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRCP28PD": {
+            "Oracle Solaris Mnemonic": "vrcp28pd",
+            "Intel/AMD Mnemonic": "VRCP28PD",
+            "CPUID Feature Flag": "AVX512ER",
+            "Description": "Approximation to the Reciprocal of Packed Double-Precision Floating-Point Values with Less Than 2^-28 Relative Error",
+            "Reference": "page 5-493 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRCP28PS": {
+            "Oracle Solaris Mnemonic": "vrcp28ps",
+            "Intel/AMD Mnemonic": "VRCP28PS",
+            "CPUID Feature Flag": "AVX512ER",
+            "Description": "Approximation to the Reciprocal of Packed Single-Precision Floating-Point Values with Less Than 2^-28 Relative Error",
+            "Reference": "page 5-497 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRCP28SD": {
+            "Oracle Solaris Mnemonic": "vrcp28sd",
+            "Intel/AMD Mnemonic": "VRCP28SD",
+            "CPUID Feature Flag": "AVX512ER",
+            "Description": "Approximation to the Reciprocal of Scalar Double-Precision Floating-Point Value with Less Than 2^-28 Relative Error",
+            "Reference": "page 5-495 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRCP28SS": {
+            "Oracle Solaris Mnemonic": "vrcp28ss",
+            "Intel/AMD Mnemonic": "VRCP28SS",
+            "CPUID Feature Flag": "AVX512ER",
+            "Description": "Approximation to the Reciprocal of Scalar Single-Precision Floating-Point Value with Less Than 2^-28 Relative Error",
+            "Reference": "page 5-499 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VREDUCEPD": {
+            "Oracle Solaris Mnemonic": "vreducepd",
+            "Intel/AMD Mnemonic": "VREDUCEPD",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Perform Reduction Transformation on Packed Float64 Values",
+            "Reference": "page 5-501 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VREDUCEPS": {
+            "Oracle Solaris Mnemonic": "vreduceps",
+            "Intel/AMD Mnemonic": "VREDUCEPS",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Perform Reduction Transformation on Packed Float32 Values",
+            "Reference": "page 5-506 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VREDUCESS": {
+            "Oracle Solaris Mnemonic": "vreducess",
+            "Intel/AMD Mnemonic": "VREDUCESS",
+            "CPUID Feature Flag": "AVX512DQ",
+            "Description": "Perform a Reduction Transformation on a Scalar Float32 Value",
+            "Reference": "page 5-508 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRNDSCALEPD": {
+            "Oracle Solaris Mnemonic": "vrndscalepd",
+            "Intel/AMD Mnemonic": "VRNDSCALEPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Round Packed Float64 Values To Include A Given Number Of Fraction Bits",
+            "Reference": "page 5-510 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRNDSCALEPS": {
+            "Oracle Solaris Mnemonic": "vrndscaleps",
+            "Intel/AMD Mnemonic": "VRNDSCALEPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Round Packed Float32 Values To Include A Given Number Of Fraction Bits",
+            "Reference": "page 5-516 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRSQRT14PD": {
+            "Oracle Solaris Mnemonic": "vrsqrt14pd",
+            "Intel/AMD Mnemonic": "VRSQRT14PD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compute Approximate Reciprocals of Square Roots of Packed Float64 Values",
+            "Reference": "page 5-521 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VRSQRT14PS": {
+            "Oracle Solaris Mnemonic": "vrsqrt14ps",
+            "Intel/AMD Mnemonic": "VRSQRT14PS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Compute Approximate Reciprocals of Square Roots of Packed Float32 Values",
+            "Reference": "page 5-525 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCALEFPD": {
+            "Oracle Solaris Mnemonic": "vscalefpd",
+            "Intel/AMD Mnemonic": "VSCALEFPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scale Packed Float64 Values With Float64 Values",
+            "Reference": "page 5-537 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCALEFPS": {
+            "Oracle Solaris Mnemonic": "vscalefps",
+            "Intel/AMD Mnemonic": "VSCALEFPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scale Packed Float32 Values With Float32 Values",
+            "Reference": "page 5-542 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERDPD": {
+            "Oracle Solaris Mnemonic": "vscatterdpd",
+            "Intel/AMD Mnemonic": "VSCATTERDPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scatter Double-Precision Floating-Point Values with Signed Dword Indices",
+            "Reference": "page 5-546 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERDPS": {
+            "Oracle Solaris Mnemonic": "vscatterdps",
+            "Intel/AMD Mnemonic": "VSCATTERDPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scatter Single-Precision Floating-Point Values with Signed Dword Indices",
+            "Reference": "page 5-546 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERPF0DPD": {
+            "Oracle Solaris Mnemonic": "vscatterpf0dpd",
+            "Intel/AMD Mnemonic": "VSCATTERPF0DPD",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Prefetch Sparse Byte Memory Locations Containing Double-Precision Data With Signed Dword Indices",
+            "Reference": "page 5-551 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERPF0DPS": {
+            "Oracle Solaris Mnemonic": "vscatterpf0dps",
+            "Intel/AMD Mnemonic": "VSCATTERPF0DPS",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Prefetch Sparse Byte Memory Locations Containing Single-Precision Data With Signed Dword Indices",
+            "Reference": "page 5-551 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERPF0QPD": {
+            "Oracle Solaris Mnemonic": "vscatterpf0qpd",
+            "Intel/AMD Mnemonic": "VSCATTERPF0QPD",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Prefetch Sparse Byte Memory Locations Containing Double-Precision Data With Signed Qword Indices",
+            "Reference": "page 5-551 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERPF0QPS": {
+            "Oracle Solaris Mnemonic": "vscatterpf0qps",
+            "Intel/AMD Mnemonic": "VSCATTERPF0QPS",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Prefetch Sparse Byte Memory Locations Containing Single-Precision Data With Signed Qword Indices",
+            "Reference": "page 5-551 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERPF1DPD": {
+            "Oracle Solaris Mnemonic": "vscatterpf1dpd",
+            "Intel/AMD Mnemonic": "VSCATTERPF1DPD",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Prefetch Sparse Byte Memory Locations Containing Double-Precision Data With Signed Dword Indices",
+            "Reference": "page 5-553 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERPF1DPS": {
+            "Oracle Solaris Mnemonic": "vscatterpf1dps",
+            "Intel/AMD Mnemonic": "VSCATTERPF1DPS",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Prefetch Sparse Byte Memory Locations Containing Single-Precision Data With Signed Dword Indices",
+            "Reference": "page 5-553 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERPF1QPD": {
+            "Oracle Solaris Mnemonic": "vscatterpf1qpd",
+            "Intel/AMD Mnemonic": "VSCATTERPF1QPD",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Prefetch Sparse Byte Memory Locations Containing Double-Precision Data With Signed Qword Indices",
+            "Reference": "page 5-553 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERPF1QPS": {
+            "Oracle Solaris Mnemonic": "vscatterpf1qps",
+            "Intel/AMD Mnemonic": "VSCATTERPF1QPS",
+            "CPUID Feature Flag": "AVX512PF",
+            "Description": "Prefetch Sparse Byte Memory Locations Containing Single-Precision Data With Signed Qword Indices",
+            "Reference": "page 5-553 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERQPD": {
+            "Oracle Solaris Mnemonic": "vscatterqpd",
+            "Intel/AMD Mnemonic": "VSCATTERQPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scatter Double-Precision Floating-Point Values With Signed Qword Indices",
+            "Reference": "page 5-546 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSCATTERQPS": {
+            "Oracle Solaris Mnemonic": "vscatterqps",
+            "Intel/AMD Mnemonic": "VSCATTERQPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Scatter Single-Precision Floating-Point Values With Signed Qword Indices",
+            "Reference": "page 5-546 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSHUFF32X4": {
+            "Oracle Solaris Mnemonic": "vshuff32x4",
+            "Intel/AMD Mnemonic": "VSHUFF32X4",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shuffle Packed Values at 128-bit Granularity",
+            "Reference": "page 5-555 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSHUFF64X2": {
+            "Oracle Solaris Mnemonic": "vshuff64x2",
+            "Intel/AMD Mnemonic": "VSHUFF64X2",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shuffle Packed Values at 128-bit Granularity",
+            "Reference": "page 5-555 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSHUFI32X4": {
+            "Oracle Solaris Mnemonic": "vshufi32x4",
+            "Intel/AMD Mnemonic": "VSHUFI32X4",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shuffle Packed Values at 128-bit Granularity",
+            "Reference": "page 5-555 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSHUFI64X2": {
+            "Oracle Solaris Mnemonic": "vshufi64x2",
+            "Intel/AMD Mnemonic": "VSHUFI64X2",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shuffle Packed Values at 128-bit Granularity",
+            "Reference": "page 5-555 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VSHUFPD": {
+            "Oracle Solaris Mnemonic": "vshufpd",
+            "Intel/AMD Mnemonic": "VSHUFPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Shuffle Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-617 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VSHUFPS": {
+            "Oracle Solaris Mnemonic": "vshufps",
+            "Intel/AMD Mnemonic": "VSHUFPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Packed Interleave Shuffle of Quadruplets of Single-Precision Floating-Point Values",
+            "Reference": "page 4-622 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VSQRTPD": {
+            "Oracle Solaris Mnemonic": "vsqrtpd",
+            "Intel/AMD Mnemonic": "VSQRTPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Square Root of Double-Precision Floating-Point Values",
+            "Reference": "page 4-632 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VSQRTPS": {
+            "Oracle Solaris Mnemonic": "vsqrtps",
+            "Intel/AMD Mnemonic": "VSQRTPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Square Root of Single-Precision Floating-Point Values",
+            "Reference": "page 4-635 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VSUBPD": {
+            "Oracle Solaris Mnemonic": "vsubpd",
+            "Intel/AMD Mnemonic": "VSUBPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Subtract Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-656 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VSUBPS": {
+            "Oracle Solaris Mnemonic": "vsubps",
+            "Intel/AMD Mnemonic": "VSUBPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Subtract Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-659 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VUNPCKHPD": {
+            "Oracle Solaris Mnemonic": "vunpckhpd",
+            "Intel/AMD Mnemonic": "VUNPCKHPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Unpack and Interleave High Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-688 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VUNPCKHPS": {
+            "Oracle Solaris Mnemonic": "vunpckhps",
+            "Intel/AMD Mnemonic": "VUNPCKHPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Unpack and Interleave High Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-692 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VUNPCKLPD": {
+            "Oracle Solaris Mnemonic": "vunpcklpd",
+            "Intel/AMD Mnemonic": "VUNPCKLPD",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Unpack and Interleave Low Packed Double-Precision Floating-Point Values",
+            "Reference": "page 4-696 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VUNPCKLPS": {
+            "Oracle Solaris Mnemonic": "vunpcklps",
+            "Intel/AMD Mnemonic": "VUNPCKLPS",
+            "CPUID Feature Flag": "AVX512VL",
+            "Description": "Unpack and Interleave Low Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-700 Vol. 2B (325383-060US/Sept 2016)"
+        },
+        "VXORPD": {
+            "Oracle Solaris Mnemonic": "vxorpd",
+            "Intel/AMD Mnemonic": "VXORPD",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Bitwise Logical XOR of Packed Double Precision Floating-Point Values",
+            "Reference": "page 5-596 Vol. 2C (325383-060US/Sept 2016)"
+        },
+        "VXORPS": {
+            "Oracle Solaris Mnemonic": "vxorps",
+            "Intel/AMD Mnemonic": "VXORPS",
+            "CPUID Feature Flag": "AVX512DQ AVX512VL",
+            "Description": "Bitwise Logical XOR of Packed Single Precision Floating-Point Values",
+            "Reference": "page 5-599 Vol. 2C (325383-060US/Sept 2016)"
+        }
+    },
+    "registers": [
+        "ZMM0",
+        "ZMM1",
+        "ZMM2",
+        "ZMM3",
+        "ZMM4",
+        "ZMM5",
+        "ZMM6",
+        "ZMM7",
+        "ZMM8",
+        "ZMM9",
+        "ZMM10",
+        "ZMM11",
+        "ZMM12",
+        "ZMM13",
+        "ZMM14",
+        "ZMM15",
+        "ZMM16",
+        "ZMM17",
+        "ZMM18",
+        "ZMM19",
+        "ZMM20",
+        "ZMM21",
+        "ZMM22",
+        "ZMM23",
+        "ZMM24",
+        "ZMM25",
+        "ZMM26",
+        "ZMM27",
+        "ZMM28",
+        "ZMM29",
+        "ZMM30",
+        "ZMM31"
+    ]
+}

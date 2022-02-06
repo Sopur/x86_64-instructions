@@ -1,0 +1,53 @@
+{
+    "instructions": {
+        "BZHI": {
+            "Oracle Solaris Mnemonic": "bzhi",
+            "Intel/AMD Mnemonic": "BZHI",
+            "Description": "Zero High Bits Starting with Specified Bit Position",
+            "Reference": "page 3-93 (253666-048US/Sep.2013)"
+        },
+        "MULX": {
+            "Oracle Solaris Mnemonic": "mulx",
+            "Intel/AMD Mnemonic": "MULX",
+            "Description": "Unsigned Multiply Without Affecting Flags",
+            "Reference": "page 3-593 (253666-048US/Sep.2013)"
+        },
+        "PDEP": {
+            "Oracle Solaris Mnemonic": "pdep",
+            "Intel/AMD Mnemonic": "PDEP",
+            "Description": "Parallel Bits Deposit",
+            "Reference": "page 4-91 (253667-048US/Sep.2013)"
+        },
+        "PEXT": {
+            "Oracle Solaris Mnemonic": "pext",
+            "Intel/AMD Mnemonic": "PEXT",
+            "Description": "Parallel Bits Extract",
+            "Reference": "page 4-93 (253667-048US/Sep.2013)"
+        },
+        "RORX": {
+            "Oracle Solaris Mnemonic": "rorx",
+            "Intel/AMD Mnemonic": "RORX",
+            "Description": "Rotate Right Logical Without Affecting Flags",
+            "Reference": "page 4-311 (253667-048US/Sep.2013)"
+        },
+        "SARX": {
+            "Oracle Solaris Mnemonic": "shrx",
+            "Intel/AMD Mnemonic": "SARX",
+            "Description": "Shift Without Affecting Flags",
+            "Reference": "page 4-335 (253667-048US/Sep.2013)"
+        },
+        "SHLX": {
+            "Oracle Solaris Mnemonic": "shrx",
+            "Intel/AMD Mnemonic": "SHLX",
+            "Description": "Shift Without Affecting Flags",
+            "Reference": "page 4-335 (253667-048US/Sep.2013)"
+        },
+        "SHRX": {
+            "Oracle Solaris Mnemonic": "shrx",
+            "Intel/AMD Mnemonic": "SHRX",
+            "Description": "Shift Without Affecting Flags",
+            "Reference": "page 4-335 (253667-048US/Sep.2013)"
+        }
+    },
+    "registers": null
+}

@@ -1,0 +1,1538 @@
+{
+    "instructions": {
+        "ADDPD": {
+            "Oracle Solaris Mnemonic": "vaddpd",
+            "Intel/AMD Mnemonic": "ADDPD",
+            "Description": "Add Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-7 (319433-016/Oct.2013)"
+        },
+        "ADDPS": {
+            "Oracle Solaris Mnemonic": "vaddps",
+            "Intel/AMD Mnemonic": "ADDPS",
+            "Description": "Add Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-10 (319433-016/Oct.2013)"
+        },
+        "ADDSD": {
+            "Oracle Solaris Mnemonic": "vaddsd",
+            "Intel/AMD Mnemonic": "ADDSD",
+            "Description": "Add Scalar Double-Precision Floating-Point Values",
+            "Reference": "page 5-13 (319433-016/Oct.2013)"
+        },
+        "ADDSS": {
+            "Oracle Solaris Mnemonic": "vaddss",
+            "Intel/AMD Mnemonic": "ADDSS",
+            "Description": "Add Scalar Single-Precision Floating-Point Values",
+            "Reference": "page 5-15 (319433-016/Oct.2013)"
+        },
+        "ADDSUBPD": {
+            "Oracle Solaris Mnemonic": "vaddsubpd",
+            "Intel/AMD Mnemonic": "ADDSUBPD",
+            "Description": "Packed Double-FP Add/Subtract",
+            "Reference": "page 3-35 (253666-048US/Sep.2013)"
+        },
+        "ADDSUBPS": {
+            "Oracle Solaris Mnemonic": "vaddsubps",
+            "Intel/AMD Mnemonic": "ADDSUBPS",
+            "Description": "Packed Single-FP Add/Subtract",
+            "Reference": "page 3-37 (253666-048US/Sep.2013)"
+        },
+        "ANDNPD": {
+            "Oracle Solaris Mnemonic": "vandnpd",
+            "Intel/AMD Mnemonic": "ANDNPD",
+            "Description": "Bitwise Logical AND NOT of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 3-58 (253666-048US/Sep.2013)"
+        },
+        "ANDNPS": {
+            "Oracle Solaris Mnemonic": "vandnps",
+            "Intel/AMD Mnemonic": "ANDNPS",
+            "Description": "Bitwise Logical AND NOT of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 3-60 (253666-048US/Sep.2013)"
+        },
+        "ANDPD": {
+            "Oracle Solaris Mnemonic": "vandpd",
+            "Intel/AMD Mnemonic": "ANDPD",
+            "Description": "Bitwise Logical AND of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 3-54 (253666-048US/Sep.2013)"
+        },
+        "ANDPS": {
+            "Oracle Solaris Mnemonic": "vandps",
+            "Intel/AMD Mnemonic": "ANDPS",
+            "Description": "Bitwise Logical AND of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 3-56 (253666-048US/Sep.2013)"
+        },
+        "BLENDPD": {
+            "Oracle Solaris Mnemonic": "vblendpd",
+            "Intel/AMD Mnemonic": "BLENDPD",
+            "Description": "Blend Packed Double Precision Floating-Point Values",
+            "Reference": "page 3-64 (253666-048US/Sep.2013)"
+        },
+        "BLENDPS": {
+            "Oracle Solaris Mnemonic": "vblendps",
+            "Intel/AMD Mnemonic": "BLENDPS",
+            "Description": "Blend Packed Single Precision Floating-Point Values",
+            "Reference": "page 3-68 (253666-048US/Sep.2013)"
+        },
+        "BLENDVPD": {
+            "Oracle Solaris Mnemonic": "vblendvpd",
+            "Intel/AMD Mnemonic": "BLENDVPD",
+            "Description": "Variable Blend Packed Double Precision Floating-Point Values",
+            "Reference": "page 3-70 (253666-048US/Sep.2013)"
+        },
+        "BLENDVPS": {
+            "Oracle Solaris Mnemonic": "vblendvps",
+            "Intel/AMD Mnemonic": "BLENDVPS",
+            "Description": "Variable Blend Packed Single Precision Floating-Point Values",
+            "Reference": "page 3-72 (253666-048US/Sep.2013)"
+        },
+        "CMPPD": {
+            "Oracle Solaris Mnemonic": "vcmpunordpd",
+            "Intel/AMD Mnemonic": "CMPPD",
+            "Description": "Compare Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-40 (319433-016/Oct.2013)"
+        },
+        "CMPPS": {
+            "Oracle Solaris Mnemonic": "vcmpunordps",
+            "Intel/AMD Mnemonic": "CMPPS",
+            "Description": "Compare Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-46 (319433-016/Oct.2013)"
+        },
+        "CMPSD": {
+            "Oracle Solaris Mnemonic": "vcmpunordsd",
+            "Intel/AMD Mnemonic": "CMPSD",
+            "Description": "Compare Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-52 (319433-016/Oct.2013)"
+        },
+        "CMPSS": {
+            "Oracle Solaris Mnemonic": "vcmpunordss",
+            "Intel/AMD Mnemonic": "CMPSS",
+            "Description": "Compare Scalar Single-Precision Floating-Point Value",
+            "Reference": "page 5-57 (319433-016/Oct.2013)"
+        },
+        "COMISD": {
+            "Oracle Solaris Mnemonic": "vcomisd",
+            "Intel/AMD Mnemonic": "COMISD",
+            "Description": "Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS",
+            "Reference": "page 5-62 (319433-016/Oct.2013)"
+        },
+        "COMISS": {
+            "Oracle Solaris Mnemonic": "vcomiss",
+            "Intel/AMD Mnemonic": "COMISS",
+            "Description": "Compare Scalar Ordered Single-Precision Floating-Point Values and Set EFLAGS",
+            "Reference": "page 5-64 (319433-016/Oct.2013)"
+        },
+        "CVTDQ2PD": {
+            "Oracle Solaris Mnemonic": "vcvtdq2pd",
+            "Intel/AMD Mnemonic": "CVTDQ2PD",
+            "Description": "Convert Packed Doubleword Integers to Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-79 (319433-016/Oct.2013)"
+        },
+        "CVTDQ2PS": {
+            "Oracle Solaris Mnemonic": "vcvtdq2ps",
+            "Intel/AMD Mnemonic": "CVTDQ2PS",
+            "Description": "Convert Packed Doubleword Integers to Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-82 (319433-016/Oct.2013)"
+        },
+        "CVTPD2DQ": {
+            "Oracle Solaris Mnemonic": "vcvtpd2dq(|x|y)",
+            "Intel/AMD Mnemonic": "CVTPD2DQ",
+            "Description": "Convert Packed Double-Precision Floating-Point Values to Packed Doubleword Integers",
+            "Reference": "page 5-85 (319433-016/Oct.2013)"
+        },
+        "CVTPD2PS": {
+            "Oracle Solaris Mnemonic": "vcvtpd2ps(|x|y)",
+            "Intel/AMD Mnemonic": "CVTPD2PS",
+            "Description": "Convert Packed Double-Precision Floating-Point Values to Packed Single-Precision Floating-Point Values5-88(319433-016/Oct.2013)",
+            "Reference": "page 5-88 (319433-016/Oct.2013)"
+        },
+        "CVTPS2DQ": {
+            "Oracle Solaris Mnemonic": "vcvtps2dq",
+            "Intel/AMD Mnemonic": "CVTPS2DQ",
+            "Description": "Convert Packed Single-Precision Floating-Point Values to Packed Signed Doubleword Integer Values",
+            "Reference": "page 5-100 (319433-016/Oct.2013)"
+        },
+        "CVTPS2PD": {
+            "Oracle Solaris Mnemonic": "vcvtps2pd",
+            "Intel/AMD Mnemonic": "CVTPS2PD",
+            "Description": "Convert Packed Single-Precision Floating-Point Values to Packed Double-Precision Floating-Point",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "CVTSD2SI": {
+            "Oracle Solaris Mnemonic": "vcvtsd2si(|q|l)",
+            "Intel/AMD Mnemonic": "CVTSD2SI",
+            "Description": "Convert Scalar Double-Precision Floating-Point Value to Doubleword Integer",
+            "Reference": "page 5-108 (319433-016/Oct.2013)"
+        },
+        "CVTSD2SS": {
+            "Oracle Solaris Mnemonic": "vcvtsd2ss",
+            "Intel/AMD Mnemonic": "CVTSD2SS",
+            "Description": "Convert Scalar Double-Precision Floating-Point Value to Scalar Single-Precision Floating-Point Value",
+            "Reference": "page 5-112 (319433-016/Oct.2013)"
+        },
+        "CVTSI2SD": {
+            "Oracle Solaris Mnemonic": "vcvtsi2sd(|q|l)",
+            "Intel/AMD Mnemonic": "CVTSI2SD",
+            "Description": "Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-114 (319433-016/Oct.2013)"
+        },
+        "CVTSI2SS": {
+            "Oracle Solaris Mnemonic": "vcvtsi2ss(|q|l)",
+            "Intel/AMD Mnemonic": "CVTSI2SS",
+            "Description": "Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value",
+            "Reference": "page 5-116 (319433-016/Oct.2013)"
+        },
+        "CVTSS2SD": {
+            "Oracle Solaris Mnemonic": "vcvtss2sd",
+            "Intel/AMD Mnemonic": "CVTSS2SD",
+            "Description": "Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-118 (319433-016/Oct.2013)"
+        },
+        "CVTSS2SI": {
+            "Oracle Solaris Mnemonic": "vcvtss2si(|q|l)",
+            "Intel/AMD Mnemonic": "CVTSS2SI",
+            "Description": "Convert Scalar Single-Precision Floating-Point Value to Doubleword Integer",
+            "Reference": "page 5-120 (319433-016/Oct.2013)"
+        },
+        "CVTTPD2DQ": {
+            "Oracle Solaris Mnemonic": "vcvttpd2dq(|x|y)",
+            "Intel/AMD Mnemonic": "CVTTPD2DQ",
+            "Description": "Convert with Truncation Packed Double-Precision Floating-Point Values to Packed Doubleword",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "CVTTPS2DQ": {
+            "Oracle Solaris Mnemonic": "vcvttps2dq",
+            "Intel/AMD Mnemonic": "CVTTPS2DQ",
+            "Description": "Convert with Truncation Packed Single-Precision Floating-Point Values to Packed Signed Doubleword",
+            "Reference": "page (319433-016/Oct.2013)"
+        },
+        "CVTTSD2SI": {
+            "Oracle Solaris Mnemonic": "vcvttsd2si(|q|l)",
+            "Intel/AMD Mnemonic": "CVTTSD2SI",
+            "Description": "Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer",
+            "Reference": "page 5-134 (319433-016/Oct.2013)"
+        },
+        "CVTTSS2SI": {
+            "Oracle Solaris Mnemonic": "vcvttss2si(|q|l)",
+            "Intel/AMD Mnemonic": "CVTTSS2SI",
+            "Description": "Convert with Truncation Scalar Single-Precision Floating-Point Value to Integer",
+            "Reference": "page 5-137 (319433-016/Oct.2013)"
+        },
+        "DIVPD": {
+            "Oracle Solaris Mnemonic": "vdivpd",
+            "Intel/AMD Mnemonic": "DIVPD",
+            "Description": "Divide Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-66 (319433-016/Oct.2013)"
+        },
+        "DIVPS": {
+            "Oracle Solaris Mnemonic": "vdivps",
+            "Intel/AMD Mnemonic": "DIVPS",
+            "Description": "Divide Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-68 (319433-016/Oct.2013)"
+        },
+        "DIVSD": {
+            "Oracle Solaris Mnemonic": "vdivsd",
+            "Intel/AMD Mnemonic": "DIVSD",
+            "Description": "Divide Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-71 (319433-016/Oct.2013)"
+        },
+        "DIVSS": {
+            "Oracle Solaris Mnemonic": "vdivss",
+            "Intel/AMD Mnemonic": "DIVSS",
+            "Description": "Divide Scalar Single-Precision Floating-Point Values",
+            "Reference": "page 5-73 (319433-016/Oct.2013)"
+        },
+        "DPPD": {
+            "Oracle Solaris Mnemonic": "vdppd",
+            "Intel/AMD Mnemonic": "DPPD",
+            "Description": "Dot Product of Packed Double Precision Floating-Point Values",
+            "Reference": "page 3-240 (253666-048US/Sep.2013)"
+        },
+        "DPPS": {
+            "Oracle Solaris Mnemonic": "vdpps",
+            "Intel/AMD Mnemonic": "DPPS",
+            "Description": "Dot Product of Packed Single Precision Floating-Point Values",
+            "Reference": "page 3-242 (253666-048US/Sep.2013)"
+        },
+        "EXTRACTPS": {
+            "Oracle Solaris Mnemonic": "vextractps",
+            "Intel/AMD Mnemonic": "EXTRACTPS",
+            "Description": "Extract Packed Floating-Point Values",
+            "Reference": "page 5-158 (319433-016/Oct.2013)"
+        },
+        "HADDPD": {
+            "Oracle Solaris Mnemonic": "vhaddpd",
+            "Intel/AMD Mnemonic": "HADDPD",
+            "Description": "Packed Double-FP Horizontal Add",
+            "Reference": "page 3-370 (253666-048US/Sep.2013)"
+        },
+        "HADDPS": {
+            "Oracle Solaris Mnemonic": "vhaddps",
+            "Intel/AMD Mnemonic": "HADDPS",
+            "Description": "Packed Single-FP Horizontal Add",
+            "Reference": "page 3-373 (253666-048US/Sep.2013)"
+        },
+        "HSUBPD": {
+            "Oracle Solaris Mnemonic": "vhsubpd",
+            "Intel/AMD Mnemonic": "HSUBPD",
+            "Description": "Packed Double-FP Horizontal Subtract",
+            "Reference": "page 3-377 (253666-048US/Sep.2013)"
+        },
+        "HSUBPS": {
+            "Oracle Solaris Mnemonic": "vhsubps",
+            "Intel/AMD Mnemonic": "HSUBPS",
+            "Description": "Packed Single-FP Horizontal Subtract",
+            "Reference": "page 3-380 (253666-048US/Sep.2013)"
+        },
+        "INSERTPS": {
+            "Oracle Solaris Mnemonic": "vinsertps",
+            "Intel/AMD Mnemonic": "INSERTPS",
+            "Description": "Insert Scalar Single-Precision Floating-Point Value",
+            "Reference": "page 5-311 (319433-016/Oct.2013)"
+        },
+        "LDDQU": {
+            "Oracle Solaris Mnemonic": "vlddqu",
+            "Intel/AMD Mnemonic": "LDDQU",
+            "Description": "Load Unaligned Integer 128 Bits",
+            "Reference": "page 3-444 (253666-048US/Sep.2013)"
+        },
+        "LDMXCSR": {
+            "Oracle Solaris Mnemonic": "vldmxcsr",
+            "Intel/AMD Mnemonic": "LDMXCSR",
+            "Description": "Load MXCSR Register",
+            "Reference": "page 3-446 (253666-048US/Sep.2013)"
+        },
+        "MASKMOVDQU": {
+            "Oracle Solaris Mnemonic": "vmaskmovdqu",
+            "Intel/AMD Mnemonic": "MASKMOVDQU",
+            "Description": "Store Selected Bytes of Double Quadword",
+            "Reference": "page 3-478 (253666-048US/Sep.2013)"
+        },
+        "MAXPD": {
+            "Oracle Solaris Mnemonic": "vmaxpd",
+            "Intel/AMD Mnemonic": "MAXPD",
+            "Description": "Maximum of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-314 (319433-016/Oct.2013)"
+        },
+        "MAXPS": {
+            "Oracle Solaris Mnemonic": "vmaxps",
+            "Intel/AMD Mnemonic": "MAXPS",
+            "Description": "Maximum of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-317 (319433-016/Oct.2013)"
+        },
+        "MAXSD": {
+            "Oracle Solaris Mnemonic": "vmaxsd",
+            "Intel/AMD Mnemonic": "MAXSD",
+            "Description": "Return Maximum Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-320 (319433-016/Oct.2013)"
+        },
+        "MAXSS": {
+            "Oracle Solaris Mnemonic": "vmaxss",
+            "Intel/AMD Mnemonic": "MAXSS",
+            "Description": "Return Maximum Scalar Single-Precision Floating-Point Value",
+            "Reference": "page 5-322 (319433-016/Oct.2013)"
+        },
+        "MINPD": {
+            "Oracle Solaris Mnemonic": "vminpd",
+            "Intel/AMD Mnemonic": "MINPD",
+            "Description": "Minimum of Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-324 (319433-016/Oct.2013)"
+        },
+        "MINPS": {
+            "Oracle Solaris Mnemonic": "vminps",
+            "Intel/AMD Mnemonic": "MINPS",
+            "Description": "Minimum of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-327 (319433-016/Oct.2013)"
+        },
+        "MINSD": {
+            "Oracle Solaris Mnemonic": "vminsd",
+            "Intel/AMD Mnemonic": "MINSD",
+            "Description": "Return Minimum Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-330 (319433-016/Oct.2013)"
+        },
+        "MINSS": {
+            "Oracle Solaris Mnemonic": "vminss",
+            "Intel/AMD Mnemonic": "MINSS",
+            "Description": "Return Minimum Scalar Single-Precision Floating-Point Value",
+            "Reference": "page 5-332 (319433-016/Oct.2013)"
+        },
+        "MOVAPD": {
+            "Oracle Solaris Mnemonic": "vmovapd",
+            "Intel/AMD Mnemonic": "MOVAPD",
+            "Description": "Move Aligned Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-334 (319433-016/Oct.2013)"
+        },
+        "MOVAPS": {
+            "Oracle Solaris Mnemonic": "vmovaps",
+            "Intel/AMD Mnemonic": "MOVAPS",
+            "Description": "Move Aligned Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-337 (319433-016/Oct.2013)"
+        },
+        "MOVDMOVQ": {
+            "Oracle Solaris Mnemonic": "vmov(q|d)",
+            "Intel/AMD Mnemonic": "MOVDMOVQ",
+            "Description": "Move Doubleword and Quadword",
+            "Reference": "page 5-340 (319433-016/Oct.2013)"
+        },
+        "MOVDDUP": {
+            "Oracle Solaris Mnemonic": "vmovddup",
+            "Intel/AMD Mnemonic": "MOVDDUP",
+            "Description": "Replicate Double FP Values",
+            "Reference": "page 5-346 (319433-016/Oct.2013)"
+        },
+        "MOVDQA": {
+            "Oracle Solaris Mnemonic": "vmovdqa",
+            "Intel/AMD Mnemonic": "MOVDQA",
+            "Description": "Move Aligned Packed Integer Values",
+            "Reference": "page 5-349 (319433-016/Oct.2013)"
+        },
+        "MOVDQU": {
+            "Oracle Solaris Mnemonic": "vmovdqu",
+            "Intel/AMD Mnemonic": "MOVDQU",
+            "Description": "Move Unaligned Packed Integer Values",
+            "Reference": "page 5-353 (319433-016/Oct.2013)"
+        },
+        "MOVHLPS": {
+            "Oracle Solaris Mnemonic": "vmovhlps",
+            "Intel/AMD Mnemonic": "MOVHLPS",
+            "Description": "Move Packed Single-Precision Floating-Point Values High to Low",
+            "Reference": "page 5-357 (319433-016/Oct.2013)"
+        },
+        "MOVHPD": {
+            "Oracle Solaris Mnemonic": "vmovhpd",
+            "Intel/AMD Mnemonic": "MOVHPD",
+            "Description": "Move High Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-359 (319433-016/Oct.2013)"
+        },
+        "MOVHPS": {
+            "Oracle Solaris Mnemonic": "vmovhps",
+            "Intel/AMD Mnemonic": "MOVHPS",
+            "Description": "Move High Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-361 (319433-016/Oct.2013)"
+        },
+        "MOVLHPS": {
+            "Oracle Solaris Mnemonic": "vmovlhps",
+            "Intel/AMD Mnemonic": "MOVLHPS",
+            "Description": "Move Packed Single-Precision Floating-Point Values Low to High",
+            "Reference": "page 5-363 (319433-016/Oct.2013)"
+        },
+        "MOVLPD": {
+            "Oracle Solaris Mnemonic": "vmovlpd",
+            "Intel/AMD Mnemonic": "MOVLPD",
+            "Description": "Move Low Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-365 (319433-016/Oct.2013)"
+        },
+        "MOVLPS": {
+            "Oracle Solaris Mnemonic": "vmovlps",
+            "Intel/AMD Mnemonic": "MOVLPS",
+            "Description": "Move Low Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-367 (319433-016/Oct.2013)"
+        },
+        "MOVMSKPD": {
+            "Oracle Solaris Mnemonic": "vmovmskpd",
+            "Intel/AMD Mnemonic": "MOVMSKPD",
+            "Description": "Extract Packed Double-Precision Floating-Point Sign Mask",
+            "Reference": "page 3-539 (253666-048US/Sep.2013)"
+        },
+        "MOVMSKPS": {
+            "Oracle Solaris Mnemonic": "vmovmskps",
+            "Intel/AMD Mnemonic": "MOVMSKPS",
+            "Description": "Extract Packed Single-Precision Floating-Point Sign Mask",
+            "Reference": "page 3-541 (253666-048US/Sep.2013)"
+        },
+        "MOVNTDQ": {
+            "Oracle Solaris Mnemonic": "vmovntdq",
+            "Intel/AMD Mnemonic": "MOVNTDQ",
+            "Description": "Store Packed Integers Using Non-Temporal Hint",
+            "Reference": "page 5-371 (319433-016/Oct.2013)"
+        },
+        "MOVNTDQA": {
+            "Oracle Solaris Mnemonic": "vmovntdqa",
+            "Intel/AMD Mnemonic": "MOVNTDQA",
+            "Description": "Load Double Quadword Non-Temporal Aligned Hint",
+            "Reference": "page 5-369 (319433-016/Oct.2013)"
+        },
+        "MOVNTPD": {
+            "Oracle Solaris Mnemonic": "vmovntpd",
+            "Intel/AMD Mnemonic": "MOVNTPD",
+            "Description": "Store Packed Double-Precision Floating-Point Values Using Non-Temporal Hint",
+            "Reference": "page 5-373 (319433-016/Oct.2013)"
+        },
+        "MOVNTPS": {
+            "Oracle Solaris Mnemonic": "vmovntps",
+            "Intel/AMD Mnemonic": "MOVNTPS",
+            "Description": "Store Packed Single-Precision Floating-Point Values Using Non-Temporal Hint",
+            "Reference": "page 5-375 (319433-016/Oct.2013)"
+        },
+        "MOVQ": {
+            "Oracle Solaris Mnemonic": "vmovq",
+            "Intel/AMD Mnemonic": "MOVQ",
+            "Description": "Move Quadword",
+            "Reference": "page 5-343 (319433-016/Oct.2013)"
+        },
+        "MOVSD": {
+            "Oracle Solaris Mnemonic": "vmovsd",
+            "Intel/AMD Mnemonic": "MOVSD",
+            "Description": "Move or Merge Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-377 (319433-016/Oct.2013)"
+        },
+        "MOVSHDUP": {
+            "Oracle Solaris Mnemonic": "vmovshdup",
+            "Intel/AMD Mnemonic": "MOVSHDUP",
+            "Description": "Replicate Single FP Values",
+            "Reference": "page 5-380 (319433-016/Oct.2013)"
+        },
+        "MOVSLDUP": {
+            "Oracle Solaris Mnemonic": "vmovsldup",
+            "Intel/AMD Mnemonic": "MOVSLDUP",
+            "Description": "Replicate Single FP Values",
+            "Reference": "page 5-383 (319433-016/Oct.2013)"
+        },
+        "MOVSS": {
+            "Oracle Solaris Mnemonic": "vmovss",
+            "Intel/AMD Mnemonic": "MOVSS",
+            "Description": "Move or Merge Scalar Single-Precision Floating-Point Value",
+            "Reference": "page 5-386 (319433-016/Oct.2013)"
+        },
+        "MOVUPD": {
+            "Oracle Solaris Mnemonic": "vmovupd",
+            "Intel/AMD Mnemonic": "MOVUPD",
+            "Description": "Move Unaligned Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-389 (319433-016/Oct.2013)"
+        },
+        "MOVUPS": {
+            "Oracle Solaris Mnemonic": "vmovups",
+            "Intel/AMD Mnemonic": "MOVUPS",
+            "Description": "Move Unaligned Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-392 (319433-016/Oct.2013)"
+        },
+        "MPSADBW": {
+            "Oracle Solaris Mnemonic": "vmpsadbw",
+            "Intel/AMD Mnemonic": "MPSADBW",
+            "Description": "Compute Multiple Packed Sums of Absolute Difference",
+            "Reference": "page 3-577 (253666-048US/Sep.2013)"
+        },
+        "MULPD": {
+            "Oracle Solaris Mnemonic": "vmulpd",
+            "Intel/AMD Mnemonic": "MULPD",
+            "Description": "Multiply Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-395 (319433-016/Oct.2013)"
+        },
+        "MULPS": {
+            "Oracle Solaris Mnemonic": "vmulps",
+            "Intel/AMD Mnemonic": "MULPS",
+            "Description": "Multiply Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-397 (319433-016/Oct.2013)"
+        },
+        "MULSD": {
+            "Oracle Solaris Mnemonic": "vmulsd",
+            "Intel/AMD Mnemonic": "MULSD",
+            "Description": "Multiply Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-400 (319433-016/Oct.2013)"
+        },
+        "MULSS": {
+            "Oracle Solaris Mnemonic": "vmulss",
+            "Intel/AMD Mnemonic": "MULSS",
+            "Description": "Multiply Scalar Single-Precision Floating-Point Values",
+            "Reference": "page 5-402 (319433-016/Oct.2013)"
+        },
+        "ORPD": {
+            "Oracle Solaris Mnemonic": "vorpd",
+            "Intel/AMD Mnemonic": "ORPD",
+            "Description": "Bitwise Logical OR of Double-Precision Floating-Point Values",
+            "Reference": "page 4-13 (253667-048US/Sep.2013)"
+        },
+        "ORPS": {
+            "Oracle Solaris Mnemonic": "vorps",
+            "Intel/AMD Mnemonic": "ORPS",
+            "Description": "Bitwise Logical OR of Single-Precision Floating-Point Values",
+            "Reference": "page 4-15 (253667-048US/Sep.2013)"
+        },
+        "PABSB": {
+            "Oracle Solaris Mnemonic": "vpabs(w|b|d)",
+            "Intel/AMD Mnemonic": "PABSB",
+            "Description": "Packed Absolute Value",
+            "Reference": "page 5-404 (319433-016/Oct.2013)"
+        },
+        "PABSW": {
+            "Oracle Solaris Mnemonic": "vpabs(w|b|d)",
+            "Intel/AMD Mnemonic": "PABSW",
+            "Description": "Packed Absolute Value",
+            "Reference": "page 5-404 (319433-016/Oct.2013)"
+        },
+        "PABSD": {
+            "Oracle Solaris Mnemonic": "vpabs(w|b|d)",
+            "Intel/AMD Mnemonic": "PABSD",
+            "Description": "Packed Absolute Value",
+            "Reference": "page 5-404 (319433-016/Oct.2013)"
+        },
+        "PABSQ": {
+            "Oracle Solaris Mnemonic": "vpabs(w|b|d)",
+            "Intel/AMD Mnemonic": "PABSQ",
+            "Description": "Packed Absolute Value",
+            "Reference": "page 5-404 (319433-016/Oct.2013)"
+        },
+        "PACKSSWB": {
+            "Oracle Solaris Mnemonic": "vpackss(dw|wb)",
+            "Intel/AMD Mnemonic": "PACKSSWB",
+            "Description": "Pack with Signed Saturation",
+            "Reference": "page 4-27 (253667-048US/Sep.2013)"
+        },
+        "PACKSSDW": {
+            "Oracle Solaris Mnemonic": "vpackss(dw|wb)",
+            "Intel/AMD Mnemonic": "PACKSSDW",
+            "Description": "Pack with Signed Saturation",
+            "Reference": "page 4-27 (253667-048US/Sep.2013)"
+        },
+        "PACKUSDW": {
+            "Oracle Solaris Mnemonic": "vpackusdw",
+            "Intel/AMD Mnemonic": "PACKUSDW",
+            "Description": "Pack with Unsigned Saturation",
+            "Reference": "page 4-32 (253667-048US/Sep.2013)"
+        },
+        "PACKUSWB": {
+            "Oracle Solaris Mnemonic": "vpackuswb",
+            "Intel/AMD Mnemonic": "PACKUSWB",
+            "Description": "Pack with Unsigned Saturation",
+            "Reference": "page 4-35 (253667-048US/Sep.2013)"
+        },
+        "PADDB": {
+            "Oracle Solaris Mnemonic": "vpadd(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PADDB",
+            "Description": "Add Packed Integers",
+            "Reference": "page 5-408 (319433-016/Oct.2013)"
+        },
+        "PADDW": {
+            "Oracle Solaris Mnemonic": "vpadd(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PADDW",
+            "Description": "Add Packed Integers",
+            "Reference": "page 5-408 (319433-016/Oct.2013)"
+        },
+        "PADDD": {
+            "Oracle Solaris Mnemonic": "vpadd(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PADDD",
+            "Description": "Add Packed Integers",
+            "Reference": "page 5-408 (319433-016/Oct.2013)"
+        },
+        "PADDQ": {
+            "Oracle Solaris Mnemonic": "vpadd(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PADDQ",
+            "Description": "Add Packed Integers",
+            "Reference": "page 5-408 (319433-016/Oct.2013)"
+        },
+        "PADDSB": {
+            "Oracle Solaris Mnemonic": "vpadds(w|b)",
+            "Intel/AMD Mnemonic": "PADDSB",
+            "Description": "Add Packed Signed Integers with Signed Saturation",
+            "Reference": "page 4-44 (253667-048US/Sep.2013)"
+        },
+        "PADDSW": {
+            "Oracle Solaris Mnemonic": "vpadds(w|b)",
+            "Intel/AMD Mnemonic": "PADDSW",
+            "Description": "Add Packed Signed Integers with Signed Saturation",
+            "Reference": "page 4-44 (253667-048US/Sep.2013)"
+        },
+        "PADDUSB": {
+            "Oracle Solaris Mnemonic": "vpaddus(w|b)",
+            "Intel/AMD Mnemonic": "PADDUSB",
+            "Description": "Add Packed Unsigned Integers with Unsigned Saturation",
+            "Reference": "page 4-47 (253667-048US/Sep.2013)"
+        },
+        "PADDUSW": {
+            "Oracle Solaris Mnemonic": "vpaddus(w|b)",
+            "Intel/AMD Mnemonic": "PADDUSW",
+            "Description": "Add Packed Unsigned Integers with Unsigned Saturation",
+            "Reference": "page 4-47 (253667-048US/Sep.2013)"
+        },
+        "PALIGNR": {
+            "Oracle Solaris Mnemonic": "vpalignr",
+            "Intel/AMD Mnemonic": "PALIGNR",
+            "Description": "Packed Align Right",
+            "Reference": "page 4-50 (253667-048US/Sep.2013)"
+        },
+        "PAND": {
+            "Oracle Solaris Mnemonic": "vpand",
+            "Intel/AMD Mnemonic": "PAND",
+            "Description": "Logical AND",
+            "Reference": "page 5-413 (319433-016/Oct.2013)"
+        },
+        "PANDN": {
+            "Oracle Solaris Mnemonic": "vpandn",
+            "Intel/AMD Mnemonic": "PANDN",
+            "Description": "Logical AND NOT",
+            "Reference": "page 5-416 (319433-016/Oct.2013)"
+        },
+        "PAVGB": {
+            "Oracle Solaris Mnemonic": "vpavg(w|b)",
+            "Intel/AMD Mnemonic": "PAVGB",
+            "Description": "Average Packed Integers",
+            "Reference": "page 4-58 (253667-048US/Sep.2013)"
+        },
+        "PAVGW": {
+            "Oracle Solaris Mnemonic": "vpavg(w|b)",
+            "Intel/AMD Mnemonic": "PAVGW",
+            "Description": "Average Packed Integers",
+            "Reference": "page 4-58 (253667-048US/Sep.2013)"
+        },
+        "PBLENDVB": {
+            "Oracle Solaris Mnemonic": "vpblendvb",
+            "Intel/AMD Mnemonic": "PBLENDVB",
+            "Description": "Variable Blend Packed Bytes",
+            "Reference": "page 4-61 (253667-048US/Sep.2013)"
+        },
+        "PBLENDW": {
+            "Oracle Solaris Mnemonic": "vpblendw",
+            "Intel/AMD Mnemonic": "PBLENDW",
+            "Description": "Blend Packed Words",
+            "Reference": "page 4-65 (253667-048US/Sep.2013)"
+        },
+        "PCMPEQB": {
+            "Oracle Solaris Mnemonic": "vpcmpeq(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PCMPEQB",
+            "Description": "Compare Packed Integers for Equality",
+            "Reference": "page 5-419 (319433-016/Oct.2013)"
+        },
+        "PCMPEQW": {
+            "Oracle Solaris Mnemonic": "vpcmpeq(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PCMPEQW",
+            "Description": "Compare Packed Integers for Equality",
+            "Reference": "page 5-419 (319433-016/Oct.2013)"
+        },
+        "PCMPEQD": {
+            "Oracle Solaris Mnemonic": "vpcmpeq(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PCMPEQD",
+            "Description": "Compare Packed Integers for Equality",
+            "Reference": "page 5-419 (319433-016/Oct.2013)"
+        },
+        "PCMPEQQ": {
+            "Oracle Solaris Mnemonic": "vpcmpeq(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PCMPEQQ",
+            "Description": "Compare Packed Integers for Equality",
+            "Reference": "page 5-419 (319433-016/Oct.2013)"
+        },
+        "PCMPESTRI": {
+            "Oracle Solaris Mnemonic": "vpcmpestri",
+            "Intel/AMD Mnemonic": "PCMPESTRI",
+            "Description": "Packed Compare Explicit Length Strings, Return Index",
+            "Reference": "page 4-77 (253667-048US/Sep.2013)"
+        },
+        "PCMPESTRM": {
+            "Oracle Solaris Mnemonic": "vpcmpestrm",
+            "Intel/AMD Mnemonic": "PCMPESTRM",
+            "Description": "Packed Compare Explicit Length Strings, Return Mask",
+            "Reference": "page 4-79 (253667-048US/Sep.2013)"
+        },
+        "PCMPGTB": {
+            "Oracle Solaris Mnemonic": "vpcmpgt(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PCMPGTB",
+            "Description": "Compare Packed Integers for Greater Than",
+            "Reference": "page 5-424 (319433-016/Oct.2013)"
+        },
+        "PCMPGTW": {
+            "Oracle Solaris Mnemonic": "vpcmpgt(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PCMPGTW",
+            "Description": "Compare Packed Integers for Greater Than",
+            "Reference": "page 5-424 (319433-016/Oct.2013)"
+        },
+        "PCMPGTD": {
+            "Oracle Solaris Mnemonic": "vpcmpgt(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PCMPGTD",
+            "Description": "Compare Packed Integers for Greater Than",
+            "Reference": "page 5-424 (319433-016/Oct.2013)"
+        },
+        "PCMPGTQ": {
+            "Oracle Solaris Mnemonic": "vpcmpgt(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PCMPGTQ",
+            "Description": "Compare Packed Integers for Greater Than",
+            "Reference": "page 5-424 (319433-016/Oct.2013)"
+        },
+        "PCMPISTRI": {
+            "Oracle Solaris Mnemonic": "vpcmpistri",
+            "Intel/AMD Mnemonic": "PCMPISTRI",
+            "Description": "Packed Compare Implicit Length Strings, Return Index",
+            "Reference": "page 4-87 (253667-048US/Sep.2013)"
+        },
+        "PCMPISTRM": {
+            "Oracle Solaris Mnemonic": "vpcmpistrm",
+            "Intel/AMD Mnemonic": "PCMPISTRM",
+            "Description": "Packed Compare Implicit Length Strings, Return Mask",
+            "Reference": "page 4-89 (253667-048US/Sep.2013)"
+        },
+        "PEXTRB": {
+            "Oracle Solaris Mnemonic": "vpextr(q|b|d)",
+            "Intel/AMD Mnemonic": "PEXTRB",
+            "Description": "Extract Byte/Dword/Qword",
+            "Reference": "page 4-95 (253667-048US/Sep.2013)"
+        },
+        "PEXTRD": {
+            "Oracle Solaris Mnemonic": "vpextr(q|b|d)",
+            "Intel/AMD Mnemonic": "PEXTRD",
+            "Description": "Extract Byte/Dword/Qword",
+            "Reference": "page 4-95 (253667-048US/Sep.2013)"
+        },
+        "PEXTRQ": {
+            "Oracle Solaris Mnemonic": "vpextr(q|b|d)",
+            "Intel/AMD Mnemonic": "PEXTRQ",
+            "Description": "Extract Byte/Dword/Qword",
+            "Reference": "page 4-95 (253667-048US/Sep.2013)"
+        },
+        "PEXTRW": {
+            "Oracle Solaris Mnemonic": "vpextrw",
+            "Intel/AMD Mnemonic": "PEXTRW",
+            "Description": "Extract Word",
+            "Reference": "page 4-98 (253667-048US/Sep.2013)"
+        },
+        "PHADDSW": {
+            "Oracle Solaris Mnemonic": "vphaddsw",
+            "Intel/AMD Mnemonic": "PHADDSW",
+            "Description": "Packed Horizontal Add and Saturate",
+            "Reference": "page 4-105 (253667-048US/Sep.2013)"
+        },
+        "PHADDW": {
+            "Oracle Solaris Mnemonic": "vphadd(w|d)",
+            "Intel/AMD Mnemonic": "PHADDW",
+            "Description": "Packed Horizontal Add",
+            "Reference": "page 4-101 (253667-048US/Sep.2013)"
+        },
+        "PHADDD": {
+            "Oracle Solaris Mnemonic": "vphadd(w|d)",
+            "Intel/AMD Mnemonic": "PHADDD",
+            "Description": "Packed Horizontal Add",
+            "Reference": "page 4-101 (253667-048US/Sep.2013)"
+        },
+        "PHMINPOSUW": {
+            "Oracle Solaris Mnemonic": "vphminposuw",
+            "Intel/AMD Mnemonic": "PHMINPOSUW",
+            "Description": "Packed Horizontal Word Minimum",
+            "Reference": "page 4-107 (253667-048US/Sep.2013)"
+        },
+        "PHSUBSW": {
+            "Oracle Solaris Mnemonic": "vphsubsw",
+            "Intel/AMD Mnemonic": "PHSUBSW",
+            "Description": "Packed Horizontal Subtract and Saturate",
+            "Reference": "page 4-112 (253667-048US/Sep.2013)"
+        },
+        "PHSUBW": {
+            "Oracle Solaris Mnemonic": "vphsub(w|d)",
+            "Intel/AMD Mnemonic": "PHSUBW",
+            "Description": "Packed Horizontal Subtract",
+            "Reference": "page 4-109 (253667-048US/Sep.2013)"
+        },
+        "PHSUBD": {
+            "Oracle Solaris Mnemonic": "vphsub(w|d)",
+            "Intel/AMD Mnemonic": "PHSUBD",
+            "Description": "Packed Horizontal Subtract",
+            "Reference": "page 4-109 (253667-048US/Sep.2013)"
+        },
+        "PINSRB": {
+            "Oracle Solaris Mnemonic": "vpinsr(q|b|w|d)",
+            "Intel/AMD Mnemonic": "PINSRB",
+            "Description": "Insert Byte/Dword/Qword",
+            "Reference": "page 4-114 (253667-048US/Sep.2013)"
+        },
+        "PINSRD": {
+            "Oracle Solaris Mnemonic": "vpinsr(q|b|w|d)",
+            "Intel/AMD Mnemonic": "PINSRD",
+            "Description": "Insert Byte/Dword/Qword",
+            "Reference": "page 4-114 (253667-048US/Sep.2013)"
+        },
+        "PINSRQ": {
+            "Oracle Solaris Mnemonic": "vpinsr(q|b|w|d)",
+            "Intel/AMD Mnemonic": "PINSRQ",
+            "Description": "Insert Byte/Dword/Qword",
+            "Reference": "page 4-114 (253667-048US/Sep.2013)"
+        },
+        "PINSRW": {
+            "Oracle Solaris Mnemonic": "vpinsrw",
+            "Intel/AMD Mnemonic": "PINSRW",
+            "Description": "Insert Word",
+            "Reference": "page 4-116 (253667-048US/Sep.2013)"
+        },
+        "PMADDUBSW": {
+            "Oracle Solaris Mnemonic": "vpmaddubsw",
+            "Intel/AMD Mnemonic": "PMADDUBSW",
+            "Description": "Multiply and Add Packed Signed and Unsigned Bytes",
+            "Reference": "page 4-118 (253667-048US/Sep.2013)"
+        },
+        "PMADDWD": {
+            "Oracle Solaris Mnemonic": "vpmaddwd",
+            "Intel/AMD Mnemonic": "PMADDWD",
+            "Description": "Multiply and Add Packed Integers",
+            "Reference": "page 4-120 (253667-048US/Sep.2013)"
+        },
+        "PMAXSB": {
+            "Oracle Solaris Mnemonic": "vpmaxs(w|b|d)",
+            "Intel/AMD Mnemonic": "PMAXSB",
+            "Description": "Maximum of Packed Signed Integers",
+            "Reference": "page 5-471 (319433-016/Oct.2013)"
+        },
+        "PMAXSW": {
+            "Oracle Solaris Mnemonic": "vpmaxs(w|b|d)",
+            "Intel/AMD Mnemonic": "PMAXSW",
+            "Description": "Maximum of Packed Signed Integers",
+            "Reference": "page 5-471 (319433-016/Oct.2013)"
+        },
+        "PMAXSD": {
+            "Oracle Solaris Mnemonic": "vpmaxs(w|b|d)",
+            "Intel/AMD Mnemonic": "PMAXSD",
+            "Description": "Maximum of Packed Signed Integers",
+            "Reference": "page 5-471 (319433-016/Oct.2013)"
+        },
+        "PMAXSQ": {
+            "Oracle Solaris Mnemonic": "vpmaxs(w|b|d)",
+            "Intel/AMD Mnemonic": "PMAXSQ",
+            "Description": "Maximum of Packed Signed Integers",
+            "Reference": "page 5-471 (319433-016/Oct.2013)"
+        },
+        "PMAXUB": {
+            "Oracle Solaris Mnemonic": "vpmaxub",
+            "Intel/AMD Mnemonic": "PMAXUB",
+            "Description": "Maximum of Packed Unsigned Byte Integers",
+            "Reference": "page 4-131 (253667-048US/Sep.2013)"
+        },
+        "PMAXUD": {
+            "Oracle Solaris Mnemonic": "vpmaxud",
+            "Intel/AMD Mnemonic": "PMAXUD",
+            "Description": "Maximum of Packed Unsigned Integers",
+            "Reference": "page 5-476 (319433-016/Oct.2013)"
+        },
+        "PMAXUQ": {
+            "Oracle Solaris Mnemonic": "vpmaxud",
+            "Intel/AMD Mnemonic": "PMAXUQ",
+            "Description": "Maximum of Packed Unsigned Integers",
+            "Reference": "page 5-476 (319433-016/Oct.2013)"
+        },
+        "PMAXUW": {
+            "Oracle Solaris Mnemonic": "vpmaxuw",
+            "Intel/AMD Mnemonic": "PMAXUW",
+            "Description": "Maximum of Packed Word Integers",
+            "Reference": "page 4-136 (253667-048US/Sep.2013)"
+        },
+        "PMINSB": {
+            "Oracle Solaris Mnemonic": "vpminsb",
+            "Intel/AMD Mnemonic": "PMINSB",
+            "Description": "Minimum of Packed Signed Byte Integers",
+            "Reference": "page 4-138 (253667-048US/Sep.2013)"
+        },
+        "PMINSD": {
+            "Oracle Solaris Mnemonic": "vpminsd",
+            "Intel/AMD Mnemonic": "PMINSD",
+            "Description": "Minimum of Packed Signed Integers",
+            "Reference": "page 5-479 (319433-016/Oct.2013)"
+        },
+        "PMINSQ": {
+            "Oracle Solaris Mnemonic": "vpminsd",
+            "Intel/AMD Mnemonic": "PMINSQ",
+            "Description": "Minimum of Packed Signed Integers",
+            "Reference": "page 5-479 (319433-016/Oct.2013)"
+        },
+        "PMINSW": {
+            "Oracle Solaris Mnemonic": "vpminsw",
+            "Intel/AMD Mnemonic": "PMINSW",
+            "Description": "Minimum of Packed Signed Word Integers",
+            "Reference": "page 4-143 (253667-048US/Sep.2013)"
+        },
+        "PMINUB": {
+            "Oracle Solaris Mnemonic": "vpminub",
+            "Intel/AMD Mnemonic": "PMINUB",
+            "Description": "Minimum of Packed Unsigned Byte Integers",
+            "Reference": "page 4-146 (253667-048US/Sep.2013)"
+        },
+        "PMINUD": {
+            "Oracle Solaris Mnemonic": "vpminud",
+            "Intel/AMD Mnemonic": "PMINUD",
+            "Description": "Minimum of Packed Unsigned Integers",
+            "Reference": "page 5-482 (319433-016/Oct.2013)"
+        },
+        "PMINUQ": {
+            "Oracle Solaris Mnemonic": "vpminud",
+            "Intel/AMD Mnemonic": "PMINUQ",
+            "Description": "Minimum of Packed Unsigned Integers",
+            "Reference": "page 5-482 (319433-016/Oct.2013)"
+        },
+        "PMINUW": {
+            "Oracle Solaris Mnemonic": "vpminuw",
+            "Intel/AMD Mnemonic": "PMINUW",
+            "Description": "Minimum of Packed Word Integers",
+            "Reference": "page 4-151 (253667-048US/Sep.2013)"
+        },
+        "PMOVMSKB": {
+            "Oracle Solaris Mnemonic": "vpmovmskb",
+            "Intel/AMD Mnemonic": "PMOVMSKB",
+            "Description": "Move Byte Mask",
+            "Reference": "page 4-153 (253667-048US/Sep.2013)"
+        },
+        "PMOVSX": {
+            "Oracle Solaris Mnemonic": "vpmovsx(bd|bq|bw|dq|wd|wq)",
+            "Intel/AMD Mnemonic": "PMOVSX",
+            "Description": "Packed Move with Sign Extend",
+            "Reference": "page 5-500 (319433-016/Oct.2013)"
+        },
+        "PMOVZX": {
+            "Oracle Solaris Mnemonic": "vpmovzx(bd|bq|bw|dq|wd|wq)",
+            "Intel/AMD Mnemonic": "PMOVZX",
+            "Description": "Packed Move with Zero Extend",
+            "Reference": "page 5-507 (319433-016/Oct.2013)"
+        },
+        "PMULDQ": {
+            "Oracle Solaris Mnemonic": "vpmuldq",
+            "Intel/AMD Mnemonic": "PMULDQ",
+            "Description": "Multiply Packed Doubleword Integers",
+            "Reference": "page 5-514 (319433-016/Oct.2013)"
+        },
+        "PMULHRSW": {
+            "Oracle Solaris Mnemonic": "vpmulhrsw",
+            "Intel/AMD Mnemonic": "PMULHRSW",
+            "Description": "Packed Multiply High with Round and Scale",
+            "Reference": "page 4-165 (253667-048US/Sep.2013)"
+        },
+        "PMULHUW": {
+            "Oracle Solaris Mnemonic": "vpmulhuw",
+            "Intel/AMD Mnemonic": "PMULHUW",
+            "Description": "Multiply Packed Unsigned Integers and Store High Result",
+            "Reference": "page 4-168 (253667-048US/Sep.2013)"
+        },
+        "PMULHW": {
+            "Oracle Solaris Mnemonic": "vpmulhw",
+            "Intel/AMD Mnemonic": "PMULHW",
+            "Description": "Multiply Packed Signed Integers and Store High Result",
+            "Reference": "page 4-172 (253667-048US/Sep.2013)"
+        },
+        "PMULLD": {
+            "Oracle Solaris Mnemonic": "vpmulld",
+            "Intel/AMD Mnemonic": "PMULLD",
+            "Description": "Multiply Packed Integers and Store Low Result",
+            "Reference": "page 5-516 (319433-016/Oct.2013)"
+        },
+        "PMULLW": {
+            "Oracle Solaris Mnemonic": "vpmullw",
+            "Intel/AMD Mnemonic": "PMULLW",
+            "Description": "Multiply Packed Signed Integers and Store Low Result",
+            "Reference": "page 4-177 (253667-048US/Sep.2013)"
+        },
+        "PMULUDQ": {
+            "Oracle Solaris Mnemonic": "vpmuludq",
+            "Intel/AMD Mnemonic": "PMULUDQ",
+            "Description": "Multiply Packed Unsigned Doubleword Integers",
+            "Reference": "page 5-519 (319433-016/Oct.2013)"
+        },
+        "POR": {
+            "Oracle Solaris Mnemonic": "vpor",
+            "Intel/AMD Mnemonic": "POR",
+            "Description": "Bitwise Logical Or",
+            "Reference": "page 5-521 (319433-016/Oct.2013)"
+        },
+        "PSADBW": {
+            "Oracle Solaris Mnemonic": "vpsadbw",
+            "Intel/AMD Mnemonic": "PSADBW",
+            "Description": "Compute Sum of Absolute Differences",
+            "Reference": "page 4-198 (253667-048US/Sep.2013)"
+        },
+        "PSHUFB": {
+            "Oracle Solaris Mnemonic": "vpshufb",
+            "Intel/AMD Mnemonic": "PSHUFB",
+            "Description": "Packed Shuffle Bytes",
+            "Reference": "page 4-201 (253667-048US/Sep.2013)"
+        },
+        "PSHUFD": {
+            "Oracle Solaris Mnemonic": "vpshufd",
+            "Intel/AMD Mnemonic": "PSHUFD",
+            "Description": "Shuffle Packed Doublewords",
+            "Reference": "page 5-533 (319433-016/Oct.2013)"
+        },
+        "PSHUFHW": {
+            "Oracle Solaris Mnemonic": "vpshufhw",
+            "Intel/AMD Mnemonic": "PSHUFHW",
+            "Description": "Shuffle Packed High Words",
+            "Reference": "page 4-206 (253667-048US/Sep.2013)"
+        },
+        "PSHUFLW": {
+            "Oracle Solaris Mnemonic": "vpshuflw",
+            "Intel/AMD Mnemonic": "PSHUFLW",
+            "Description": "Shuffle Packed Low Words",
+            "Reference": "page 4-208 (253667-048US/Sep.2013)"
+        },
+        "PSIGNB": {
+            "Oracle Solaris Mnemonic": "vpsign(w|b|d)",
+            "Intel/AMD Mnemonic": "PSIGNB",
+            "Description": "Packed SIGN",
+            "Reference": "page 4-211 (253667-048US/Sep.2013)"
+        },
+        "PSIGNW": {
+            "Oracle Solaris Mnemonic": "vpsign(w|b|d)",
+            "Intel/AMD Mnemonic": "PSIGNW",
+            "Description": "Packed SIGN",
+            "Reference": "page 4-211 (253667-048US/Sep.2013)"
+        },
+        "PSIGND": {
+            "Oracle Solaris Mnemonic": "vpsign(w|b|d)",
+            "Intel/AMD Mnemonic": "PSIGND",
+            "Description": "Packed SIGN",
+            "Reference": "page 4-211 (253667-048US/Sep.2013)"
+        },
+        "PSLLDQ": {
+            "Oracle Solaris Mnemonic": "vpslldq",
+            "Intel/AMD Mnemonic": "PSLLDQ",
+            "Description": "Shift Double Quadword Left Logical",
+            "Reference": "page 4-215 (253667-048US/Sep.2013)"
+        },
+        "PSLLW": {
+            "Oracle Solaris Mnemonic": "vpsll(q|w|d)",
+            "Intel/AMD Mnemonic": "PSLLW",
+            "Description": "Bit Shift Left",
+            "Reference": "page 5-536 (319433-016/Oct.2013)"
+        },
+        "PSLLD": {
+            "Oracle Solaris Mnemonic": "vpsll(q|w|d)",
+            "Intel/AMD Mnemonic": "PSLLD",
+            "Description": "Bit Shift Left",
+            "Reference": "page 5-536 (319433-016/Oct.2013)"
+        },
+        "PSLLQ": {
+            "Oracle Solaris Mnemonic": "vpsll(q|w|d)",
+            "Intel/AMD Mnemonic": "PSLLQ",
+            "Description": "Bit Shift Left",
+            "Reference": "page 5-536 (319433-016/Oct.2013)"
+        },
+        "PSRAW": {
+            "Oracle Solaris Mnemonic": "vpsra(w|d)",
+            "Intel/AMD Mnemonic": "PSRAW",
+            "Description": "Bit Shift Arithmetic Right",
+            "Reference": "page 5-544 (319433-016/Oct.2013)"
+        },
+        "PSRLDQ": {
+            "Oracle Solaris Mnemonic": "vpsrldq",
+            "Intel/AMD Mnemonic": "PSRLDQ",
+            "Description": "Shift Double Quadword Right Logical",
+            "Reference": "page 4-228 (253667-048US/Sep.2013)"
+        },
+        "PSRLW": {
+            "Oracle Solaris Mnemonic": "vpsrl(q|w|d)",
+            "Intel/AMD Mnemonic": "PSRLW",
+            "Description": "Shift Packed Data Right Logical",
+            "Reference": "page 5-550 (319433-016/Oct.2013)"
+        },
+        "PSRLD": {
+            "Oracle Solaris Mnemonic": "vpsrl(q|w|d)",
+            "Intel/AMD Mnemonic": "PSRLD",
+            "Description": "Shift Packed Data Right Logical",
+            "Reference": "page 5-550 (319433-016/Oct.2013)"
+        },
+        "PSRLQ": {
+            "Oracle Solaris Mnemonic": "vpsrl(q|w|d)",
+            "Intel/AMD Mnemonic": "PSRLQ",
+            "Description": "Shift Packed Data Right Logical",
+            "Reference": "page 5-550 (319433-016/Oct.2013)"
+        },
+        "PSUBB": {
+            "Oracle Solaris Mnemonic": "vpsub(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PSUBB",
+            "Description": "Packed Integer Subtract",
+            "Reference": "page 5-563 (319433-016/Oct.2013)"
+        },
+        "PSUBW": {
+            "Oracle Solaris Mnemonic": "vpsub(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PSUBW",
+            "Description": "Packed Integer Subtract",
+            "Reference": "page 5-563 (319433-016/Oct.2013)"
+        },
+        "PSUBD": {
+            "Oracle Solaris Mnemonic": "vpsub(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PSUBD",
+            "Description": "Packed Integer Subtract",
+            "Reference": "page 5-563 (319433-016/Oct.2013)"
+        },
+        "PSUBQ": {
+            "Oracle Solaris Mnemonic": "vpsub(q|w|b|d)",
+            "Intel/AMD Mnemonic": "PSUBQ",
+            "Description": "Packed Integer Subtract",
+            "Reference": "page 5-563 (319433-016/Oct.2013)"
+        },
+        "PSUBSB": {
+            "Oracle Solaris Mnemonic": "vpsubs(w|b)",
+            "Intel/AMD Mnemonic": "PSUBSB",
+            "Description": "Subtract Packed Signed Integers with Signed Saturation",
+            "Reference": "page 4-243 (253667-048US/Sep.2013)"
+        },
+        "PSUBSW": {
+            "Oracle Solaris Mnemonic": "vpsubs(w|b)",
+            "Intel/AMD Mnemonic": "PSUBSW",
+            "Description": "Subtract Packed Signed Integers with Signed Saturation",
+            "Reference": "page 4-243 (253667-048US/Sep.2013)"
+        },
+        "PSUBUSB": {
+            "Oracle Solaris Mnemonic": "vpsubus(w|b)",
+            "Intel/AMD Mnemonic": "PSUBUSB",
+            "Description": "Subtract Packed Unsigned Integers with Unsigned Saturation",
+            "Reference": "page 4-246 (253667-048US/Sep.2013)"
+        },
+        "PSUBUSW": {
+            "Oracle Solaris Mnemonic": "vpsubus(w|b)",
+            "Intel/AMD Mnemonic": "PSUBUSW",
+            "Description": "Subtract Packed Unsigned Integers with Unsigned Saturation",
+            "Reference": "page 4-246 (253667-048US/Sep.2013)"
+        },
+        "PTEST": {
+            "Oracle Solaris Mnemonic": "vptest",
+            "Intel/AMD Mnemonic": "PTEST",
+            "Description": "Logical Compare",
+            "Reference": "page 4-249 (253667-048US/Sep.2013)"
+        },
+        "PUNPCKHBW": {
+            "Oracle Solaris Mnemonic": "vpunpckh(bw|dq|qdq|wd)",
+            "Intel/AMD Mnemonic": "PUNPCKHBW",
+            "Description": "Unpack High Data",
+            "Reference": "page 5-571 (319433-016/Oct.2013)"
+        },
+        "PUNPCKHWD": {
+            "Oracle Solaris Mnemonic": "vpunpckh(bw|dq|qdq|wd)",
+            "Intel/AMD Mnemonic": "PUNPCKHWD",
+            "Description": "Unpack High Data",
+            "Reference": "page 5-571 (319433-016/Oct.2013)"
+        },
+        "PUNPCKHDQ": {
+            "Oracle Solaris Mnemonic": "vpunpckh(bw|dq|qdq|wd)",
+            "Intel/AMD Mnemonic": "PUNPCKHDQ",
+            "Description": "Unpack High Data",
+            "Reference": "page 5-571 (319433-016/Oct.2013)"
+        },
+        "PUNPCKHQDQ": {
+            "Oracle Solaris Mnemonic": "vpunpckh(bw|dq|qdq|wd)",
+            "Intel/AMD Mnemonic": "PUNPCKHQDQ",
+            "Description": "Unpack High Data",
+            "Reference": "page 5-571 (319433-016/Oct.2013)"
+        },
+        "PUNPCKLBW": {
+            "Oracle Solaris Mnemonic": "vpunpckl(bw|dq|qdq|wd)",
+            "Intel/AMD Mnemonic": "PUNPCKLBW",
+            "Description": "Unpack Low Data",
+            "Reference": "page 5-578 (319433-016/Oct.2013)"
+        },
+        "PUNPCKLWD": {
+            "Oracle Solaris Mnemonic": "vpunpckl(bw|dq|qdq|wd)",
+            "Intel/AMD Mnemonic": "PUNPCKLWD",
+            "Description": "Unpack Low Data",
+            "Reference": "page 5-578 (319433-016/Oct.2013)"
+        },
+        "PUNPCKLDQ": {
+            "Oracle Solaris Mnemonic": "vpunpckl(bw|dq|qdq|wd)",
+            "Intel/AMD Mnemonic": "PUNPCKLDQ",
+            "Description": "Unpack Low Data",
+            "Reference": "page 5-578 (319433-016/Oct.2013)"
+        },
+        "PUNPCKLQDQ": {
+            "Oracle Solaris Mnemonic": "vpunpckl(bw|dq|qdq|wd)",
+            "Intel/AMD Mnemonic": "PUNPCKLQDQ",
+            "Description": "Unpack Low Data",
+            "Reference": "page 5-578 (319433-016/Oct.2013)"
+        },
+        "PXOR": {
+            "Oracle Solaris Mnemonic": "vpxor",
+            "Intel/AMD Mnemonic": "PXOR",
+            "Description": "Exclusive Or",
+            "Reference": "page 5-612 (319433-016/Oct.2013)"
+        },
+        "PXORD": {
+            "Oracle Solaris Mnemonic": "vpxor",
+            "Intel/AMD Mnemonic": "PXORD",
+            "Description": "Exclusive Or",
+            "Reference": "page 5-612 (319433-016/Oct.2013)"
+        },
+        "PXORQ": {
+            "Oracle Solaris Mnemonic": "vpxor",
+            "Intel/AMD Mnemonic": "PXORQ",
+            "Description": "Exclusive Or",
+            "Reference": "page 5-612 (319433-016/Oct.2013)"
+        },
+        "RCPPS": {
+            "Oracle Solaris Mnemonic": "vrcpps",
+            "Intel/AMD Mnemonic": "RCPPS",
+            "Description": "Compute Reciprocals of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-280 (253667-048US/Sep.2013)"
+        },
+        "RCPSS": {
+            "Oracle Solaris Mnemonic": "vrcpss",
+            "Intel/AMD Mnemonic": "RCPSS",
+            "Description": "Compute Reciprocal of Scalar Single-Precision Floating-Point Values",
+            "Reference": "page 4-282 (253667-048US/Sep.2013)"
+        },
+        "ROUNDPD": {
+            "Oracle Solaris Mnemonic": "vroundpd",
+            "Intel/AMD Mnemonic": "ROUNDPD",
+            "Description": "Round Packed Double Precision Floating-Point Values",
+            "Reference": "page 4-312 (253667-048US/Sep.2013)"
+        },
+        "ROUNDPS": {
+            "Oracle Solaris Mnemonic": "vroundps",
+            "Intel/AMD Mnemonic": "ROUNDPS",
+            "Description": "Round Packed Single Precision Floating-Point Values",
+            "Reference": "page 4-315 (253667-048US/Sep.2013)"
+        },
+        "ROUNDSD": {
+            "Oracle Solaris Mnemonic": "vroundsd",
+            "Intel/AMD Mnemonic": "ROUNDSD",
+            "Description": "Round Scalar Double Precision Floating-Point Values",
+            "Reference": "page 4-318 (253667-048US/Sep.2013)"
+        },
+        "ROUNDSS": {
+            "Oracle Solaris Mnemonic": "vroundss",
+            "Intel/AMD Mnemonic": "ROUNDSS",
+            "Description": "Round Scalar Single Precision Floating-Point Values",
+            "Reference": "page 4-320 (253667-048US/Sep.2013)"
+        },
+        "RSQRTPS": {
+            "Oracle Solaris Mnemonic": "vrsqrtps",
+            "Intel/AMD Mnemonic": "RSQRTPS",
+            "Description": "Compute Reciprocals of Square Roots of Packed Single-Precision Floating-Point Values",
+            "Reference": "page 4-324 (253667-048US/Sep.2013)"
+        },
+        "RSQRTSS": {
+            "Oracle Solaris Mnemonic": "vrsqrtss",
+            "Intel/AMD Mnemonic": "RSQRTSS",
+            "Description": "Compute Reciprocal of Square Root of Scalar Single-Precision Floating-Point Value",
+            "Reference": "page 4-326 (253667-048US/Sep.2013)"
+        },
+        "SHUFPD": {
+            "Oracle Solaris Mnemonic": "vshufpd",
+            "Intel/AMD Mnemonic": "SHUFPD",
+            "Description": "Shuffle Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-589 (319433-016/Oct.2013)"
+        },
+        "SHUFPS": {
+            "Oracle Solaris Mnemonic": "vshufps",
+            "Intel/AMD Mnemonic": "SHUFPS",
+            "Description": "Shuffle Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-593 (319433-016/Oct.2013)"
+        },
+        "SQRTPD": {
+            "Oracle Solaris Mnemonic": "vsqrtpd",
+            "Intel/AMD Mnemonic": "SQRTPD",
+            "Description": "Square Root of Double-Precision Floating-Point Values",
+            "Reference": "page 5-597 (319433-016/Oct.2013)"
+        },
+        "SQRTPS": {
+            "Oracle Solaris Mnemonic": "vsqrtps",
+            "Intel/AMD Mnemonic": "SQRTPS",
+            "Description": "Square Root of Single-Precision Floating-Point Values",
+            "Reference": "page 5-599 (319433-016/Oct.2013)"
+        },
+        "SQRTSD": {
+            "Oracle Solaris Mnemonic": "vsqrtsd",
+            "Intel/AMD Mnemonic": "SQRTSD",
+            "Description": "Compute Square Root of Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-601 (319433-016/Oct.2013)"
+        },
+        "SQRTSS": {
+            "Oracle Solaris Mnemonic": "vsqrtss",
+            "Intel/AMD Mnemonic": "SQRTSS",
+            "Description": "Compute Square Root of Scalar Single-Precision Value",
+            "Reference": "page 5-603 (319433-016/Oct.2013)"
+        },
+        "STMXCSR": {
+            "Oracle Solaris Mnemonic": "vstmxcsr",
+            "Intel/AMD Mnemonic": "STMXCSR",
+            "Description": "Store MXCSR Register State",
+            "Reference": "page 4-378 (253667-048US/Sep.2013)"
+        },
+        "SUBPD": {
+            "Oracle Solaris Mnemonic": "vsubpd",
+            "Intel/AMD Mnemonic": "SUBPD",
+            "Description": "Subtract Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-656 (319433-016/Oct.2013)"
+        },
+        "SUBPS": {
+            "Oracle Solaris Mnemonic": "vsubps",
+            "Intel/AMD Mnemonic": "SUBPS",
+            "Description": "Subtract Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-659 (319433-016/Oct.2013)"
+        },
+        "SUBSD": {
+            "Oracle Solaris Mnemonic": "vsubsd",
+            "Intel/AMD Mnemonic": "SUBSD",
+            "Description": "Subtract Scalar Double-Precision Floating-Point Value",
+            "Reference": "page 5-662 (319433-016/Oct.2013)"
+        },
+        "SUBSS": {
+            "Oracle Solaris Mnemonic": "vsubss",
+            "Intel/AMD Mnemonic": "SUBSS",
+            "Description": "Subtract Scalar Single-Precision Floating-Point Value",
+            "Reference": "page 5-664 (319433-016/Oct.2013)"
+        },
+        "UCOMISD": {
+            "Oracle Solaris Mnemonic": "vucomisd",
+            "Intel/AMD Mnemonic": "UCOMISD",
+            "Description": "Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS",
+            "Reference": "page 5-666 (319433-016/Oct.2013)"
+        },
+        "UCOMISS": {
+            "Oracle Solaris Mnemonic": "vucomiss",
+            "Intel/AMD Mnemonic": "UCOMISS",
+            "Description": "Unordered Compare Scalar Single-Precision Floating-Point Values and Set EFLAGS",
+            "Reference": "page 5-668 (319433-016/Oct.2013)"
+        },
+        "UNPCKHPD": {
+            "Oracle Solaris Mnemonic": "vunpckhpd",
+            "Intel/AMD Mnemonic": "UNPCKHPD",
+            "Description": "Unpack and Interleave High Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-670 (319433-016/Oct.2013)"
+        },
+        "UNPCKHPS": {
+            "Oracle Solaris Mnemonic": "vunpckhps",
+            "Intel/AMD Mnemonic": "UNPCKHPS",
+            "Description": "Unpack and Interleave High Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-673 (319433-016/Oct.2013)"
+        },
+        "UNPCKLPD": {
+            "Oracle Solaris Mnemonic": "vunpcklpd",
+            "Intel/AMD Mnemonic": "UNPCKLPD",
+            "Description": "Unpack and Interleave Low Packed Double-Precision Floating-Point Values",
+            "Reference": "page 5-677 (319433-016/Oct.2013)"
+        },
+        "UNPCKLPS": {
+            "Oracle Solaris Mnemonic": "vunpcklps",
+            "Intel/AMD Mnemonic": "UNPCKLPS",
+            "Description": "Unpack and Interleave Low Packed Single-Precision Floating-Point Values",
+            "Reference": "page 5-680 (319433-016/Oct.2013)"
+        },
+        "VBROADCAST": {
+            "Oracle Solaris Mnemonic": "vbroadcast(f128|sd|ss)",
+            "Intel/AMD Mnemonic": "VBROADCAST",
+            "Description": "Load with Broadcast Floating-Point Data",
+            "Reference": "page 5-27 (319433-016/Oct.2013)"
+        },
+        "VEXTRACTF128": {
+            "Oracle Solaris Mnemonic": "vextractf128",
+            "Intel/AMD Mnemonic": "VEXTRACTF128",
+            "Description": "Extract Packed Floating-Point Values",
+            "Reference": "page 5-152 (319433-016/Oct.2013)"
+        },
+        "VEXTRACTF32x4": {
+            "Oracle Solaris Mnemonic": "vextractf128",
+            "Intel/AMD Mnemonic": "VEXTRACTF32x4",
+            "Description": "Extract Packed Floating-Point Values",
+            "Reference": "page 5-152 (319433-016/Oct.2013)"
+        },
+        "VEXTRACTF64x4": {
+            "Oracle Solaris Mnemonic": "vextractf128",
+            "Intel/AMD Mnemonic": "VEXTRACTF64x4",
+            "Description": "Extract Packed Floating-Point Values",
+            "Reference": "page 5-152 (319433-016/Oct.2013)"
+        },
+        "VINSERTF128": {
+            "Oracle Solaris Mnemonic": "vinsertf128",
+            "Intel/AMD Mnemonic": "VINSERTF128",
+            "Description": "Insert Packed Floating-Point Values",
+            "Reference": "page 5-305 (319433-016/Oct.2013)"
+        },
+        "VINSERTF32x4": {
+            "Oracle Solaris Mnemonic": "vinsertf128",
+            "Intel/AMD Mnemonic": "VINSERTF32x4",
+            "Description": "Insert Packed Floating-Point Values",
+            "Reference": "page 5-305 (319433-016/Oct.2013)"
+        },
+        "VINSERTF64x4": {
+            "Oracle Solaris Mnemonic": "vinsertf128",
+            "Intel/AMD Mnemonic": "VINSERTF64x4",
+            "Description": "Insert Packed Floating-Point Values",
+            "Reference": "page 5-305 (319433-016/Oct.2013)"
+        },
+        "VMASKMOV": {
+            "Oracle Solaris Mnemonic": "vmaskmov(pd|ps)",
+            "Intel/AMD Mnemonic": "VMASKMOV",
+            "Description": "Conditional SIMD Packed Loads and Stores",
+            "Reference": "page 4-506 (253667-048US/Sep.2013)"
+        },
+        "VPERM2F128": {
+            "Oracle Solaris Mnemonic": "vperm2f128",
+            "Intel/AMD Mnemonic": "VPERM2F128",
+            "Description": "Permute Floating-Point Values",
+            "Reference": "page 4-527 (253667-048US/Sep.2013)"
+        },
+        "VPERMILPD": {
+            "Oracle Solaris Mnemonic": "vpermilpd",
+            "Intel/AMD Mnemonic": "VPERMILPD",
+            "Description": "Permute Double-Precision Floating-Point Values",
+            "Reference": "page 5-445 (319433-016/Oct.2013)"
+        },
+        "VPERMILPS": {
+            "Oracle Solaris Mnemonic": "vpermilps",
+            "Intel/AMD Mnemonic": "VPERMILPS",
+            "Description": "Permute Single-Precision Floating-Point Values",
+            "Reference": "page 5-450 (319433-016/Oct.2013)"
+        },
+        "VTESTPDVTESTPS": {
+            "Oracle Solaris Mnemonic": "vtestp(d|s)",
+            "Intel/AMD Mnemonic": "VTESTPDVTESTPS",
+            "Description": "Packed Bit Test",
+            "Reference": "page 4-538 (253667-048US/Sep.2013)"
+        },
+        "VZEROALL": {
+            "Oracle Solaris Mnemonic": "vzeroall",
+            "Intel/AMD Mnemonic": "VZEROALL",
+            "Description": "Zero All YMM Registers",
+            "Reference": "page 4-541 (253667-048US/Sep.2013)"
+        },
+        "VZEROUPPER": {
+            "Oracle Solaris Mnemonic": "vzeroupper",
+            "Intel/AMD Mnemonic": "VZEROUPPER",
+            "Description": "Zero Upper Bits of YMM Registers",
+            "Reference": "page 4-543 (253667-048US/Sep.2013)"
+        },
+        "XORPD": {
+            "Oracle Solaris Mnemonic": "vxorpd",
+            "Intel/AMD Mnemonic": "XORPD",
+            "Description": "Bitwise Logical XOR for Double-Precision Floating-Point Values",
+            "Reference": "page 4-572 (253667-048US/Sep.2013)"
+        },
+        "XORPS": {
+            "Oracle Solaris Mnemonic": "vxorps",
+            "Intel/AMD Mnemonic": "XORPS",
+            "Description": "Bitwise Logical XOR for Single-Precision Floating-Point Values",
+            "Reference": "page 4-574 (253667-048US/Sep.2013)"
+        },
+        "PCLMULQDQ": {
+            "Oracle Solaris Mnemonic": "vpclmulqdq",
+            "Intel/AMD Mnemonic": "PCLMULQDQ",
+            "Description": "Requires PCLMULQDQ CPUID-flag",
+            "Reference": "page 4-68 (253667-048US/Sep.2013)"
+        },
+        "Carry-Less Multiplication Quadword": {
+            "Oracle Solaris Mnemonic": "vpclmulqdq",
+            "Intel/AMD Mnemonic": "Carry-Less Multiplication Quadword",
+            "Description": "Requires PCLMULQDQ CPUID-flag",
+            "Reference": "page 4-68 (253667-048US/Sep.2013)"
+        }
+    },
+    "registers": [
+        "XMM0",
+        "XMM1",
+        "XMM2",
+        "XMM3",
+        "XMM4",
+        "XMM5",
+        "XMM6",
+        "XMM7",
+        "XMM8",
+        "XMM9",
+        "XMM10",
+        "XMM11",
+        "XMM12",
+        "XMM13",
+        "XMM14",
+        "XMM15",
+        "XMM16",
+        "XMM17",
+        "XMM18",
+        "XMM19",
+        "XMM20",
+        "XMM21",
+        "XMM22",
+        "XMM23",
+        "XMM24",
+        "XMM25",
+        "XMM26",
+        "XMM27",
+        "XMM28",
+        "XMM29",
+        "XMM30",
+        "XMM31"
+    ]
+}

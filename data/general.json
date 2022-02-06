@@ -1,0 +1,1430 @@
+{
+    "instructions": {
+        "BSWAP": {
+            "Oracle Solaris Mnemonic": "bswap{lq}",
+            "Intel/AMD Mnemonic": "BSWAP",
+            "Description": "byte swap",
+            "Reference": "bswapq valid only under -m64"
+        },
+        "CBW": {
+            "Oracle Solaris Mnemonic": "cbtw",
+            "Intel/AMD Mnemonic": "CBW",
+            "Description": "convert byte to word",
+            "Reference": "No extra information provided"
+        },
+        "CDQ": {
+            "Oracle Solaris Mnemonic": "cltd",
+            "Intel/AMD Mnemonic": "CDQ",
+            "Description": "convert doubleword to quadword",
+            "Reference": "%eax → %edx:%eax"
+        },
+        "CDQE": {
+            "Oracle Solaris Mnemonic": "cltq",
+            "Intel/AMD Mnemonic": "CDQE",
+            "Description": "convert doubleword to quadword",
+            "Reference": "%eax → %rax, cltq valid only under -m64"
+        },
+        "CMOVA": {
+            "Oracle Solaris Mnemonic": "cmova{wlq}, cmov{wlq}.a",
+            "Intel/AMD Mnemonic": "CMOVA",
+            "Description": "conditional move if above",
+            "Reference": "cmovaq valid only under -m64"
+        },
+        "CMOVAE": {
+            "Oracle Solaris Mnemonic": "cmovae{wlq}, cmov{wlq}.ae",
+            "Intel/AMD Mnemonic": "CMOVAE",
+            "Description": "conditional move if above or equal",
+            "Reference": "cmovaeq valid only under -m64"
+        },
+        "CMOVB": {
+            "Oracle Solaris Mnemonic": "cmovb{wlq}, cmov{wlq}.b",
+            "Intel/AMD Mnemonic": "CMOVB",
+            "Description": "conditional move if below",
+            "Reference": "cmovbq valid only under -m64"
+        },
+        "CMOVBE": {
+            "Oracle Solaris Mnemonic": "cmovbe{wlq}, cmov{wlq}.be",
+            "Intel/AMD Mnemonic": "CMOVBE",
+            "Description": "conditional move if below or equal",
+            "Reference": "cmovbeq valid only under -m64"
+        },
+        "CMOVC": {
+            "Oracle Solaris Mnemonic": "cmovc{wlq}, cmov{wlq}.c",
+            "Intel/AMD Mnemonic": "CMOVC",
+            "Description": "conditional move if carry",
+            "Reference": "cmovcq valid only under -m64"
+        },
+        "CMOVE": {
+            "Oracle Solaris Mnemonic": "cmove{wlq}, cmov{wlq}.e",
+            "Intel/AMD Mnemonic": "CMOVE",
+            "Description": "conditional move if equal",
+            "Reference": "cmoveq valid only under -m64"
+        },
+        "CMOVG": {
+            "Oracle Solaris Mnemonic": "cmovg{wlq}, cmov{wlq}.g",
+            "Intel/AMD Mnemonic": "CMOVG",
+            "Description": "conditional move if greater",
+            "Reference": "cmovgq valid only under -m64"
+        },
+        "CMOVGE": {
+            "Oracle Solaris Mnemonic": "cmovge{wlq}, cmov{wlq}.ge",
+            "Intel/AMD Mnemonic": "CMOVGE",
+            "Description": "conditional move if greater or equal",
+            "Reference": "cmovgeq valid only under -m64"
+        },
+        "CMOVL": {
+            "Oracle Solaris Mnemonic": "cmovl{wlq}, cmov{wlq}.l",
+            "Intel/AMD Mnemonic": "CMOVL",
+            "Description": "conditional move if less",
+            "Reference": "cmovlq valid only under -m64"
+        },
+        "COMVLE": {
+            "Oracle Solaris Mnemonic": "cmovle{wlq}, cmov{wlq}.le",
+            "Intel/AMD Mnemonic": "COMVLE",
+            "Description": "conditional move if less or equal",
+            "Reference": "cmovleq valid only under -m64"
+        },
+        "CMOVNA": {
+            "Oracle Solaris Mnemonic": "cmovna{wlq}, cmov{wlq}.na",
+            "Intel/AMD Mnemonic": "CMOVNA",
+            "Description": "conditional move if not above",
+            "Reference": "cmovnaq valid only under -m64"
+        },
+        "CMOVNAE": {
+            "Oracle Solaris Mnemonic": "cmovnae{wlq}, cmov{wlq}.nae",
+            "Intel/AMD Mnemonic": "CMOVNAE",
+            "Description": "conditional move if not above or equal",
+            "Reference": "cmovnaeq valid only under -m64"
+        },
+        "CMOVNB": {
+            "Oracle Solaris Mnemonic": "cmovnb{wlq}, cmov{wlq}.nb",
+            "Intel/AMD Mnemonic": "CMOVNB",
+            "Description": "conditional move if not below",
+            "Reference": "cmovnbq valid only under -m64"
+        },
+        "CMOVNBE": {
+            "Oracle Solaris Mnemonic": "cmovnbe{wlq}, cmov{wlq}.nbe",
+            "Intel/AMD Mnemonic": "CMOVNBE",
+            "Description": "conditional move if not below or equal",
+            "Reference": "cmovnbeq valid only under -m64"
+        },
+        "CMOVNC": {
+            "Oracle Solaris Mnemonic": "cmovnc{wlq}, cmov{wlq}.nc",
+            "Intel/AMD Mnemonic": "CMOVNC",
+            "Description": "conditional move if not carry",
+            "Reference": "cmovncq valid only under -m64"
+        },
+        "CMOVNE": {
+            "Oracle Solaris Mnemonic": "cmovne{wlq}, cmov{wlq}.ne",
+            "Intel/AMD Mnemonic": "CMOVNE",
+            "Description": "conditional move if not equal",
+            "Reference": "cmovneq valid only under -m64"
+        },
+        "CMOVNG": {
+            "Oracle Solaris Mnemonic": "cmovng{wlq}, cmov{wlq}.ng",
+            "Intel/AMD Mnemonic": "CMOVNG",
+            "Description": "conditional move if greater",
+            "Reference": "cmovngq valid only under -m64"
+        },
+        "CMOVNGE": {
+            "Oracle Solaris Mnemonic": "cmovnge{wlq}, cmov{wlq}.nge",
+            "Intel/AMD Mnemonic": "CMOVNGE",
+            "Description": "conditional move if not greater or equal",
+            "Reference": "cmovngeq valid only under -m64"
+        },
+        "CMOVNL": {
+            "Oracle Solaris Mnemonic": "cmovnl{wlq}, cmov{wlq}.nl",
+            "Intel/AMD Mnemonic": "CMOVNL",
+            "Description": "conditional move if not less",
+            "Reference": "cmovnlq valid only under -m64"
+        },
+        "CMOVNLE": {
+            "Oracle Solaris Mnemonic": "cmovnle{wlq}, cmov{wlq}.nle",
+            "Intel/AMD Mnemonic": "CMOVNLE",
+            "Description": "conditional move if not above or equal",
+            "Reference": "cmovnleq valid only under -m64"
+        },
+        "CMOVNO": {
+            "Oracle Solaris Mnemonic": "cmovno{wlq}, cmov{wlq}.no",
+            "Intel/AMD Mnemonic": "CMOVNO",
+            "Description": "conditional move if not overflow",
+            "Reference": "cmovnoq valid only under -m64"
+        },
+        "CMOVNP": {
+            "Oracle Solaris Mnemonic": "cmovnp{wlq}, cmov{wlq}.np",
+            "Intel/AMD Mnemonic": "CMOVNP",
+            "Description": "conditional move if not parity",
+            "Reference": "cmovnpq valid only under -m64"
+        },
+        "CMOVNS": {
+            "Oracle Solaris Mnemonic": "cmovns{wlq}, cmov{wlq}.ns",
+            "Intel/AMD Mnemonic": "CMOVNS",
+            "Description": "conditional move if not sign (non-negative)",
+            "Reference": "cmovnsq valid only under -m64"
+        },
+        "CMOVNZ": {
+            "Oracle Solaris Mnemonic": "cmovnz{wlq}, cmov{wlq}.nz",
+            "Intel/AMD Mnemonic": "CMOVNZ",
+            "Description": "conditional move if not zero",
+            "Reference": "cmovnzq valid only under -m64"
+        },
+        "CMOVO": {
+            "Oracle Solaris Mnemonic": "cmovo{wlq}, cmov{wlq}.o",
+            "Intel/AMD Mnemonic": "CMOVO",
+            "Description": "conditional move if overflow",
+            "Reference": "cmovoq valid only under -m64"
+        },
+        "CMOVP": {
+            "Oracle Solaris Mnemonic": "cmovp{wlq}, cmov{wlq}.p",
+            "Intel/AMD Mnemonic": "CMOVP",
+            "Description": "conditional move if parity",
+            "Reference": "cmovpq valid only under -m64"
+        },
+        "CMOVPE": {
+            "Oracle Solaris Mnemonic": "cmovpe{wlq}, cmov{wlq}.pe",
+            "Intel/AMD Mnemonic": "CMOVPE",
+            "Description": "conditional move if parity even",
+            "Reference": "cmovpeq valid only under -m64"
+        },
+        "CMOVPO": {
+            "Oracle Solaris Mnemonic": "cmovpo{wlq}, cmov{wlq}.po",
+            "Intel/AMD Mnemonic": "CMOVPO",
+            "Description": "conditional move if parity odd",
+            "Reference": "cmovpoq valid only under -m64"
+        },
+        "CMOVS": {
+            "Oracle Solaris Mnemonic": "cmovs{wlq}, cmov{wlq}.s",
+            "Intel/AMD Mnemonic": "CMOVS",
+            "Description": "conditional move if sign (negative)",
+            "Reference": "cmovsq valid only under -m64"
+        },
+        "CMOVZ": {
+            "Oracle Solaris Mnemonic": "cmovz{wlq}, cmov{wlq}.z",
+            "Intel/AMD Mnemonic": "CMOVZ",
+            "Description": "conditional move if zero",
+            "Reference": "cmovzq valid only under -m64"
+        },
+        "CMPXCHG": {
+            "Oracle Solaris Mnemonic": "cmpxchg{bwlq}",
+            "Intel/AMD Mnemonic": "CMPXCHG",
+            "Description": "compare and exchange",
+            "Reference": "cmpxchgq valid only under -m64"
+        },
+        "CMPXCHG8B": {
+            "Oracle Solaris Mnemonic": "cmpxchg8b",
+            "Intel/AMD Mnemonic": "CMPXCHG8B",
+            "Description": "compare and exchange 8 bytes",
+            "Reference": "No extra information provided"
+        },
+        "CQO": {
+            "Oracle Solaris Mnemonic": "cqto",
+            "Intel/AMD Mnemonic": "CQO",
+            "Description": "convert quadword to octword, %rax → %rdx:%rax, cqto valid only under -m64",
+            "Reference": "No extra information provided"
+        },
+        "CWD": {
+            "Oracle Solaris Mnemonic": "cwtd",
+            "Intel/AMD Mnemonic": "CWD",
+            "Description": "convert word to doubleword",
+            "Reference": "%ax → %dx:%ax"
+        },
+        "CWDE": {
+            "Oracle Solaris Mnemonic": "cwtl",
+            "Intel/AMD Mnemonic": "CWDE",
+            "Description": "convert word to doubleword in %eax register",
+            "Reference": "%ax → %eax"
+        },
+        "INVPCID": {
+            "Oracle Solaris Mnemonic": "invpcid",
+            "Intel/AMD Mnemonic": "INVPCID",
+            "Description": "Invalidate Process-Context Identifier",
+            "Reference": "page 3-416 (253666-048US/Sep.2013)"
+        },
+        "MOV": {
+            "Oracle Solaris Mnemonic": "mov{bwlq}",
+            "Intel/AMD Mnemonic": "MOV",
+            "Description": "move data between immediate values, general purpose registers, segment registers, and memory, movq valid only under -m64",
+            "Reference": "No extra information provided"
+        },
+        "MOVABS": {
+            "Oracle Solaris Mnemonic": "movabs{bwlq}A",
+            "Intel/AMD Mnemonic": "MOVABS",
+            "Description": "move immediate value to register {AL, AX, GAX, RAX}",
+            "Reference": "movabs valid only under -m64"
+        },
+        "MOVSX": {
+            "Oracle Solaris Mnemonic": "movsb{wlq}, movsw{lq}",
+            "Intel/AMD Mnemonic": "MOVSX",
+            "Description": "move and sign extend",
+            "Reference": "movsbq and movswq valid only under -m64"
+        },
+        "MOVZX": {
+            "Oracle Solaris Mnemonic": "movzb{wlq}, movzw{lq}",
+            "Intel/AMD Mnemonic": "MOVZX",
+            "Description": "move and zero extend",
+            "Reference": "movzbq and movzwq valid only under -m64"
+        },
+        "POP": {
+            "Oracle Solaris Mnemonic": "pop{wlq}",
+            "Intel/AMD Mnemonic": "POP",
+            "Description": "pop stack",
+            "Reference": "popq valid only under -m64"
+        },
+        "POPA": {
+            "Oracle Solaris Mnemonic": "popaw",
+            "Intel/AMD Mnemonic": "POPA",
+            "Description": "pop general-purpose registers from stack",
+            "Reference": "popaw invalid under -m64"
+        },
+        "POPAD": {
+            "Oracle Solaris Mnemonic": "popal, popa",
+            "Intel/AMD Mnemonic": "POPAD",
+            "Description": "pop general-purpose registers from stack",
+            "Reference": "invalid under -m64"
+        },
+        "PUSH": {
+            "Oracle Solaris Mnemonic": "push{wlq}",
+            "Intel/AMD Mnemonic": "PUSH",
+            "Description": "push onto stack",
+            "Reference": "pushq valid only under -m64"
+        },
+        "PUSHA": {
+            "Oracle Solaris Mnemonic": "pushaw",
+            "Intel/AMD Mnemonic": "PUSHA",
+            "Description": "push general-purpose registers onto stack",
+            "Reference": "pushaw invalid under -m64"
+        },
+        "PUSHAD": {
+            "Oracle Solaris Mnemonic": "pushal, pusha",
+            "Intel/AMD Mnemonic": "PUSHAD",
+            "Description": "push general-purpose registers onto stack",
+            "Reference": "invalid under -m64"
+        },
+        "XADD": {
+            "Oracle Solaris Mnemonic": "xadd{bwlq}",
+            "Intel/AMD Mnemonic": "XADD",
+            "Description": "exchange and add",
+            "Reference": "xaddq valid only under -m64"
+        },
+        "XCHG": {
+            "Oracle Solaris Mnemonic": "xchg{bwlq}A",
+            "Intel/AMD Mnemonic": "XCHG",
+            "Description": "exchange",
+            "Reference": "xchgqA valid only under -m64"
+        },
+        "ADC": {
+            "Oracle Solaris Mnemonic": "adc{bwlq}",
+            "Intel/AMD Mnemonic": "ADC",
+            "Description": "add with carry",
+            "Reference": "adcq valid only under -m64"
+        },
+        "ADD": {
+            "Oracle Solaris Mnemonic": "add{bwlq}",
+            "Intel/AMD Mnemonic": "ADD",
+            "Description": "integer add",
+            "Reference": "addq valid only under -m64"
+        },
+        "CMP": {
+            "Oracle Solaris Mnemonic": "cmp{bwlq}",
+            "Intel/AMD Mnemonic": "CMP",
+            "Description": "compare",
+            "Reference": "cmpq valid only under -m64"
+        },
+        "DEC": {
+            "Oracle Solaris Mnemonic": "dec{bwlq}",
+            "Intel/AMD Mnemonic": "DEC",
+            "Description": "decrement",
+            "Reference": "decq valid only under -m64"
+        },
+        "DIV": {
+            "Oracle Solaris Mnemonic": "div{bwlq}",
+            "Intel/AMD Mnemonic": "DIV",
+            "Description": "divide (unsigned)",
+            "Reference": "divq valid only under -m64"
+        },
+        "IDIV": {
+            "Oracle Solaris Mnemonic": "idiv{bwlq}",
+            "Intel/AMD Mnemonic": "IDIV",
+            "Description": "divide (signed)",
+            "Reference": "idivq valid only under -m64"
+        },
+        "IMUL": {
+            "Oracle Solaris Mnemonic": "imul{bwlq}",
+            "Intel/AMD Mnemonic": "IMUL",
+            "Description": "multiply (signed)",
+            "Reference": "imulq valid only under -m64"
+        },
+        "INC": {
+            "Oracle Solaris Mnemonic": "inc{bwlq}",
+            "Intel/AMD Mnemonic": "INC",
+            "Description": "increment",
+            "Reference": "incq valid only under -m64"
+        },
+        "MUL": {
+            "Oracle Solaris Mnemonic": "mul{bwlq}",
+            "Intel/AMD Mnemonic": "MUL",
+            "Description": "multiply (unsigned)",
+            "Reference": "mulq valid only under -m64"
+        },
+        "NEG": {
+            "Oracle Solaris Mnemonic": "neg{bwlq}",
+            "Intel/AMD Mnemonic": "NEG",
+            "Description": "negate",
+            "Reference": "negq valid only under -m64"
+        },
+        "SBB": {
+            "Oracle Solaris Mnemonic": "sbb{bwlq}",
+            "Intel/AMD Mnemonic": "SBB",
+            "Description": "subtract with borrow",
+            "Reference": "sbbq valid only under -m64"
+        },
+        "SUB": {
+            "Oracle Solaris Mnemonic": "sub{bwlq}",
+            "Intel/AMD Mnemonic": "SUB",
+            "Description": "subtract",
+            "Reference": "subq valid only under -m64"
+        },
+        "AAA": {
+            "Oracle Solaris Mnemonic": "aaa",
+            "Intel/AMD Mnemonic": "AAA",
+            "Description": "ASCII adjust after addition",
+            "Reference": "invalid under -m64"
+        },
+        "AAD": {
+            "Oracle Solaris Mnemonic": "aad",
+            "Intel/AMD Mnemonic": "AAD",
+            "Description": "ASCII adjust before division",
+            "Reference": "invalid under -m64"
+        },
+        "AAM": {
+            "Oracle Solaris Mnemonic": "aam",
+            "Intel/AMD Mnemonic": "AAM",
+            "Description": "ASCII adjust after multiplication",
+            "Reference": "invalid under -m64"
+        },
+        "AAS": {
+            "Oracle Solaris Mnemonic": "aas",
+            "Intel/AMD Mnemonic": "AAS",
+            "Description": "ASCII adjust after subtraction",
+            "Reference": "invalid under -m64"
+        },
+        "DAA": {
+            "Oracle Solaris Mnemonic": "daa",
+            "Intel/AMD Mnemonic": "DAA",
+            "Description": "decimal adjust after addition",
+            "Reference": "invalid under -m64"
+        },
+        "DAS": {
+            "Oracle Solaris Mnemonic": "das",
+            "Intel/AMD Mnemonic": "DAS",
+            "Description": "decimal adjust after subtraction",
+            "Reference": "invalid under -m64"
+        },
+        "AND": {
+            "Oracle Solaris Mnemonic": "and{bwlq}",
+            "Intel/AMD Mnemonic": "AND",
+            "Description": "bitwise logical AND",
+            "Reference": "andq valid only under -m64"
+        },
+        "NOT": {
+            "Oracle Solaris Mnemonic": "not{bwlq}",
+            "Intel/AMD Mnemonic": "NOT",
+            "Description": "bitwise logical NOT",
+            "Reference": "notq valid only under -m64"
+        },
+        "OR": {
+            "Oracle Solaris Mnemonic": "or{bwlq}",
+            "Intel/AMD Mnemonic": "OR",
+            "Description": "bitwise logical OR",
+            "Reference": "orq valid only under -m64"
+        },
+        "XOR": {
+            "Oracle Solaris Mnemonic": "xor{bwlq}",
+            "Intel/AMD Mnemonic": "XOR",
+            "Description": "bitwise logical exclusive OR",
+            "Reference": "xorq valid only under -m64"
+        },
+        "RCL": {
+            "Oracle Solaris Mnemonic": "rcl{bwlq}",
+            "Intel/AMD Mnemonic": "RCL",
+            "Description": "rotate through carry left",
+            "Reference": "rclq valid only under -m64"
+        },
+        "RCR": {
+            "Oracle Solaris Mnemonic": "rcr{bwlq}",
+            "Intel/AMD Mnemonic": "RCR",
+            "Description": "rotate through carry right",
+            "Reference": "rcrq valid only under -m64"
+        },
+        "ROL": {
+            "Oracle Solaris Mnemonic": "rol{bwlq}",
+            "Intel/AMD Mnemonic": "ROL",
+            "Description": "rotate left",
+            "Reference": "rolq valid only under -m64"
+        },
+        "ROR": {
+            "Oracle Solaris Mnemonic": "ror{bwlq}",
+            "Intel/AMD Mnemonic": "ROR",
+            "Description": "rotate right",
+            "Reference": "rorq valid only under -m64"
+        },
+        "SAL": {
+            "Oracle Solaris Mnemonic": "sal{bwlq}",
+            "Intel/AMD Mnemonic": "SAL",
+            "Description": "shift arithmetic left",
+            "Reference": "salq valid only under -m64"
+        },
+        "SAR": {
+            "Oracle Solaris Mnemonic": "sar{bwlq}",
+            "Intel/AMD Mnemonic": "SAR",
+            "Description": "shift arithmetic right",
+            "Reference": "sarq valid only under -m64"
+        },
+        "SHL": {
+            "Oracle Solaris Mnemonic": "shl{bwlq}",
+            "Intel/AMD Mnemonic": "SHL",
+            "Description": "shift logical left",
+            "Reference": "shlq valid only under -m64"
+        },
+        "SHLD": {
+            "Oracle Solaris Mnemonic": "shld{bwlq}",
+            "Intel/AMD Mnemonic": "SHLD",
+            "Description": "shift left double",
+            "Reference": "shldq valid only under -m64"
+        },
+        "SHR": {
+            "Oracle Solaris Mnemonic": "shr{bwlq}",
+            "Intel/AMD Mnemonic": "SHR",
+            "Description": "shift logical right",
+            "Reference": "shrq valid only under -m64"
+        },
+        "SHRD": {
+            "Oracle Solaris Mnemonic": "shrd{bwlq}",
+            "Intel/AMD Mnemonic": "SHRD",
+            "Description": "shift right double",
+            "Reference": "shrdq valid only under -m64"
+        },
+        "BSF": {
+            "Oracle Solaris Mnemonic": "bsf{wlq}",
+            "Intel/AMD Mnemonic": "BSF",
+            "Description": "bit scan forward",
+            "Reference": "bsfq valid only under -m64"
+        },
+        "BSR": {
+            "Oracle Solaris Mnemonic": "bsr{wlq}",
+            "Intel/AMD Mnemonic": "BSR",
+            "Description": "bit scan reverse",
+            "Reference": "bsrq valid only under -m64"
+        },
+        "BT": {
+            "Oracle Solaris Mnemonic": "bt{wlq}",
+            "Intel/AMD Mnemonic": "BT",
+            "Description": "bit test",
+            "Reference": "btq valid only under -m64"
+        },
+        "BTC": {
+            "Oracle Solaris Mnemonic": "btc{wlq}",
+            "Intel/AMD Mnemonic": "BTC",
+            "Description": "bit test and complement",
+            "Reference": "btcq valid only under -m64"
+        },
+        "BTR": {
+            "Oracle Solaris Mnemonic": "btr{wlq}",
+            "Intel/AMD Mnemonic": "BTR",
+            "Description": "bit test and reset",
+            "Reference": "btrq valid only under -m64"
+        },
+        "BTS": {
+            "Oracle Solaris Mnemonic": "bts{wlq}",
+            "Intel/AMD Mnemonic": "BTS",
+            "Description": "bit test and set",
+            "Reference": "btsq valid only under -m64"
+        },
+        "SETA": {
+            "Oracle Solaris Mnemonic": "seta",
+            "Intel/AMD Mnemonic": "SETA",
+            "Description": "set byte if above",
+            "Reference": "No extra information provided"
+        },
+        "SETAE": {
+            "Oracle Solaris Mnemonic": "setae",
+            "Intel/AMD Mnemonic": "SETAE",
+            "Description": "set byte if above or equal",
+            "Reference": "No extra information provided"
+        },
+        "SETB": {
+            "Oracle Solaris Mnemonic": "setb",
+            "Intel/AMD Mnemonic": "SETB",
+            "Description": "set byte if below",
+            "Reference": "No extra information provided"
+        },
+        "SETBE": {
+            "Oracle Solaris Mnemonic": "setbe",
+            "Intel/AMD Mnemonic": "SETBE",
+            "Description": "set byte if below or equal",
+            "Reference": "No extra information provided"
+        },
+        "SETC": {
+            "Oracle Solaris Mnemonic": "setc",
+            "Intel/AMD Mnemonic": "SETC",
+            "Description": "set byte if carry",
+            "Reference": "No extra information provided"
+        },
+        "SETE": {
+            "Oracle Solaris Mnemonic": "sete",
+            "Intel/AMD Mnemonic": "SETE",
+            "Description": "set byte if equal",
+            "Reference": "No extra information provided"
+        },
+        "SETG": {
+            "Oracle Solaris Mnemonic": "setg",
+            "Intel/AMD Mnemonic": "SETG",
+            "Description": "set byte if greater",
+            "Reference": "No extra information provided"
+        },
+        "SETGE": {
+            "Oracle Solaris Mnemonic": "setge",
+            "Intel/AMD Mnemonic": "SETGE",
+            "Description": "set byte if greater or equal",
+            "Reference": "No extra information provided"
+        },
+        "SETL": {
+            "Oracle Solaris Mnemonic": "setl",
+            "Intel/AMD Mnemonic": "SETL",
+            "Description": "set byte if less",
+            "Reference": "No extra information provided"
+        },
+        "SETLE": {
+            "Oracle Solaris Mnemonic": "setle",
+            "Intel/AMD Mnemonic": "SETLE",
+            "Description": "set byte if less or equal",
+            "Reference": "No extra information provided"
+        },
+        "SETNA": {
+            "Oracle Solaris Mnemonic": "setna",
+            "Intel/AMD Mnemonic": "SETNA",
+            "Description": "set byte if not above",
+            "Reference": "No extra information provided"
+        },
+        "SETNAE": {
+            "Oracle Solaris Mnemonic": "setnae",
+            "Intel/AMD Mnemonic": "SETNAE",
+            "Description": "set byte if not above or equal",
+            "Reference": "No extra information provided"
+        },
+        "SETNB": {
+            "Oracle Solaris Mnemonic": "setnb",
+            "Intel/AMD Mnemonic": "SETNB",
+            "Description": "set byte if not below",
+            "Reference": "No extra information provided"
+        },
+        "SETNBE": {
+            "Oracle Solaris Mnemonic": "setnbe",
+            "Intel/AMD Mnemonic": "SETNBE",
+            "Description": "set byte if not below or equal",
+            "Reference": "No extra information provided"
+        },
+        "SETNC": {
+            "Oracle Solaris Mnemonic": "setnc",
+            "Intel/AMD Mnemonic": "SETNC",
+            "Description": "set byte if not carry",
+            "Reference": "No extra information provided"
+        },
+        "SETNE": {
+            "Oracle Solaris Mnemonic": "setne",
+            "Intel/AMD Mnemonic": "SETNE",
+            "Description": "set byte if not equal",
+            "Reference": "No extra information provided"
+        },
+        "SETNG": {
+            "Oracle Solaris Mnemonic": "setng",
+            "Intel/AMD Mnemonic": "SETNG",
+            "Description": "set byte if not greater",
+            "Reference": "No extra information provided"
+        },
+        "SETNGE": {
+            "Oracle Solaris Mnemonic": "setnge",
+            "Intel/AMD Mnemonic": "SETNGE",
+            "Description": "set byte if not greater or equal",
+            "Reference": "No extra information provided"
+        },
+        "SETNL": {
+            "Oracle Solaris Mnemonic": "setnl",
+            "Intel/AMD Mnemonic": "SETNL",
+            "Description": "set byte if not less",
+            "Reference": "No extra information provided"
+        },
+        "SETNLE": {
+            "Oracle Solaris Mnemonic": "setnle",
+            "Intel/AMD Mnemonic": "SETNLE",
+            "Description": "set byte if not less or equal",
+            "Reference": "No extra information provided"
+        },
+        "SETNO": {
+            "Oracle Solaris Mnemonic": "setno",
+            "Intel/AMD Mnemonic": "SETNO",
+            "Description": "set byte if not overflow",
+            "Reference": "No extra information provided"
+        },
+        "SETNP": {
+            "Oracle Solaris Mnemonic": "setnp",
+            "Intel/AMD Mnemonic": "SETNP",
+            "Description": "set byte if not parity",
+            "Reference": "No extra information provided"
+        },
+        "SETNS": {
+            "Oracle Solaris Mnemonic": "setns",
+            "Intel/AMD Mnemonic": "SETNS",
+            "Description": "set byte if not sign (non-negative)",
+            "Reference": "No extra information provided"
+        },
+        "SETNZ": {
+            "Oracle Solaris Mnemonic": "setnz",
+            "Intel/AMD Mnemonic": "SETNZ",
+            "Description": "set byte if not zero",
+            "Reference": "No extra information provided"
+        },
+        "SETO": {
+            "Oracle Solaris Mnemonic": "seto",
+            "Intel/AMD Mnemonic": "SETO",
+            "Description": "set byte if overflow",
+            "Reference": "No extra information provided"
+        },
+        "SETP": {
+            "Oracle Solaris Mnemonic": "setp",
+            "Intel/AMD Mnemonic": "SETP",
+            "Description": "set byte if parity",
+            "Reference": "No extra information provided"
+        },
+        "SETPE": {
+            "Oracle Solaris Mnemonic": "setpe",
+            "Intel/AMD Mnemonic": "SETPE",
+            "Description": "set byte if parity even",
+            "Reference": "No extra information provided"
+        },
+        "SETPO": {
+            "Oracle Solaris Mnemonic": "setpo",
+            "Intel/AMD Mnemonic": "SETPO",
+            "Description": "set byte if parity odd",
+            "Reference": "No extra information provided"
+        },
+        "SETS": {
+            "Oracle Solaris Mnemonic": "sets",
+            "Intel/AMD Mnemonic": "SETS",
+            "Description": "set byte if sign (negative)",
+            "Reference": "No extra information provided"
+        },
+        "SETZ": {
+            "Oracle Solaris Mnemonic": "setz",
+            "Intel/AMD Mnemonic": "SETZ",
+            "Description": "set byte if zero",
+            "Reference": "No extra information provided"
+        },
+        "TEST": {
+            "Oracle Solaris Mnemonic": "test{bwlq}",
+            "Intel/AMD Mnemonic": "TEST",
+            "Description": "logical compare",
+            "Reference": "testq valid only under -m64"
+        },
+        "BOUND": {
+            "Oracle Solaris Mnemonic": "bound{wl}",
+            "Intel/AMD Mnemonic": "BOUND",
+            "Description": "detect value out of range",
+            "Reference": "boundw invalid under -m64"
+        },
+        "CALL": {
+            "Oracle Solaris Mnemonic": "lcall",
+            "Intel/AMD Mnemonic": "CALL",
+            "Description": "call far procedure",
+            "Reference": "valid as indirect only for -m64"
+        },
+        "ENTER": {
+            "Oracle Solaris Mnemonic": "enter",
+            "Intel/AMD Mnemonic": "ENTER",
+            "Description": "high-level procedure entry",
+            "Reference": "No extra information provided"
+        },
+        "INT": {
+            "Oracle Solaris Mnemonic": "int",
+            "Intel/AMD Mnemonic": "INT",
+            "Description": "software interrupt",
+            "Reference": "No extra information provided"
+        },
+        "INTO": {
+            "Oracle Solaris Mnemonic": "into",
+            "Intel/AMD Mnemonic": "INTO",
+            "Description": "interrupt on overflow",
+            "Reference": "invalid under -m64"
+        },
+        "IRET": {
+            "Oracle Solaris Mnemonic": "iret",
+            "Intel/AMD Mnemonic": "IRET",
+            "Description": "return from interrupt",
+            "Reference": "No extra information provided"
+        },
+        "JA": {
+            "Oracle Solaris Mnemonic": "ja",
+            "Intel/AMD Mnemonic": "JA",
+            "Description": "jump if above",
+            "Reference": "No extra information provided"
+        },
+        "JAE": {
+            "Oracle Solaris Mnemonic": "jae",
+            "Intel/AMD Mnemonic": "JAE",
+            "Description": "jump if above or equal",
+            "Reference": "No extra information provided"
+        },
+        "JB": {
+            "Oracle Solaris Mnemonic": "jb",
+            "Intel/AMD Mnemonic": "JB",
+            "Description": "jump if below",
+            "Reference": "No extra information provided"
+        },
+        "JBE": {
+            "Oracle Solaris Mnemonic": "jbe",
+            "Intel/AMD Mnemonic": "JBE",
+            "Description": "jump if below or equal",
+            "Reference": "No extra information provided"
+        },
+        "JC": {
+            "Oracle Solaris Mnemonic": "jc",
+            "Intel/AMD Mnemonic": "JC",
+            "Description": "jump if carry",
+            "Reference": "No extra information provided"
+        },
+        "JCXZ": {
+            "Oracle Solaris Mnemonic": "jcxz",
+            "Intel/AMD Mnemonic": "JCXZ",
+            "Description": "jump register %cx zero",
+            "Reference": "No extra information provided"
+        },
+        "JE": {
+            "Oracle Solaris Mnemonic": "je",
+            "Intel/AMD Mnemonic": "JE",
+            "Description": "jump if equal",
+            "Reference": "No extra information provided"
+        },
+        "JECXZ": {
+            "Oracle Solaris Mnemonic": "jecxz",
+            "Intel/AMD Mnemonic": "JECXZ",
+            "Description": "jump register %ecx zero",
+            "Reference": "invalid under -m64"
+        },
+        "JG": {
+            "Oracle Solaris Mnemonic": "jg",
+            "Intel/AMD Mnemonic": "JG",
+            "Description": "jump if greater",
+            "Reference": "No extra information provided"
+        },
+        "JGE": {
+            "Oracle Solaris Mnemonic": "jge",
+            "Intel/AMD Mnemonic": "JGE",
+            "Description": "jump if greater or equal",
+            "Reference": "No extra information provided"
+        },
+        "JL": {
+            "Oracle Solaris Mnemonic": "jl",
+            "Intel/AMD Mnemonic": "JL",
+            "Description": "jump if less",
+            "Reference": "No extra information provided"
+        },
+        "JLE": {
+            "Oracle Solaris Mnemonic": "jle",
+            "Intel/AMD Mnemonic": "JLE",
+            "Description": "jump if less or equal",
+            "Reference": "No extra information provided"
+        },
+        "JMP": {
+            "Oracle Solaris Mnemonic": "jmp",
+            "Intel/AMD Mnemonic": "JMP",
+            "Description": "jump",
+            "Reference": "No extra information provided"
+        },
+        "JNAE": {
+            "Oracle Solaris Mnemonic": "jnae",
+            "Intel/AMD Mnemonic": "JNAE",
+            "Description": "jump if not above or equal",
+            "Reference": "No extra information provided"
+        },
+        "JNB": {
+            "Oracle Solaris Mnemonic": "jnb",
+            "Intel/AMD Mnemonic": "JNB",
+            "Description": "jump if not below",
+            "Reference": "No extra information provided"
+        },
+        "JNBE": {
+            "Oracle Solaris Mnemonic": "jnbe",
+            "Intel/AMD Mnemonic": "JNBE",
+            "Description": "jump if not below or equal",
+            "Reference": "No extra information provided"
+        },
+        "JNC": {
+            "Oracle Solaris Mnemonic": "jnc",
+            "Intel/AMD Mnemonic": "JNC",
+            "Description": "jump if not carry",
+            "Reference": "No extra information provided"
+        },
+        "JNE": {
+            "Oracle Solaris Mnemonic": "jne",
+            "Intel/AMD Mnemonic": "JNE",
+            "Description": "jump if not equal",
+            "Reference": "No extra information provided"
+        },
+        "JNG": {
+            "Oracle Solaris Mnemonic": "jng",
+            "Intel/AMD Mnemonic": "JNG",
+            "Description": "jump if not greater",
+            "Reference": "No extra information provided"
+        },
+        "JNGE": {
+            "Oracle Solaris Mnemonic": "jnge",
+            "Intel/AMD Mnemonic": "JNGE",
+            "Description": "jump if not greater or equal",
+            "Reference": "No extra information provided"
+        },
+        "JNL": {
+            "Oracle Solaris Mnemonic": "jnl",
+            "Intel/AMD Mnemonic": "JNL",
+            "Description": "jump if not less",
+            "Reference": "No extra information provided"
+        },
+        "JNLE": {
+            "Oracle Solaris Mnemonic": "jnle",
+            "Intel/AMD Mnemonic": "JNLE",
+            "Description": "jump if not less or equal",
+            "Reference": "No extra information provided"
+        },
+        "JNO": {
+            "Oracle Solaris Mnemonic": "jno",
+            "Intel/AMD Mnemonic": "JNO",
+            "Description": "jump if not overflow",
+            "Reference": "No extra information provided"
+        },
+        "JNP": {
+            "Oracle Solaris Mnemonic": "jnp",
+            "Intel/AMD Mnemonic": "JNP",
+            "Description": "jump if not parity",
+            "Reference": "No extra information provided"
+        },
+        "JNS": {
+            "Oracle Solaris Mnemonic": "jns",
+            "Intel/AMD Mnemonic": "JNS",
+            "Description": "jump if not sign (non-negative)",
+            "Reference": "No extra information provided"
+        },
+        "JNZ": {
+            "Oracle Solaris Mnemonic": "jnz",
+            "Intel/AMD Mnemonic": "JNZ",
+            "Description": "jump if not zero",
+            "Reference": "No extra information provided"
+        },
+        "JO": {
+            "Oracle Solaris Mnemonic": "jo",
+            "Intel/AMD Mnemonic": "JO",
+            "Description": "jump if overflow",
+            "Reference": "No extra information provided"
+        },
+        "JP": {
+            "Oracle Solaris Mnemonic": "jp",
+            "Intel/AMD Mnemonic": "JP",
+            "Description": "jump if parity",
+            "Reference": "No extra information provided"
+        },
+        "JPE": {
+            "Oracle Solaris Mnemonic": "jpe",
+            "Intel/AMD Mnemonic": "JPE",
+            "Description": "jump if parity even",
+            "Reference": "No extra information provided"
+        },
+        "JPO": {
+            "Oracle Solaris Mnemonic": "jpo",
+            "Intel/AMD Mnemonic": "JPO",
+            "Description": "jump if parity odd",
+            "Reference": "No extra information provided"
+        },
+        "JS": {
+            "Oracle Solaris Mnemonic": "js",
+            "Intel/AMD Mnemonic": "JS",
+            "Description": "jump if sign (negative)",
+            "Reference": "No extra information provided"
+        },
+        "JZ": {
+            "Oracle Solaris Mnemonic": "jz",
+            "Intel/AMD Mnemonic": "JZ",
+            "Description": "jump if zero",
+            "Reference": "No extra information provided"
+        },
+        "LEAVE": {
+            "Oracle Solaris Mnemonic": "leave",
+            "Intel/AMD Mnemonic": "LEAVE",
+            "Description": "high-level procedure exit",
+            "Reference": "No extra information provided"
+        },
+        "LOOP": {
+            "Oracle Solaris Mnemonic": "loop",
+            "Intel/AMD Mnemonic": "LOOP",
+            "Description": "loop with %ecx counter",
+            "Reference": "No extra information provided"
+        },
+        "LOOPE": {
+            "Oracle Solaris Mnemonic": "loope",
+            "Intel/AMD Mnemonic": "LOOPE",
+            "Description": "loop with %ecx and equal",
+            "Reference": "No extra information provided"
+        },
+        "LOOPNE": {
+            "Oracle Solaris Mnemonic": "loopne",
+            "Intel/AMD Mnemonic": "LOOPNE",
+            "Description": "loop with %ecx and not equal",
+            "Reference": "No extra information provided"
+        },
+        "LOOPNZ": {
+            "Oracle Solaris Mnemonic": "loopnz",
+            "Intel/AMD Mnemonic": "LOOPNZ",
+            "Description": "loop with %ecx and not zero",
+            "Reference": "No extra information provided"
+        },
+        "LOOPZ": {
+            "Oracle Solaris Mnemonic": "loopz",
+            "Intel/AMD Mnemonic": "LOOPZ",
+            "Description": "loop with %ecx and zero",
+            "Reference": "No extra information provided"
+        },
+        "RET": {
+            "Oracle Solaris Mnemonic": "ret",
+            "Intel/AMD Mnemonic": "RET",
+            "Description": "return",
+            "Reference": "No extra information provided"
+        },
+        "CMPS": {
+            "Oracle Solaris Mnemonic": "cmps{q}",
+            "Intel/AMD Mnemonic": "CMPS",
+            "Description": "compare string",
+            "Reference": "cmpsq valid only under -m64"
+        },
+        "CMPSB": {
+            "Oracle Solaris Mnemonic": "cmpsb",
+            "Intel/AMD Mnemonic": "CMPSB",
+            "Description": "compare byte string",
+            "Reference": "No extra information provided"
+        },
+        "CMPSD": {
+            "Oracle Solaris Mnemonic": "cmpsl",
+            "Intel/AMD Mnemonic": "CMPSD",
+            "Description": "compare doubleword string",
+            "Reference": "No extra information provided"
+        },
+        "CMPSW": {
+            "Oracle Solaris Mnemonic": "cmpsw",
+            "Intel/AMD Mnemonic": "CMPSW",
+            "Description": "compare word string",
+            "Reference": "No extra information provided"
+        },
+        "LODS": {
+            "Oracle Solaris Mnemonic": "lods{q}",
+            "Intel/AMD Mnemonic": "LODS",
+            "Description": "load string",
+            "Reference": "lodsq valid only under -m64"
+        },
+        "LODSB": {
+            "Oracle Solaris Mnemonic": "lodsb",
+            "Intel/AMD Mnemonic": "LODSB",
+            "Description": "load byte string",
+            "Reference": "No extra information provided"
+        },
+        "LODSD": {
+            "Oracle Solaris Mnemonic": "lodsl",
+            "Intel/AMD Mnemonic": "LODSD",
+            "Description": "load doubleword string",
+            "Reference": "No extra information provided"
+        },
+        "LODSW": {
+            "Oracle Solaris Mnemonic": "lodsw",
+            "Intel/AMD Mnemonic": "LODSW",
+            "Description": "load word string",
+            "Reference": "No extra information provided"
+        },
+        "MOVS": {
+            "Oracle Solaris Mnemonic": "movs{q}",
+            "Intel/AMD Mnemonic": "MOVS",
+            "Description": "move string",
+            "Reference": "movsq valid only under -m64"
+        },
+        "MOVSB": {
+            "Oracle Solaris Mnemonic": "movsb",
+            "Intel/AMD Mnemonic": "MOVSB",
+            "Description": "move byte string",
+            "Reference": "movsb is not movsb{wlq}. See Figure 2, Table 2, Data Transfer Instructions"
+        },
+        "MOVSD": {
+            "Oracle Solaris Mnemonic": "movsl, smovl",
+            "Intel/AMD Mnemonic": "MOVSD",
+            "Description": "move doubleword string",
+            "Reference": "No extra information provided"
+        },
+        "MOVSW": {
+            "Oracle Solaris Mnemonic": "movsw, smovw",
+            "Intel/AMD Mnemonic": "MOVSW",
+            "Description": "move word string",
+            "Reference": "movsw is not movsw{lq}. See Figure 2, Table 2, Data Transfer Instructions"
+        },
+        "REP": {
+            "Oracle Solaris Mnemonic": "rep",
+            "Intel/AMD Mnemonic": "REP",
+            "Description": "repeat while %ecx not zero",
+            "Reference": "No extra information provided"
+        },
+        "REPNE": {
+            "Oracle Solaris Mnemonic": "repnz",
+            "Intel/AMD Mnemonic": "REPNE",
+            "Description": "repeat while not equal",
+            "Reference": "No extra information provided"
+        },
+        "REPNZ": {
+            "Oracle Solaris Mnemonic": "repnz",
+            "Intel/AMD Mnemonic": "REPNZ",
+            "Description": "repeat while not zero",
+            "Reference": "No extra information provided"
+        },
+        "REPE": {
+            "Oracle Solaris Mnemonic": "repz",
+            "Intel/AMD Mnemonic": "REPE",
+            "Description": "repeat while equal",
+            "Reference": "No extra information provided"
+        },
+        "REPZ": {
+            "Oracle Solaris Mnemonic": "repz",
+            "Intel/AMD Mnemonic": "REPZ",
+            "Description": "repeat while zero",
+            "Reference": "No extra information provided"
+        },
+        "SCAS": {
+            "Oracle Solaris Mnemonic": "scas{q}",
+            "Intel/AMD Mnemonic": "SCAS",
+            "Description": "scan string",
+            "Reference": "scasq valid only under -m64"
+        },
+        "SCASB": {
+            "Oracle Solaris Mnemonic": "scasb",
+            "Intel/AMD Mnemonic": "SCASB",
+            "Description": "scan byte string",
+            "Reference": "No extra information provided"
+        },
+        "SCASD": {
+            "Oracle Solaris Mnemonic": "scasl",
+            "Intel/AMD Mnemonic": "SCASD",
+            "Description": "scan doubleword string",
+            "Reference": "No extra information provided"
+        },
+        "SCASW": {
+            "Oracle Solaris Mnemonic": "scasw",
+            "Intel/AMD Mnemonic": "SCASW",
+            "Description": "scan word string",
+            "Reference": "No extra information provided"
+        },
+        "STOS": {
+            "Oracle Solaris Mnemonic": "stos{q}",
+            "Intel/AMD Mnemonic": "STOS",
+            "Description": "store string",
+            "Reference": "stosq valid only under -m64"
+        },
+        "STOSB": {
+            "Oracle Solaris Mnemonic": "stosb",
+            "Intel/AMD Mnemonic": "STOSB",
+            "Description": "store byte string",
+            "Reference": "No extra information provided"
+        },
+        "STOSD": {
+            "Oracle Solaris Mnemonic": "stosl",
+            "Intel/AMD Mnemonic": "STOSD",
+            "Description": "store doubleword string",
+            "Reference": "No extra information provided"
+        },
+        "STOSW": {
+            "Oracle Solaris Mnemonic": "stosw",
+            "Intel/AMD Mnemonic": "STOSW",
+            "Description": "store word string",
+            "Reference": "No extra information provided"
+        },
+        "IN": {
+            "Oracle Solaris Mnemonic": "in",
+            "Intel/AMD Mnemonic": "IN",
+            "Description": "read from a port",
+            "Reference": "No extra information provided"
+        },
+        "INS": {
+            "Oracle Solaris Mnemonic": "ins",
+            "Intel/AMD Mnemonic": "INS",
+            "Description": "input string from a port",
+            "Reference": "No extra information provided"
+        },
+        "INSB": {
+            "Oracle Solaris Mnemonic": "insb",
+            "Intel/AMD Mnemonic": "INSB",
+            "Description": "input byte string from port",
+            "Reference": "No extra information provided"
+        },
+        "INSD": {
+            "Oracle Solaris Mnemonic": "insl",
+            "Intel/AMD Mnemonic": "INSD",
+            "Description": "input doubleword string from port",
+            "Reference": "No extra information provided"
+        },
+        "INSW": {
+            "Oracle Solaris Mnemonic": "insw",
+            "Intel/AMD Mnemonic": "INSW",
+            "Description": "input word string from port",
+            "Reference": "No extra information provided"
+        },
+        "OUT": {
+            "Oracle Solaris Mnemonic": "out",
+            "Intel/AMD Mnemonic": "OUT",
+            "Description": "write to a port",
+            "Reference": "No extra information provided"
+        },
+        "OUTS": {
+            "Oracle Solaris Mnemonic": "outs",
+            "Intel/AMD Mnemonic": "OUTS",
+            "Description": "output string to port",
+            "Reference": "No extra information provided"
+        },
+        "OUTSB": {
+            "Oracle Solaris Mnemonic": "outsb",
+            "Intel/AMD Mnemonic": "OUTSB",
+            "Description": "output byte string to port",
+            "Reference": "No extra information provided"
+        },
+        "OUTSD": {
+            "Oracle Solaris Mnemonic": "outsl",
+            "Intel/AMD Mnemonic": "OUTSD",
+            "Description": "output doubleword string to port",
+            "Reference": "No extra information provided"
+        },
+        "OUTSW": {
+            "Oracle Solaris Mnemonic": "outsw",
+            "Intel/AMD Mnemonic": "OUTSW",
+            "Description": "output word string to port",
+            "Reference": "No extra information provided"
+        },
+        "CLC": {
+            "Oracle Solaris Mnemonic": "clc",
+            "Intel/AMD Mnemonic": "CLC",
+            "Description": "clear carry flag",
+            "Reference": "No extra information provided"
+        },
+        "CLD": {
+            "Oracle Solaris Mnemonic": "cld",
+            "Intel/AMD Mnemonic": "CLD",
+            "Description": "clear direction flag",
+            "Reference": "No extra information provided"
+        },
+        "CLI": {
+            "Oracle Solaris Mnemonic": "cli",
+            "Intel/AMD Mnemonic": "CLI",
+            "Description": "clear interrupt flag",
+            "Reference": "No extra information provided"
+        },
+        "CMC": {
+            "Oracle Solaris Mnemonic": "cmc",
+            "Intel/AMD Mnemonic": "CMC",
+            "Description": "complement carry flag",
+            "Reference": "No extra information provided"
+        },
+        "LAHF": {
+            "Oracle Solaris Mnemonic": "lahf",
+            "Intel/AMD Mnemonic": "LAHF",
+            "Description": "load flags into %ah register",
+            "Reference": "No extra information provided"
+        },
+        "POPF": {
+            "Oracle Solaris Mnemonic": "popfw",
+            "Intel/AMD Mnemonic": "POPF",
+            "Description": "pop %eflags from stack",
+            "Reference": "No extra information provided"
+        },
+        "POPFL": {
+            "Oracle Solaris Mnemonic": "popf{lq}",
+            "Intel/AMD Mnemonic": "POPFL",
+            "Description": "pop %eflags from stack",
+            "Reference": "popfq valid only under -m64"
+        },
+        "PUSHF": {
+            "Oracle Solaris Mnemonic": "pushfw",
+            "Intel/AMD Mnemonic": "PUSHF",
+            "Description": "push %eflags onto stack",
+            "Reference": "No extra information provided"
+        },
+        "PUSHFL": {
+            "Oracle Solaris Mnemonic": "pushf{lq}",
+            "Intel/AMD Mnemonic": "PUSHFL",
+            "Description": "push %eflags onto stack",
+            "Reference": "pushfq valid only under -m64"
+        },
+        "SAHF": {
+            "Oracle Solaris Mnemonic": "sahf",
+            "Intel/AMD Mnemonic": "SAHF",
+            "Description": "store %ah register into flags",
+            "Reference": "No extra information provided"
+        },
+        "STC": {
+            "Oracle Solaris Mnemonic": "stc",
+            "Intel/AMD Mnemonic": "STC",
+            "Description": "set carry flag",
+            "Reference": "No extra information provided"
+        },
+        "STD": {
+            "Oracle Solaris Mnemonic": "std",
+            "Intel/AMD Mnemonic": "STD",
+            "Description": "set direction flag",
+            "Reference": "No extra information provided"
+        },
+        "STI": {
+            "Oracle Solaris Mnemonic": "sti",
+            "Intel/AMD Mnemonic": "STI",
+            "Description": "set interrupt flag",
+            "Reference": "No extra information provided"
+        },
+        "LDS": {
+            "Oracle Solaris Mnemonic": "lds{wl}",
+            "Intel/AMD Mnemonic": "LDS",
+            "Description": "load far pointer using %ds",
+            "Reference": "ldsl and ldsw invalid under -m64"
+        },
+        "LES": {
+            "Oracle Solaris Mnemonic": "les{wl}",
+            "Intel/AMD Mnemonic": "LES",
+            "Description": "load far pointer using %es",
+            "Reference": "lesl and lesw invalid under -m64"
+        },
+        "LFS": {
+            "Oracle Solaris Mnemonic": "lfs{wl}",
+            "Intel/AMD Mnemonic": "LFS",
+            "Description": "load far pointer using %fs",
+            "Reference": "No extra information provided"
+        },
+        "LGS": {
+            "Oracle Solaris Mnemonic": "lgs{wl}",
+            "Intel/AMD Mnemonic": "LGS",
+            "Description": "load far pointer using %gs",
+            "Reference": "No extra information provided"
+        },
+        "LSS": {
+            "Oracle Solaris Mnemonic": "lss{wl}",
+            "Intel/AMD Mnemonic": "LSS",
+            "Description": "load far pointer using %ss",
+            "Reference": "No extra information provided"
+        },
+        "CPUID": {
+            "Oracle Solaris Mnemonic": "cpuid",
+            "Intel/AMD Mnemonic": "CPUID",
+            "Description": "processor identification",
+            "Reference": "No extra information provided"
+        },
+        "LEA": {
+            "Oracle Solaris Mnemonic": "lea{wlq}",
+            "Intel/AMD Mnemonic": "LEA",
+            "Description": "load effective address",
+            "Reference": "leaq valid only under -m64"
+        },
+        "NOP": {
+            "Oracle Solaris Mnemonic": "nop",
+            "Intel/AMD Mnemonic": "NOP",
+            "Description": "no operation",
+            "Reference": "No extra information provided"
+        },
+        "UD2": {
+            "Oracle Solaris Mnemonic": "ud2",
+            "Intel/AMD Mnemonic": "UD2",
+            "Description": "undefined instruction",
+            "Reference": "No extra information provided"
+        },
+        "XLAT": {
+            "Oracle Solaris Mnemonic": "xlat",
+            "Intel/AMD Mnemonic": "XLAT",
+            "Description": "table lookup translation",
+            "Reference": "No extra information provided"
+        },
+        "XLATB": {
+            "Oracle Solaris Mnemonic": "xlatb",
+            "Intel/AMD Mnemonic": "XLATB",
+            "Description": "table lookup translation",
+            "Reference": "No extra information provided"
+        }
+    },
+    "registers": [
+        "RAX",
+        "RBX",
+        "RCX",
+        "RDX",
+        "RSI",
+        "RDI",
+        "RBP",
+        "RSP",
+        "R8",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "EAX",
+        "EBX",
+        "ECX",
+        "EDX",
+        "ESI",
+        "EDI",
+        "EBP",
+        "ESP",
+        "R8D",
+        "R9D",
+        "R10D",
+        "R11D",
+        "R12D",
+        "R13D",
+        "R14D",
+        "R15D",
+        "CS",
+        "DS",
+        "ES",
+        "FS",
+        "GS",
+        "SS",
+        "AX",
+        "BX",
+        "CX",
+        "DX",
+        "SI",
+        "DI",
+        "BP",
+        "SP",
+        "R8W",
+        "R9W",
+        "R10W",
+        "R11W",
+        "R12W",
+        "R13W",
+        "R14W",
+        "R15W",
+        "AL",
+        "BL",
+        "CL",
+        "DL",
+        "SIL",
+        "DIL",
+        "BPL",
+        "SPL",
+        "R8B",
+        "R9B",
+        "R10B",
+        "R11B",
+        "R12B",
+        "R13B",
+        "R14B",
+        "R15B",
+        "AH",
+        "BH",
+        "CH",
+        "DH"
+    ]
+}

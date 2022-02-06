@@ -1,0 +1,173 @@
+{
+    "instructions": {
+        "ARPL": {
+            "Oracle Solaris Mnemonic": "arpl",
+            "Intel/AMD Mnemonic": "ARPL",
+            "Description": "adjust requested privilege level",
+            "Reference": "page No documentation available"
+        },
+        "CLTS": {
+            "Oracle Solaris Mnemonic": "clts",
+            "Intel/AMD Mnemonic": "CLTS",
+            "Description": "clear the task-switched flag",
+            "Reference": "page No documentation available"
+        },
+        "HLT": {
+            "Oracle Solaris Mnemonic": "hlt",
+            "Intel/AMD Mnemonic": "HLT",
+            "Description": "halt processor",
+            "Reference": "page No documentation available"
+        },
+        "INVD": {
+            "Oracle Solaris Mnemonic": "invd",
+            "Intel/AMD Mnemonic": "INVD",
+            "Description": "invalidate cache, no writeback",
+            "Reference": "page No documentation available"
+        },
+        "INVLPG": {
+            "Oracle Solaris Mnemonic": "invlpg",
+            "Intel/AMD Mnemonic": "INVLPG",
+            "Description": "invalidate TLB entry",
+            "Reference": "page No documentation available"
+        },
+        "LAR": {
+            "Oracle Solaris Mnemonic": "lar",
+            "Intel/AMD Mnemonic": "LAR",
+            "Description": "load access rights",
+            "Reference": "page No documentation available"
+        },
+        "LGDT": {
+            "Oracle Solaris Mnemonic": "lgdt",
+            "Intel/AMD Mnemonic": "LGDT",
+            "Description": "load global descriptor table (GDT) register",
+            "Reference": "page No documentation available"
+        },
+        "LIDT": {
+            "Oracle Solaris Mnemonic": "lidt",
+            "Intel/AMD Mnemonic": "LIDT",
+            "Description": "load interrupt descriptor table (IDT) register",
+            "Reference": "page No documentation available"
+        },
+        "LLDT": {
+            "Oracle Solaris Mnemonic": "lldt",
+            "Intel/AMD Mnemonic": "LLDT",
+            "Description": "load local descriptor table (LDT) register",
+            "Reference": "page No documentation available"
+        },
+        "LMSW": {
+            "Oracle Solaris Mnemonic": "lmsw",
+            "Intel/AMD Mnemonic": "LMSW",
+            "Description": "load machine status word",
+            "Reference": "page No documentation available"
+        },
+        "LOCK": {
+            "Oracle Solaris Mnemonic": "lock",
+            "Intel/AMD Mnemonic": "LOCK",
+            "Description": "lock bus",
+            "Reference": "page No documentation available"
+        },
+        "LSL": {
+            "Oracle Solaris Mnemonic": "lsl",
+            "Intel/AMD Mnemonic": "LSL",
+            "Description": "load segment limit",
+            "Reference": "page No documentation available"
+        },
+        "LTR": {
+            "Oracle Solaris Mnemonic": "ltr",
+            "Intel/AMD Mnemonic": "LTR",
+            "Description": "load task register",
+            "Reference": "page No documentation available"
+        },
+        "RDMSR": {
+            "Oracle Solaris Mnemonic": "rdmsr",
+            "Intel/AMD Mnemonic": "RDMSR",
+            "Description": "read model-specific register",
+            "Reference": "page No documentation available"
+        },
+        "RDPMC": {
+            "Oracle Solaris Mnemonic": "rdpmc",
+            "Intel/AMD Mnemonic": "RDPMC",
+            "Description": "read performance monitoring counters",
+            "Reference": "page No documentation available"
+        },
+        "RDTSC": {
+            "Oracle Solaris Mnemonic": "rdtsc",
+            "Intel/AMD Mnemonic": "RDTSC",
+            "Description": "read time stamp counter",
+            "Reference": "page No documentation available"
+        },
+        "RSM": {
+            "Oracle Solaris Mnemonic": "rsm",
+            "Intel/AMD Mnemonic": "RSM",
+            "Description": "return from system management mode (SMM)",
+            "Reference": "page No documentation available"
+        },
+        "SGDT": {
+            "Oracle Solaris Mnemonic": "sgdt",
+            "Intel/AMD Mnemonic": "SGDT",
+            "Description": "store global descriptor table (GDT) register",
+            "Reference": "page No documentation available"
+        },
+        "SIDT": {
+            "Oracle Solaris Mnemonic": "sidt",
+            "Intel/AMD Mnemonic": "SIDT",
+            "Description": "store interrupt descriptor table (IDT) register",
+            "Reference": "page No documentation available"
+        },
+        "SLDT": {
+            "Oracle Solaris Mnemonic": "sldt",
+            "Intel/AMD Mnemonic": "SLDT",
+            "Description": "store local descriptor table (LDT) register",
+            "Reference": "page No documentation available"
+        },
+        "SMSW": {
+            "Oracle Solaris Mnemonic": "smsw",
+            "Intel/AMD Mnemonic": "SMSW",
+            "Description": "store machine status word",
+            "Reference": "page No documentation available"
+        },
+        "STR": {
+            "Oracle Solaris Mnemonic": "str",
+            "Intel/AMD Mnemonic": "STR",
+            "Description": "store task register",
+            "Reference": "page No documentation available"
+        },
+        "SYSENTER": {
+            "Oracle Solaris Mnemonic": "sysenter",
+            "Intel/AMD Mnemonic": "SYSENTER",
+            "Description": "fast system call, transfers to a flat protected model kernel at CPL=0",
+            "Reference": "page No documentation available"
+        },
+        "SYSEXIT": {
+            "Oracle Solaris Mnemonic": "sysexit",
+            "Intel/AMD Mnemonic": "SYSEXIT",
+            "Description": "fast system call, transfers to a flat protected mode kernal at CPL=3",
+            "Reference": "page No documentation available"
+        },
+        "VERR": {
+            "Oracle Solaris Mnemonic": "verr",
+            "Intel/AMD Mnemonic": "VERR",
+            "Description": "verify segment for reading",
+            "Reference": "page No documentation available"
+        },
+        "VERW": {
+            "Oracle Solaris Mnemonic": "verw",
+            "Intel/AMD Mnemonic": "VERW",
+            "Description": "verify segment for writing",
+            "Reference": "page No documentation available"
+        },
+        "WBINVD": {
+            "Oracle Solaris Mnemonic": "wbinvd",
+            "Intel/AMD Mnemonic": "WBINVD",
+            "Description": "invalidate cache, with writeback",
+            "Reference": "page No documentation available"
+        },
+        "WRMSR": {
+            "Oracle Solaris Mnemonic": "wrmsr",
+            "Intel/AMD Mnemonic": "WRMSR",
+            "Description": "write model-specific register",
+            "Reference": "page No documentation available"
+        }
+    },
+    "registers": null
+}

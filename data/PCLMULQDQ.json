@@ -1,0 +1,11 @@
+{
+    "instructions": {
+        "PCLMULQDQ": {
+            "Oracle Solaris Mnemonic": "pclmulqdq",
+            "Intel/AMD Mnemonic": "PCLMULQDQ",
+            "Description": "Carry-Less Multiplication Quadword",
+            "Reference": "page 4-68 (253667-048US/Sep.2013)"
+        }
+    },
+    "registers": null
+}

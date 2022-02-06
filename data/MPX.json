@@ -1,0 +1,47 @@
+{
+    "instructions": {
+        "BNDCL": {
+            "Oracle Solaris Mnemonic": "bndcl",
+            "Intel/AMD Mnemonic": "BNDCL",
+            "Description": "Check Lower Bound",
+            "Reference": "page 3-91 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "BNDCN": {
+            "Oracle Solaris Mnemonic": "bndcn",
+            "Intel/AMD Mnemonic": "BNDCN",
+            "Description": "Check Upper Bound",
+            "Reference": "page 3-93 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "BNDCU": {
+            "Oracle Solaris Mnemonic": "bndcu",
+            "Intel/AMD Mnemonic": "BNDCU",
+            "Description": "Check Upper Bound",
+            "Reference": "page 3-93 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "BNDLDX": {
+            "Oracle Solaris Mnemonic": "bndldx",
+            "Intel/AMD Mnemonic": "BNDLDX",
+            "Description": "Load Extended Bounds Using Address Translation",
+            "Reference": "page 3-95 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "BNDMK": {
+            "Oracle Solaris Mnemonic": "bndmk",
+            "Intel/AMD Mnemonic": "BNDMK",
+            "Description": "Make Bounds",
+            "Reference": "page 3-98 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "BNDMOV": {
+            "Oracle Solaris Mnemonic": "bndmov",
+            "Intel/AMD Mnemonic": "BNDMOV",
+            "Description": "Move Bounds",
+            "Reference": "page 3-100 Vol. 2A (325383-060US/Sept 2016)"
+        },
+        "BNDSTX": {
+            "Oracle Solaris Mnemonic": "bndstx",
+            "Intel/AMD Mnemonic": "BNDSTX",
+            "Description": "Store Extended Bounds Using Address Translation",
+            "Reference": "page 3-103 Vol. 2A (325383-060US/Sept 2016)"
+        }
+    },
+    "registers": null
+}

@@ -1,0 +1,11 @@
+{
+    "instructions": {
+        "RDRAND": {
+            "Oracle Solaris Mnemonic": "rdrand(|q|l|w)",
+            "Intel/AMD Mnemonic": "RDRAND",
+            "Description": "Returns a random number",
+            "Reference": "page 10-1 (319433-016/Oct.2013)"
+        }
+    },
+    "registers": null
+}

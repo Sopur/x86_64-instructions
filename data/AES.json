@@ -1,0 +1,41 @@
+{
+    "instructions": {
+        "AESDEC": {
+            "Oracle Solaris Mnemonic": "vaesdec",
+            "Intel/AMD Mnemonic": "AESDEC",
+            "Description": "Perform One Round of an AES Decryption Flow",
+            "Reference": "page 3-40 (253666-048US/Sep.2013)"
+        },
+        "AESDECLAST": {
+            "Oracle Solaris Mnemonic": "vaesdeclast",
+            "Intel/AMD Mnemonic": "AESDECLAST",
+            "Description": "Perform Last Round of an AES Decryption Flow",
+            "Reference": "page 3-42 (253666-048US/Sep.2013)"
+        },
+        "AESENC": {
+            "Oracle Solaris Mnemonic": "vaesenc",
+            "Intel/AMD Mnemonic": "AESENC",
+            "Description": "Perform One Round of an AES Encryption Flow",
+            "Reference": "page 3-44 (253666-048US/Sep.2013)"
+        },
+        "AESENCLAST": {
+            "Oracle Solaris Mnemonic": "vaesenclast",
+            "Intel/AMD Mnemonic": "AESENCLAST",
+            "Description": "Perform Last Round of an AES Encryption Flow",
+            "Reference": "page 3-46 (253666-048US/Sep.2013)"
+        },
+        "AESIMC": {
+            "Oracle Solaris Mnemonic": "vaesimc",
+            "Intel/AMD Mnemonic": "AESIMC",
+            "Description": "Perform the AES InvMixColumn Transformation",
+            "Reference": "page 3-48 (253666-048US/Sep.2013)"
+        },
+        "AESKEYGENASSIST": {
+            "Oracle Solaris Mnemonic": "vaeskeygenassist",
+            "Intel/AMD Mnemonic": "AESKEYGENASSIST",
+            "Description": "AES Round Key Generation Assist",
+            "Reference": "page 3-49 (253666-048US/Sep.2013)"
+        }
+    },
+    "registers": null
+}

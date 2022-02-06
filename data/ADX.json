@@ -1,0 +1,17 @@
+{
+    "instructions": {
+        "ADCX": {
+            "Oracle Solaris Mnemonic": "adcx",
+            "Intel/AMD Mnemonic": "ADCX",
+            "Description": "Unsigned Integer Addition of Two Operands With Carry Flag",
+            "Reference": "page 93-94 (325383-053US/Jan.2015)"
+        },
+        "ADOX": {
+            "Oracle Solaris Mnemonic": "adox",
+            "Intel/AMD Mnemonic": "ADOX",
+            "Description": "Unsigned Integer Addition of Two Operands With Overflow Flag",
+            "Reference": "page 108-109 (325383-053US/Jan.2015)"
+        }
+    },
+    "registers": null
+}

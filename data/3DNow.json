@@ -1,0 +1,155 @@
+{
+    "instructions": {
+        "FEMMS": {
+            "Oracle Solaris Mnemonic": "femms",
+            "Intel/AMD Mnemonic": "FEMMS",
+            "Description": "No description available",
+            "Reference": "page 18 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PAVGUSB": {
+            "Oracle Solaris Mnemonic": "pavgusb",
+            "Intel/AMD Mnemonic": "PAVGUSB",
+            "Description": "No description available",
+            "Reference": "page 70 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PF2ID": {
+            "Oracle Solaris Mnemonic": "pf2id",
+            "Intel/AMD Mnemonic": "PF2ID",
+            "Description": "No description available",
+            "Reference": "page 88 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PF2IW": {
+            "Oracle Solaris Mnemonic": "pf2iw",
+            "Intel/AMD Mnemonic": "PF2IW",
+            "Description": "No description available",
+            "Reference": "page 90 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFACC": {
+            "Oracle Solaris Mnemonic": "pfacc",
+            "Intel/AMD Mnemonic": "PFACC",
+            "Description": "No description available",
+            "Reference": "page 92 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFADD": {
+            "Oracle Solaris Mnemonic": "pfadd",
+            "Intel/AMD Mnemonic": "PFADD",
+            "Description": "No description available",
+            "Reference": "page 94 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFCMPEQ": {
+            "Oracle Solaris Mnemonic": "pfcmpeq",
+            "Intel/AMD Mnemonic": "PFCMPEQ",
+            "Description": "No description available",
+            "Reference": "page 96 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFCMPGE": {
+            "Oracle Solaris Mnemonic": "pfcmpge",
+            "Intel/AMD Mnemonic": "PFCMPGE",
+            "Description": "No description available",
+            "Reference": "page 98 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFCMPGT": {
+            "Oracle Solaris Mnemonic": "pfcmpgt",
+            "Intel/AMD Mnemonic": "PFCMPGT",
+            "Description": "No description available",
+            "Reference": "page 101 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFMAX": {
+            "Oracle Solaris Mnemonic": "pfmax",
+            "Intel/AMD Mnemonic": "PFMAX",
+            "Description": "No description available",
+            "Reference": "page 103 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFMIN": {
+            "Oracle Solaris Mnemonic": "pfmin",
+            "Intel/AMD Mnemonic": "PFMIN",
+            "Description": "No description available",
+            "Reference": "page 105 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFMUL": {
+            "Oracle Solaris Mnemonic": "pfmul",
+            "Intel/AMD Mnemonic": "PFMUL",
+            "Description": "No description available",
+            "Reference": "page 107 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFNACC": {
+            "Oracle Solaris Mnemonic": "pfnacc",
+            "Intel/AMD Mnemonic": "PFNACC",
+            "Description": "No description available",
+            "Reference": "page 109 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFPNACC": {
+            "Oracle Solaris Mnemonic": "pfpnacc",
+            "Intel/AMD Mnemonic": "PFPNACC",
+            "Description": "No description available",
+            "Reference": "page 112 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFRCP": {
+            "Oracle Solaris Mnemonic": "pfrcp",
+            "Intel/AMD Mnemonic": "PFRCP",
+            "Description": "No description available",
+            "Reference": "page 115 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFRCPIT1": {
+            "Oracle Solaris Mnemonic": "pfrcpit1",
+            "Intel/AMD Mnemonic": "PFRCPIT1",
+            "Description": "No description available",
+            "Reference": "page 118 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFRCPIT2": {
+            "Oracle Solaris Mnemonic": "pfrcpit2",
+            "Intel/AMD Mnemonic": "PFRCPIT2",
+            "Description": "No description available",
+            "Reference": "page 121 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFRSQIT1": {
+            "Oracle Solaris Mnemonic": "pfrsqit1",
+            "Intel/AMD Mnemonic": "PFRSQIT1",
+            "Description": "No description available",
+            "Reference": "page 124 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFRSQRT": {
+            "Oracle Solaris Mnemonic": "pfrsqrt",
+            "Intel/AMD Mnemonic": "PFRSQRT",
+            "Description": "No description available",
+            "Reference": "page 127 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFSUB": {
+            "Oracle Solaris Mnemonic": "pfsub",
+            "Intel/AMD Mnemonic": "PFSUB",
+            "Description": "No description available",
+            "Reference": "page 130 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PFSUBR": {
+            "Oracle Solaris Mnemonic": "pfsubr",
+            "Intel/AMD Mnemonic": "PFSUBR",
+            "Description": "No description available",
+            "Reference": "page 132 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PI2FD": {
+            "Oracle Solaris Mnemonic": "pi2fd",
+            "Intel/AMD Mnemonic": "PI2FD",
+            "Description": "No description available",
+            "Reference": "page 134 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PI2FW": {
+            "Oracle Solaris Mnemonic": "pi2fw",
+            "Intel/AMD Mnemonic": "PI2FW",
+            "Description": "No description available",
+            "Reference": "page 136 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PMULHRW": {
+            "Oracle Solaris Mnemonic": "pmulhrw",
+            "Intel/AMD Mnemonic": "PMULHRW",
+            "Description": "No description available",
+            "Reference": "page 152 (AMD:26569-Rev.3.13-May.2013)"
+        },
+        "PSWAPD": {
+            "Oracle Solaris Mnemonic": "pswapd",
+            "Intel/AMD Mnemonic": "PSWAPD",
+            "Description": "No description available",
+            "Reference": "page 201 (AMD:26569-Rev.3.13-May.2013)"
+        }
+    },
+    "registers": null
+}

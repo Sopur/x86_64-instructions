@@ -1,0 +1,11 @@
+{
+    "instructions": {
+        "movbe": {
+            "Oracle Solaris Mnemonic": "movbe(|q|l|w)",
+            "Intel/AMD Mnemonic": "movbe",
+            "Description": "Reverse byte order in <source> and move to <destination>",
+            "Reference": "page 3-519 325383-050US Vol. 2A"
+        }
+    },
+    "registers": null
+}

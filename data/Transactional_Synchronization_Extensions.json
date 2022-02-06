@@ -1,0 +1,29 @@
+{
+    "instructions": {
+        "XTEST": {
+            "Oracle Solaris Mnemonic": "xtest",
+            "Intel/AMD Mnemonic": "XTEST",
+            "Description": "Test If In Transactional Execution",
+            "Reference": "page 4-588 (253667-048US/Sep.2013)"
+        },
+        "XABORT": {
+            "Oracle Solaris Mnemonic": "xabort",
+            "Intel/AMD Mnemonic": "XABORT",
+            "Description": "Transactional Abort",
+            "Reference": "page 4-555 (253667-048US/Sep.2013)"
+        },
+        "XBEGIN": {
+            "Oracle Solaris Mnemonic": "xbegin(|l|w)",
+            "Intel/AMD Mnemonic": "XBEGIN",
+            "Description": "Transactional Begin",
+            "Reference": "page 4-559 (253667-048US/Sep.2013)"
+        },
+        "XEND": {
+            "Oracle Solaris Mnemonic": "xend",
+            "Intel/AMD Mnemonic": "XEND",
+            "Description": "Transactional End",
+            "Reference": "page 4-564 (253667-048US/Sep.2013)"
+        }
+    },
+    "registers": null
+}

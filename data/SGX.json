@@ -1,0 +1,23 @@
+{
+    "instructions": {
+        "ENCLS": {
+            "Oracle Solaris Mnemonic": "encls",
+            "Intel/AMD Mnemonic": "ENCLS",
+            "Description": "Execute an Enclave System Function of Specified Leaf Number",
+            "Reference": "page 41-5 Vol. 3D (332831-060US/Sept 2016)"
+        },
+        "SGX1": {
+            "Oracle Solaris Mnemonic": "enclu",
+            "Intel/AMD Mnemonic": "SGX1",
+            "Description": "Execute an Enclave User Function of Specified Leaf Number",
+            "Reference": "page 41-7 Vol. 3D (332831-060US/Sept 2016)"
+        },
+        "ENCLU": {
+            "Oracle Solaris Mnemonic": "enclu",
+            "Intel/AMD Mnemonic": "ENCLU",
+            "Description": "Execute an Enclave User Function of Specified Leaf Number",
+            "Reference": "page 41-7 Vol. 3D (332831-060US/Sept 2016)"
+        }
+    },
+    "registers": null
+}

@@ -1,0 +1,11 @@
+{
+    "instructions": {
+        "CLWB": {
+            "Oracle Solaris Mnemonic": "clwb",
+            "Intel/AMD Mnemonic": "CLWB",
+            "Description": "Cache Line Write Back",
+            "Reference": "page 3-146 Vol. 2A (325383-060US/Sept 2016)"
+        }
+    },
+    "registers": null
+}
